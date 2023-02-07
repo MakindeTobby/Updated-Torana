@@ -55,35 +55,30 @@ const ServicesDetailsArea = () => {
                   <div className="col-xl-7 col-lg-8">
                      <article className="service-details-box">
                         <div className="service-details-thumb mb-80">
-                           <img className="img" src="img/services/service-details-thumb1.jpg" alt="" />
+                           <img className="img" src="img/services/service-main-1.jpeg" alt="" />
                         </div>
                         <div className="section-title pos-rel mb-45">
                            <div className="section-icon">
                               <img className="section-back-icon back-icon-left" src="img/section/section-back-icon-sky.png" alt="" />
                            </div>
                            <div className="section-text pos-rel">
-                              <h5 className="green-color text-up-case">Dental Care</h5>
-                              <h1>We are here to help when you need us.</h1>
+                              <h5 className="green-color text-up-case"></h5>
+                              <h1>Community Nursing</h1>
                            </div>
                            <div className="section-line pos-rel">
                               <img src="img/shape/section-title-line.png" alt="" />
                            </div>
                         </div>
                         <div className="service-details-text mb-30">
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-                              unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                              illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                              voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-                              numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-                              unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                           <p>Community Nursing attendants are a significant piece of the treatment team giving comprehensive
+                              care to clients in the community. They carry the truly necessary considerations and provide healthcare
+                              support to clients/participants in the solace of their homes, inline with the requirements of the client’s medical team. Giving the required instruction to clients about their well-being conditions is an integral part of their duty. Providing essential nursing care in the Community are significant obligations of the Nurse. They also have a duty to offer emotional help to the client and their families, providing insights to psychological wellness worries within their scope of duties and further escalation of health/medical concerns to appropriate places as required. Keeping and making comprehensive
+                              reports of the client’s health condition is an essential segment of the community nurse.</p>
+                           <p>At Torana Care Australia, we have a team of competent and caring Nurses, ready to take 
+                              care of your nursing needs as explained above.
+                              Our Nurses work with individuals and their families to help manage an ailment, keep up
+                               well-being and manage any out of hospital care medical needs. We intend to help and keep
+                            up our participant’s freedom, security and sound way of life, simultaneously and also provide support to carers.</p>
                         </div>
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
@@ -91,16 +86,16 @@ const ServicesDetailsArea = () => {
                                  <img src="img/services/ser-fea-icon-1.png" alt="" />
                               </div>
                               <div className="ser-fea-list fix">
-                                 <h3>Personal care</h3>
+                                 <h3>Our support and services include:</h3>
                                  <ul>
-                                    <li><i className="fas fa-check"></i>Cillum dolore eu fugiat nulla.</li>
-                                    <li><i className="fas fa-check"></i>Lorem ipsum dolor sit amet.</li>
-                                    <li><i className="fas fa-check"></i>Consectetur adipisicing elit,</li>
-                                    <li><i className="fas fa-check"></i>Sed do eiusmod tempor inci.</li>
+                                    <li><i className="fas fa-check"></i>Care after a medical clinic</li>
+                                    <li><i className="fas fa-check"></i>General nursing care, incorporating help with chronic conditions</li>
+                                    <li><i className="fas fa-check"></i>Medical clinic in the home’ services, which give emergency clinic type care outside of the emergency clinic</li>
+                                    <li><i className="fas fa-check"></i>Palliative nursing care, for individuals who have an actual constraining ailment and needs to remain at home</li>
                                  </ul>
                               </div>
                            </div>
-                           <div className="ser-fea-box f-left me-0">
+                           {/* <div className="ser-fea-box f-left me-0">
                               <div className="ser-fea-icon f-left">
                                  <img src="img/services/ser-fea-icon-2.png" alt="" />
                               </div>
@@ -113,10 +108,10 @@ const ServicesDetailsArea = () => {
                                     <li><i className="fas fa-check"></i>Laboris nisi ut aliquip ex ea.</li>
                                  </ul>
                               </div>
-                           </div>
+                           </div> */}
                         </div>
-                        <div className="service-chart mb-55">
-                           {/* <img src="img/services/service-chart.jpg" alt=""/> */}
+                        {/* <div className="service-chart mb-55">
+                           <img src="img/services/service-chart.jpg" alt=""/>
                            <ResponsiveContainer width="100%" height={300}>
                               <AreaChart
                                  width={500}
@@ -138,11 +133,11 @@ const ServicesDetailsArea = () => {
                                  <Area type="monotone" dataKey="amt" stackId="1" stroke="#ffc658" fill="#ffc658" />
                               </AreaChart>
                            </ResponsiveContainer>
-                        </div>
-                        <div className="service-doctors mb-55">
+                        </div> */}
+                        {/* <div className="service-doctors mb-55">
                            <img src="img/services/service-doctors.png" alt="" />
-                        </div>
-                        <div className="section-title pos-rel mb-50">
+                        </div> */}
+                        {/* <div className="section-title pos-rel mb-50">
                            <div className="section-text pos-rel">
                               <h5 className="green-color text-up-case">download</h5>
                               <h1>Free Download Resources</h1>
@@ -150,8 +145,8 @@ const ServicesDetailsArea = () => {
                            <div className="section-line pos-rel">
                               <img src="img/shape/section-title-line.png" alt="" />
                            </div>
-                        </div>
-                        <div className="download-area">
+                        </div> */}
+                        {/* <div className="download-area">
                            <a className="download-box mb-20" href="#">
                               <div className="single-download-inner">
                                  <img src="img/icon/pdf.png" alt="" />
@@ -173,8 +168,8 @@ const ServicesDetailsArea = () => {
                                  <span className="download-size">112KB</span>
                               </div>
                            </a>
-                        </div>
-                        <div className="testi-box text-center pos-rel mb-0">
+                        </div> */}
+                        {/* <div className="testi-box text-center pos-rel mb-0">
                            <div className="testi-content testi-service-content pos-rel">
                               <div className="testi-quato-icon">
                                  <img src="img/testimonials/testi-quato-icon.png" alt="" />
@@ -190,7 +185,7 @@ const ServicesDetailsArea = () => {
                            <div className="test-author-icon mb-10">
                               <img src="img/testimonials/testi-author-icon.png" alt="" />
                            </div>
-                        </div>
+                        </div> */}
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">

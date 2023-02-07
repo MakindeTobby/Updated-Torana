@@ -40,14 +40,16 @@ const ServicesTwoArea = () => {
                   <ServicesTwoSingleItem image="img/services/service-main-2.jpg" title="SPECIALIST BEHAVIOUR SUPPORT"
                      content="We offer clinical social help to decrease the danger of hurtful conduct and produce positive results. Our clinicians give proficient 
                   individualized examination and techniques that advance pro-social conduct and improve general well-being."
-                     link='/nothing'
+                     link='/special'
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-3.jpeg" title="SOCIAL SUPPORT AND SERVICES"
                      content="We provide innovative community participation planning and support provision to our participants. We will work with you and your support network, 
                   to determine the best kind of social support you may engage in, to help you achieve your goals"
+                  link='/social-support'
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-4.jpeg" title="THERAPEUTIC SUPPORT"
                      content="Our Therapeutic Supports and Services are provided to participants over the age of seven(7). These includes:"
+                  link='/therapeutic'
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-5.jpeg" title="HOUSEHOLD TASK SUPPORT"
                      content="We understand how hard it can be for you to take care of all your household tasks, such as:"

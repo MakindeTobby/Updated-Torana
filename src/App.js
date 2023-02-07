@@ -41,6 +41,9 @@ import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
 import './App.css';
 import NotFound from './pages/NotFound/NotFound';
 import CommunityNursing from './pages/Services/CommunityNursing';
+import Special from './pages/Services/specialist-behaviour-support';
+import SocialSupport from './pages/Services/social-support-and-services';
+import Therapeutic from './pages/Services/therapeutic-support';
 
 
 function App() {
@@ -61,6 +64,9 @@ function App() {
             <Route path="/servicesTwo" element={<ServicesTwo />} />
             <Route path="/servicesDetails" element={<ServicesDetails />} />
             <Route path="/community-nursing" element={<CommunityNursing />} />
+            <Route path="/special" element={<Special />} />
+            <Route path="/social-support" element={<SocialSupport />} />
+            <Route path="/therapeutic" element={<Therapeutic />} />
 
             {/* <Route path="/doctors" element={<DoctorsOne />} /> */}
             {/* <Route path="/doctorsTwo" element={<DoctorsTwo />} /> */}
