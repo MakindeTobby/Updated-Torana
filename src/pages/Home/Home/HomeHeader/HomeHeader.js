@@ -82,9 +82,12 @@ const HomeHeader = () => {
                                  </li>
                                  <li><Link to="/servicesTwo">NDIS Services +</Link>
                                     <ul className="submenu">
-                                       <li><Link to="/doctors">Doctors 01</Link></li>
-                                       <li><Link to="/doctorsTwo">Doctors 02</Link></li>
-                                       <li><Link to="/doctorDetails">Doctors Details</Link></li>
+                                       <li><Link to="/servicesDetails">Community Nursing</Link></li>
+                                       <li><Link to="/servicesDetails">Household Task Support</Link></li>
+                                       <li><Link to="/servicesDetails">Complex Health Care Support</Link></li>
+                                       <li><Link to="/servicesDetails">Therapeutic Support</Link></li>
+                                       <li><Link to="/servicesDetails">Social Support and Services</Link></li>
+                                       <li><Link to="/servicesDetails">More ...</Link></li>
                                     </ul>
                                  </li>
                                  <li><Link to="/contact">Contact</Link>
