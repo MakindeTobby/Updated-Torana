@@ -102,7 +102,7 @@ const HomeHeader = () => {
                                     </ul> */}
                                  </li>
                                  <li><Link to="/blogs">Careers</Link>
-                                    <ul className="submenu">
+                                    {/* <ul className="submenu">
                                        <li><Link to="/blogs">Blog Right Sidebar</Link></li>
                                        <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>
                                        <li><Link to="/blogNoSideBar">Blog No Sidebar</Link></li>
@@ -115,7 +115,7 @@ const HomeHeader = () => {
                                        <li><Link to="/blogDetailsAudio">Details Audio</Link></li>
                                        <li><Link to="/blogDetailsVideo">Details Video</Link></li>
                                        <li><Link to="/blogDetailsGallery">Details Gallery</Link></li>
-                                    </ul>
+                                    </ul> */}
                                  </li>
                                  <li><a href="#">Covid-19 Updates</a>
                                     {/* <ul className="submenu">

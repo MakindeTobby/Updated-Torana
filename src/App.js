@@ -40,6 +40,7 @@ import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
 // import HomeFive from './pages/HomeFive/HomeFive';
 import './App.css';
 import NotFound from './pages/NotFound/NotFound';
+import CommunityNursing from './pages/Services/CommunityNursing';
 
 
 function App() {
@@ -56,8 +57,11 @@ function App() {
             {/* <Route path="/homeFour" element={<HomeFour />} /> */}
             {/* <Route path="/homeFive" element={<HomeFive />} /> */}
             {/* <Route path="/services" element={<ServicesOne />} /> */}
+
             <Route path="/servicesTwo" element={<ServicesTwo />} />
             <Route path="/servicesDetails" element={<ServicesDetails />} />
+            <Route path="/community-nursing" element={<CommunityNursing />} />
+
             {/* <Route path="/doctors" element={<DoctorsOne />} /> */}
             {/* <Route path="/doctorsTwo" element={<DoctorsTwo />} /> */}
             {/* <Route path="/doctorDetails" element={<DoctorDetails />} /> */}

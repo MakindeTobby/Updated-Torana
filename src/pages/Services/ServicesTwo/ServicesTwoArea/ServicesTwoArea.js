@@ -34,10 +34,13 @@ const ServicesTwoArea = () => {
                   <ServicesTwoSingleItem image="img/services/service-main-1.jpeg" title="COMMUNITY NURSING"
                      content="We have a team of competent and caring Nurses, ready to take care of your nursing needs. Our Nurses work with individuals 
                   and their families to help manage an ailment, keep up well-being and manage any out of hospital care medical needs"
+                     link='/community-nursing'
+
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-2.jpg" title="SPECIALIST BEHAVIOUR SUPPORT"
                      content="We offer clinical social help to decrease the danger of hurtful conduct and produce positive results. Our clinicians give proficient 
                   individualized examination and techniques that advance pro-social conduct and improve general well-being."
+                     link='/nothing'
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-3.jpeg" title="SOCIAL SUPPORT AND SERVICES"
                      content="We provide innovative community participation planning and support provision to our participants. We will work with you and your support network, 
