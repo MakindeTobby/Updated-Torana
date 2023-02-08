@@ -48,6 +48,13 @@ import Household from './pages/Services/household-task-support';
 import ExercisePhy from './pages/Services/exercise-physiology-and-personal-training';
 import GroupandCentre from './pages/Services/Group And Centre-Based Activities';
 import Specialist from './pages/Services/specialist-support-coordination';
+import ComplexHealth from './pages/Services/complex-health-care-support';
+import Accomodation from './pages/Services/accommodation-tenancy-assistance';
+import AssistiveSuppoert from './pages/Services/assistive-support-and-services';
+import CapacityBuilding from './pages/Services/capacity-building-support-and-services';
+import GroupShared from './pages/Services/group-shared-living-shared-independent-living-and-respite';
+import SuppoertCo from './pages/Services/support-coordination';
+import CaldCommunity from './pages/Services/Cald-community-participation';
 
 
 function App() {
@@ -75,6 +82,13 @@ function App() {
             <Route path="/exercise-phy" element={<ExercisePhy />} />
             <Route path="/group-center" element={<GroupandCentre />} />
             <Route path="/specialist-support-coordination" element={<Specialist />} />
+            <Route path="/complex-health-care-support" element={<ComplexHealth />} />
+            <Route path="/accommodation-tenancy-assistance" element={<Accomodation />} />
+            <Route path="/assistive-support-and-services" element={<AssistiveSuppoert />} />
+            <Route path="/capacity-building-support-and-services" element={<CapacityBuilding />} />
+            <Route path="/group-shared-living-shared-independent-living-and-respite" element={<GroupShared />} />
+            <Route path="/support-coordination" element={<SuppoertCo />} />
+            <Route path="/cald-community-participation" element={<CaldCommunity />} />
 
             {/* <Route path="/doctors" element={<DoctorsOne />} /> */}
             {/* <Route path="/doctorsTwo" element={<DoctorsTwo />} /> */}

@@ -7,7 +7,7 @@ import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
 import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
 
-const Household = () => {
+const Accomodation = () => {
    
     return (
         <>
@@ -19,7 +19,7 @@ const Household = () => {
                   <div className="col-xl-7 col-lg-8">
                      <article className="service-details-box">
                         <div className="service-details-thumb mb-80">
-                           <img className="img" src="img/services/service-main-5.jpeg" alt="" />
+                           <img className="img" src="img/services/service-main-10.jpg" alt="" />
                         </div>
                         <div className="section-title pos-rel mb-45">
                            <div className="section-icon">
@@ -27,51 +27,45 @@ const Household = () => {
                            </div>
                            <div className="section-text pos-rel">
                               <h5 className="green-color text-up-case"></h5>
-                              <h1>Household Task Support</h1>
+                              <h1>Accommodation / Tenancy Assistance</h1>
                            </div>
                            <div className="section-line pos-rel">
                               <img src="img/shape/section-title-line.png" alt="" />
                            </div>
                         </div>
                         <div className="service-details-text mb-30">
-                           <p>
-                           Household task refers to the management of duties and chores involved in the running of a household, such as cleaning, cooking, home maintenance, shopping, and bill payment. These tasks may be performed by members of the household, or by 
-                           other persons hired for the purpose. The term is also used to refer to the money allocated for such use.
-                           </p>
-                           <p>
-                           Persons living with a disability sometimes find housekeeping very challenging and require different levels of support, to maintain their homes. Housekeeping can be personal to persons requiring support. Carer givers having 
-                           access to sensitive area in their homes may not be their personal choice but necessary to get by.
-                           </p>
-                           <p>
-                           At Torana Care Australia we understand how hard it can be to have carer at your home to take care of all your household tasks. Our disability support professionals are given relevant
-                            information and training to provide quality household support to our participants.
-                           </p>
-                           <p>
-                           We have a team of warm and hardworking support workers, passionate about your well-being,
-                            ready to support you with your house-hold tasks, in the comfort of your home.
-                           </p>
+                            <h3> OUR SUPPORT CAN INCLUDE:</h3>
+                           <p> 
+                           Helping participants to reclassify or create accommodation/tenancy objectives. We know how 
+                           challenging it can be to identify your housing needs and plan towards finding he right tenancy/ 
+                           accommodation that suits your needs. We have a team of skilled professionals
+                            ready to work through this process with you, no matter what stage you are in achieving set goals.
+                             </p>
+                             <p>
+                             Investigating elective lodging choices. We help our participants investigate
+                              available options, ensuring that they make the right choice in securing an 
+                              accommodation/tenancy that supports their needs.
+                             </p>
+                             <p>
+                             We are totally committed to providing all necessary support to our participants, ensuring that 
+                             their housing needs are meet in every way possible.
+                             </p>
+                             <p>
+                             People with disability (and families) are faced with the challenge of moving out of their family home 
+                             and into a house of their own. Participants and their families will need to decide for themselves where 
+                             they live, who they live with and how they are supported.Finding the right accommodation /tenancy as a 
+                             person living with a disability can be quiet challenging. With the NDIS ,accessing the Specialist Disability Accomodation(SDA) funding, may not be easy. We can educate and help you understand how the NDIS can meet your needs. However, there are other avenues we could explore with
+                              you such as private accommodation modification, and private/shared property rental.
+                             </p>
+                             <p>
+                             Torana Care Australia can give one on one help to assist participants to accomplish their 
+                             individual Accommodation and Tenancy objectives. We are well able to help participants beat boundaries 
+                             that sway a present occupancy. We support participants to investigate and rent a private accommodation.
+                              We help in liaising with specialist organizations to determine a suitable accommodation for our 
+                              participants
+                              with the aim of accomplishing their individual objectives.
+                             </p>
                         </div>
-                        <div className="service-details-feature fix mb-35">
-                           <div className="ser-fea-box f-left">
-                              <div className="ser-fea-icon f-left">
-                                 <img src="img/services/ser-fea-icon-1.png" alt="" />
-                              </div>
-                              <div className="ser-fea-list fix">
-                                 <h3>OUR SERVICES</h3>
-                                 <ul>
-                                    <li><i className="fas fa-check"></i>Cleaning</li>
-                                    <li><i className="fas fa-check"></i>Gardening</li>
-                                    <li><i className="fas fa-check"></i>Meal preparation</li>
-                                    <li><i className="fas fa-check"></i>Shopping</li>
-                                    <li><i className="fas fa-check"></i>Laundry</li>
-                                    <li><i className="fas fa-check"></i>dish-washing and other household tasks</li>
-                                 </ul>
-                                 <p>
-                                 Let us know how we can help!
-                                 </p>
-                              </div>
-                           </div>
-                          </div>
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -171,4 +165,4 @@ const Household = () => {
     );
 }
 
-export default Household;
+export default Accomodation;

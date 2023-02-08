@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import HomeHeader from "../../Home/Home/HomeHeader/HomeHeader"
 import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
+import { FaWheelchair } from "react-icons/fa";
+import { MdAddTask } from "react-icons/md";
+import { SiOpenaigym } from "react-icons/si";
+import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
 
 const ExercisePhy = () => {
    
@@ -92,41 +96,41 @@ const ExercisePhy = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                           <ul>
+                        <ul>
                               <li>
-                                 <Link to="/services">
-                                    <div className="more-service-icon"><img src="img/services/more-ser-1.png" alt="" /></div>
-                                    <div className="more-service-title">Body Surgery</div>
+                                 <Link to="/community-nursing">
+                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
                               <li>
-                                 <Link to="/services">
-                                    <div className="more-service-icon"><img src="img/services/more-ser-2.png" alt="" /></div>
-                                    <div className="more-service-title">Dental Care</div>
+                                 <Link to="/special">
+                                    <TbMedicalCross className="fs-1 text-danger" />
+                                    <div className="more-service-title">SPECIALIST BEHAVIOUR SUPPORT</div>
                                  </Link>
                               </li>
                               <li>
-                                 <Link to="/services">
-                                    <div className="more-service-icon"><img src="img/services/more-ser-3.png" alt="" /></div>
-                                    <div className="more-service-title">Eye Care</div>
+                                 <Link to="/social-support">
+                                    <TbSocial className="fs-1 text-danger" />
+                                    <div className="more-service-title">SOCIAL SUPPORT AND SERVICES</div>
                                  </Link>
                               </li>
                               <li>
-                                 <Link to="/services">
-                                    <div className="more-service-icon"><img src="img/services/more-ser-4.png" alt="" /></div>
-                                    <div className="more-service-title">Blood cancer</div>
+                                 <Link to="/therapeutic">
+                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
                               <li>
-                                 <Link to="/services">
-                                    <div className="more-service-icon"><img src="img/services/more-ser-5.png" alt="" /></div>
-                                    <div className="more-service-title">Neurology Sargery</div>
+                                 <Link to="/household">
+                                    <MdAddTask className="fs-1 text-danger" />
+                                    <div className="more-service-title">HOUSEHOLD TASK SUPPORT</div>
                                  </Link>
                               </li>
                               <li>
-                                 <Link to="/services">
-                                    <div className="more-service-icon"><img src="img/services/more-ser-6.png" alt="" /></div>
-                                    <div className="more-service-title">Allergic Issue</div>
+                                 <Link to="/exercise-phy">
+                                    <SiOpenaigym className="fs-1 text-danger" />
+                                    <div className="more-service-title">EXERCISE PHYSIOLOGY AND PERSONAL TRAINING</div>
                                  </Link>
                               </li>
                            </ul>

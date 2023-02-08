@@ -7,7 +7,7 @@ import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
 import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
 
-const Household = () => {
+const AssistiveSuppoert = () => {
    
     return (
         <>
@@ -19,7 +19,7 @@ const Household = () => {
                   <div className="col-xl-7 col-lg-8">
                      <article className="service-details-box">
                         <div className="service-details-thumb mb-80">
-                           <img className="img" src="img/services/service-main-5.jpeg" alt="" />
+                           <img className="img" src="img/services/service-main-11.jpeg" alt="" />
                         </div>
                         <div className="section-title pos-rel mb-45">
                            <div className="section-icon">
@@ -27,49 +27,69 @@ const Household = () => {
                            </div>
                            <div className="section-text pos-rel">
                               <h5 className="green-color text-up-case"></h5>
-                              <h1>Household Task Support</h1>
+                              <h1>Assistive Support And Services</h1>
                            </div>
                            <div className="section-line pos-rel">
                               <img src="img/shape/section-title-line.png" alt="" />
                            </div>
                         </div>
                         <div className="service-details-text mb-30">
+                            <h3> WE ARE DEDICATED TO CARING FOR YOUR NEEDS!</h3>
                            <p>
-                           Household task refers to the management of duties and chores involved in the running of a household, such as cleaning, cooking, home maintenance, shopping, and bill payment. These tasks may be performed by members of the household, or by 
-                           other persons hired for the purpose. The term is also used to refer to the money allocated for such use.
-                           </p>
-                           <p>
-                           Persons living with a disability sometimes find housekeeping very challenging and require different levels of support, to maintain their homes. Housekeeping can be personal to persons requiring support. Carer givers having 
-                           access to sensitive area in their homes may not be their personal choice but necessary to get by.
-                           </p>
-                           <p>
-                           At Torana Care Australia we understand how hard it can be to have carer at your home to take care of all your household tasks. Our disability support professionals are given relevant
-                            information and training to provide quality household support to our participants.
-                           </p>
-                           <p>
-                           We have a team of warm and hardworking support workers, passionate about your well-being,
-                            ready to support you with your house-hold tasks, in the comfort of your home.
-                           </p>
+                           Assistive Technology (AT) provides the support a person with a disability might use to reach 
+                           their potential at home, in the community and the workplace. AT may be equipment or systems which help 
+                           you with moving around your home or community, communicating with other people, processing information,
+                            and other daily tasks. Supports may be included in your NDIS plan 
+                           where it is a reasonable and necessary support that will meet your needs and help you pursue your goals.
+                             </p>
+                             <p>
+                             Torana Care Australia helps persons with a disability identify their AT needs. We have a 
+                             specialist team of professional who would work with you to determine the right AT solution
+                              in line with your specific AT needs, how complex your AT needs are and how you manage your NDIS budget.
+                             </p>
                         </div>
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
                               <div className="ser-fea-icon f-left">
-                                 <img src="img/services/ser-fea-icon-1.png" alt="" />
+                                 {/* <img src="img/services/ser-fea-icon-1.png" alt="" /> */}
                               </div>
                               <div className="ser-fea-list fix">
-                                 <h3>OUR SERVICES</h3>
+                              <h3> Participants are able to use their existing NDIS funding to purchase an item if:</h3>
                                  <ul>
-                                    <li><i className="fas fa-check"></i>Cleaning</li>
-                                    <li><i className="fas fa-check"></i>Gardening</li>
-                                    <li><i className="fas fa-check"></i>Meal preparation</li>
-                                    <li><i className="fas fa-check"></i>Shopping</li>
-                                    <li><i className="fas fa-check"></i>Laundry</li>
-                                    <li><i className="fas fa-check"></i>dish-washing and other household tasks</li>
+                                    <li><i className="fas fa-check"></i> it will maintain funded NDIS supports like a program, therapy
+                                     or requirement 
+                                    (for example physiotherapy or Auslan interpreting provided via video conferencing), and</li>
+                                    <li><i className="fas fa-check"></i> the provider of supports has confirmed in writing the device is
+                                     necessary to continue supports and services while maintaining physical distancing requirements, and</li>
+                                    <li><i className="fas fa-check"></i> it is the lowest specification that will maintain funded supports, and</li>
+                                    <li><i className="fas fa-check"></i> they do not already have the item, another suitable item or access to the item, and</li>
+                                    <li><i className="fas fa-check"></i> the item has not been funded by another service system (such as education), and</li>
+                                    <li><i className="fas fa-check"></i> the item or circumstances are not specifically excluded from their plans.</li>        
                                  </ul>
+
                                  <p>
-                                 Let us know how we can help!
+                                 At Torana Care Australia, we take care of all aspects of our participants needs that support their 
+                                 well-being. We understand how challenging it may be to organise assistive equipment and services.We will
+                                  work with you as we explore all options available to meet your needs. We have a team of qualified 
+                                  professionals, in collaboration with other services/professionals ready to conduct a comprehensive 
+                                  assessment, 
+                                 of what is appropriate for you, inline with your needs and goals.Our services include but not limited to:
                                  </p>
+                                 <ul>
+                                    <li><i className="fas fa-check"></i> Assistive Products for Household Task</li>
+                                    <li><i className="fas fa-check"></i> Communication and information equipment</li>
+                                    <li><i className="fas fa-check"></i> Personal Mobility Equipment</li>
+                                    <li><i className="fas fa-check"></i> Assistive Products for Personal Care and Safety</li>
+                                    <li><i className="fas fa-check"></i> Assistance with daily personal activities</li>
+                                    <li><i className="fas fa-check"></i> Assistive equipment for recreation</li>        
+                                    <li><i className="fas fa-check"></i> Assistance with daily life tasks in a group or shared living arrangement</li>        
+                                    <li><i className="fas fa-check"></i> Hearing Equipment</li>        
+                                    <li><i className="fas fa-check"></i> Assistance with travel/transport arrangements</li>        
+                                 </ul>
                               </div>
+                              <p> 
+                              We are here to support you live your best life by bridging the gap between the thought of achieving set goals and meeting these goals. Get in touch we us today so we could discuss your needs.
+                               </p>
                            </div>
                           </div>
                      </article>
@@ -171,4 +191,4 @@ const Household = () => {
     );
 }
 
-export default Household;
+export default AssistiveSuppoert;

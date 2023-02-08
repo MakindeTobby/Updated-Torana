@@ -13,7 +13,7 @@ const ServicesTwoSingleItem = ({ image, title, content, link }) => {
                     </div>
                     <div className="service-content-box">
                         <div className="service-content">
-                            <h3><Link to="/blogDetails">{title}</Link></h3>
+                            <h3><Link to={`${link}`}>{title}</Link></h3>
                             <p>{content}</p>
                         </div>
                         <Link to={`${link}`} className="service-link">Read More</Link>
