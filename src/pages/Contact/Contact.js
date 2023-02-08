@@ -2,6 +2,7 @@ import React from 'react';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
 import Footer from '../../components/Shared/Footer';
 import HomeHeader from '../Home/Home/HomeHeader/HomeHeader';
+import HomeTwoFooter from '../HomeTwo/HomeTwoFooter/HomeTwoFooter';
 import ContactArea from './ContactArea/ContactArea';
 import ContactFormArea from './ContactFormArea/ContactFormArea';
 import ContactMap from './ContactMap/ContactMap';
@@ -9,12 +10,12 @@ import ContactMap from './ContactMap/ContactMap';
 const Contact = () => {
     return (
         <>
-            <HomeHeader/>
+            <HomeHeader />
             <CommonPageHeader title="Contact Us" subtitle="Contact" />
-            <ContactArea/>
-            <ContactFormArea/>
-            <ContactMap/>
-            <Footer/>
+            <ContactArea />
+            <ContactFormArea />
+            <ContactMap />
+            <HomeTwoFooter />
         </>
     );
 };

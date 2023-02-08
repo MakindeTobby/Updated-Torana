@@ -10,17 +10,17 @@ const ContactFormArea = () => {
                   <div className="row align-items-center">
                      <div className="col-xl-8 col-lg-8">
                         <div className="section-title mb-55">
-                           <p><span></span> Anything On your Mind</p>
-                           <h1>Estimate Your Idea</h1>
+                           {/* <p><span></span> </p> */}
+                           <h2>Anything On your Mind</h2>
                         </div>
                      </div>
-                     <div className="col-xl-4 col-lg-3 d-none d-xl-block ">
+                     {/* <div className="col-xl-4 col-lg-3 d-none d-xl-block ">
                         <div className="section-link mb-80 text-end">
                            <Link to="/appoinment"
-                           className="primary_btn btn-icon ml-0"><span>+</span>Make
+                              className="primary_btn btn-icon ml-0"><span>+</span>Make
                               Appointment</Link>
                         </div>
-                     </div>
+                     </div> */}
                   </div>
                   <div className="contact-form">
                      <form id="contact-form" action="#">
@@ -51,7 +51,7 @@ const ContactFormArea = () => {
                                     placeholder="Your Message"></textarea>
                               </div>
                               <div className="contact-btn text-center">
-                                 <button className="primary_btn btn-icon ml-0" type="button"><span>+</span> get action</button>
+                                 <button className="primary_btn btn-icon ml-0" type="button"><span>+</span> Submit</button>
                               </div>
                            </div>
                         </div>
