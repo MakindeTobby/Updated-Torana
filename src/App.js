@@ -18,7 +18,7 @@ import DetailsAudio from './pages/DetailsAudio/DetailsAudio';
 import DetailsGallery from './pages/DetailsGallery/DetailsGallery';
 import DetailsLeftSideBar from './pages/DetailsLeftSideBar/DetailsLeftSideBar';
 import DetailsVideo from './pages/DetailsVideo/DetailsVideo';
-// import DoctorDetails from './pages/Doctors/DoctorDetails/DoctorDetails';
+import DoctorDetails from './pages/Doctors/DoctorDetails/DoctorDetails';
 // import DoctorsOne from './pages/Doctors/DoctorsOne/DoctorsOne';
 // import DoctorsTwo from './pages/Doctors/DoctorsTwo/DoctorsTwo';
 // import Home from './pages/Home/Home/Home';
@@ -78,7 +78,7 @@ function App() {
 
             {/* <Route path="/doctors" element={<DoctorsOne />} /> */}
             {/* <Route path="/doctorsTwo" element={<DoctorsTwo />} /> */}
-            {/* <Route path="/doctorDetails" element={<DoctorDetails />} /> */}
+            <Route path="/covid19-updates" element={<DoctorDetails />} />
             {/* <Route path="/shop" element={<ShopPage />} /> */}
             {/* <Route path="/shopDetails" element={<ShopDetails />} /> */}
             {/* <Route path="/shoppingCart" element={<ShoppingCart />} /> */}

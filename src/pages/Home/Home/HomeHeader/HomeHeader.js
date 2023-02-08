@@ -45,10 +45,10 @@ const HomeHeader = () => {
                                  <span>EN<i className="fas fa-angle-down"></i></span>
                               </div>
                               <ul className="header-lang-list">
-                                 <li><a href="#">USA</a></li>
+                                 {/* <li><a href="#">USA</a></li>
                                  <li><a href="#">UK</a></li>
                                  <li><a href="#">CA</a></li>
-                                 <li><a href="#">AU</a></li>
+                                 <li><a href="#">AU</a></li> */}
                               </ul>
                            </div>
                            <div className="header-social-icons f-right d-none d-xl-block">
@@ -117,7 +117,7 @@ const HomeHeader = () => {
                                        <li><Link to="/blogDetailsGallery">Details Gallery</Link></li>
                                     </ul> */}
                                  </li>
-                                 <li><a href="#">Covid-19 Updates</a>
+                                 <li><Link to="/covid19-updates">Covid-19 Updates</Link>
                                     {/* <ul className="submenu">
                                        <li><Link to="/about">About</Link></li>
                                        <li><Link to="/appoinment">Appoinment</Link></li>
