@@ -4,11 +4,8 @@ import { Link, NavLink } from 'react-router-dom';
 import Collapsible from 'react-collapsible';
 
 const Sidebar = ({ show, handleClose }) => {
-   const Services = <NavLink to="/servicesTwo">NDIS Services </NavLink>
-   const Doctors = <NavLink to="/doctors">Doctors </NavLink>
-   const Shop = <NavLink to="/shop">Shop</NavLink>
-   const News = <NavLink to="/blogSidebar">News</NavLink>
-   const Pages = <a href="#">Pages</a>
+   const Services = <NavLink to="/services">NDIS Services </NavLink>
+
    return (
       <>
 
@@ -30,19 +27,20 @@ const Sidebar = ({ show, handleClose }) => {
                   <Collapsible trigger={Services} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><Link to="/servicesDetails">Community Nursing</Link></li>
-                        <li><Link to="/servicesDetails">Household Task Support</Link></li>
-                        <li><Link to="/servicesDetails">Complex Health Care Support</Link></li>
-                        <li><Link to="/servicesDetails">Therapeutic Support</Link></li>
-                        <li><Link to="/servicesDetails">Social Support and Services</Link></li>
-                        <li><Link to="/servicesDetails">More ...</Link></li>
+                        <li><Link to="/community-nursing">Community Nursing</Link></li>
+                        <li><Link to="/complex-health-care-support">Complex Health Care Support</Link></li>
+                        <li><Link to="/social-support">Social Support and Services</Link></li>
+                        <li><Link to="/therapeutic">Therapeutic Support</Link></li>
+                        <li><Link to="/household">Household Task Support</Link></li>
+                        <li><Link to="/exercise-phy">Exercise Physiologist</Link></li>
+                        <li><Link to="/services">More Services</Link></li>
                      </ul>
                   </Collapsible>
 
-                  <Link to={'/'} className="mb-4 d-block">
+                  <Link to={'/career'} className="mb-4 d-block">
                      Careers
                   </Link>
-                  <Link to={'/about'} className="mb-4 d-block" >
+                  <Link to={'/covid19-updates'} className="mb-4 d-block" >
                      Covid-19 updates
                   </Link>
 

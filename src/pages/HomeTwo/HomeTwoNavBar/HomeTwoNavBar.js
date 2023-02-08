@@ -41,15 +41,15 @@ const HomeTwoNavBar = () => {
                                     {/* <li><Link to="/servicesDetails">Services Details</Link></li> */}
                                     {/* </ul> */}
                                  </li>
-                                 <li><Link to="/servicesTwo">NDIS Services +</Link>
+                                 <li><Link to="/services">NDIS Services +</Link>
                                     <ul className="submenu">
-                                       <li><Link to="/servicesDetails">Community Nursing</Link></li>
-                                       <li><Link to="/servicesDetails">Household Task Support</Link></li>
-                                       <li><Link to="/servicesDetails">Complex Health Care Support</Link></li>
-                                       <li><Link to="/servicesDetails">Therapeutic Support</Link></li>
-                                       <li><Link to="/servicesDetails">Social Support and Services</Link></li>
-                                       <li><Link to="/servicesDetails">More ...</Link></li>
-
+                                       <li><Link to="/community-nursing">Community Nursing</Link></li>
+                                       <li><Link to="/complex-health-care-support">Complex Health Care Support</Link></li>
+                                       <li><Link to="/social-support">Social Support and Services</Link></li>
+                                       <li><Link to="/therapeutic">Therapeutic Support</Link></li>
+                                       <li><Link to="/household">Household Task Support</Link></li>
+                                       <li><Link to="/exercise-phy">Exercise Physiologist</Link></li>
+                                       <li><Link to="/services">More Services</Link></li>
                                     </ul>
                                     {/* Accommodation/Tenancy Assistance */}
                                     {/* Assistive Support and Services
@@ -78,7 +78,7 @@ Group/Shared Independent Living */}
                                        <li><Link to="/register">Register</Link></li>
                                     </ul> */}
                                  </li>
-                                 <li><Link to="/blogs">Careers </Link>
+                                 <li><Link to="/career">Careers </Link>
                                     {/* <ul className="submenu">
                                        <li><Link to="/blogs">Blog Right Sidebar</Link></li>
                                        <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>
@@ -94,7 +94,7 @@ Group/Shared Independent Living */}
                                        <li><Link to="/blogDetailsGallery">Details Gallery</Link></li>
                                     </ul> */}
                                  </li>
-                                 <li><a href="#">Covid-19 Updates</a>
+                                 <li><Link to="/covid19-updates">Covid-19 Updates</Link>
                                     {/* <ul className="submenu">
                                        <li><Link to="/about">About</Link></li>
                                        <li><Link to="/appoinment">Appoinment</Link></li>

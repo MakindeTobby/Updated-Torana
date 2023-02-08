@@ -14,6 +14,7 @@ import Appointment from './pages/Appointment/Appointment';
 // import BlogTwoColumnMasonry from './pages/BlogTwoColumnMasonry/BlogTwoColumnMasonry';
 // import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
 import Contact from './pages/Contact/Contact';
+import Career from './pages/Career';
 import DetailsAudio from './pages/DetailsAudio/DetailsAudio';
 import DetailsGallery from './pages/DetailsGallery/DetailsGallery';
 import DetailsLeftSideBar from './pages/DetailsLeftSideBar/DetailsLeftSideBar';
@@ -72,7 +73,9 @@ function App() {
             {/* <Route path="/homeFive" element={<HomeFive />} /> */}
             {/* <Route path="/services" element={<ServicesOne />} /> */}
 
-            <Route path="/servicesTwo" element={<ServicesTwo />} />
+            <Route path="/services" element={<ServicesTwo />} />
+            <Route path="/career" element={<Career />} />
+
             <Route path="/servicesDetails" element={<ServicesDetails />} />
             <Route path="/community-nursing" element={<CommunityNursing />} />
             <Route path="/special" element={<Special />} />

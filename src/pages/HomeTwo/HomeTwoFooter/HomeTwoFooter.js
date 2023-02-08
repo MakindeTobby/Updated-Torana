@@ -90,45 +90,25 @@ const HomeTwoFooter = () => {
                         </div>
                         <div className="col-xl-4 col-lg-6 col-md-6">
                            <div className="footer-widget mb-40">
-                              {/* <div className="footer-title">
-                                 <h3>Links</h3>
-                              </div> */}
 
                               <div className="footer-menu footer-menu-2 fix">
                                  <ul>
-                                    <li><Link to="/servicesDetails">About</Link></li>
+                                    <li><Link to="/about">About</Link></li>
                                     <li><Link to="/servicesDetails">Background</Link></li>
-                                    <li><Link to="/servicesDetails">Careers</Link></li>
-                                    <li><Link to="/doctors">Registered NDIS Provider</Link></li>
-                                    <li><Link to="/servicesDetails">Complaint and Feedback</Link></li>
+                                    <li><Link to="/careers">Careers</Link></li>
+                                    <li><Link to="/services">Registered NDIS Provider</Link></li>
+                                    <li><Link to="/contact">Complaint and Feedback</Link></li>
                                     <li><Link to="/blogs">News</Link></li>
-                                    <li><Link to="/servicesDetails">Guides</Link></li>
+                                    <li><Link to="/contact">Guides</Link></li>
                                     <li><Link to="/contact">Contact Us</Link></li>
-                                    <li><Link to="/servicesDetails">Privacy Policy</Link></li>
-                                    <li><Link to="/contact">Terms of Use</Link></li>
+                                    <li><Link to="/about">Privacy Policy</Link></li>
+                                    <li><Link to="/about">Terms of Use</Link></li>
                                  </ul>
                               </div>
 
 
                            </div>
                         </div>
-
-
-
-                        {/* <div className="col-xl-4 col-md-6">
-                           <div className="footer-widget mb-40">
-                              <div className="footer-title">
-                                 <h3>News Feeds</h3>
-                              </div>
-                              <div className="blog-feeds pe-15">
-
-                                 <HomeSingleFooterBlog image="1" />
-                                 <HomeSingleFooterBlog image="2" />
-                                 <HomeSingleFooterBlog image="3" />
-
-                              </div>
-                           </div>
-                        </div> */}
 
 
 

@@ -92,7 +92,7 @@ const DoctorDetailsArea = () => {
                      <div className="service-widget mb-50">
                         <div className="team-wrapper team-box-2 team-box-3 text-center mb-30">
                            <div className="team-thumb">
-                              <img src="img/team/member-big.jpg" alt="" />
+                              <img src="img/team/Covid-19.jpg" alt="" />
                            </div>
                         </div>
                      </div>

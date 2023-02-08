@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const Therapeutic = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -34,65 +34,65 @@ const Therapeutic = () => {
                            </div>
                         </div>
                         <div className="service-details-text mb-30">
-                                <h3>
-                                OUR THERAPEUTIC SUPPORTS AND SERVICES ARE PROVIDED TO PARTICIPANTS OVER THE AGE OF SEVEN(7). THESE INCLUDES:
-                                </h3>
-                                <div className="ser-fea-list fix">
-                                 <ul>
-                                    <li><i className="fas fa-check"></i>
+                           <h3>
+                              OUR THERAPEUTIC SUPPORTS AND SERVICES ARE PROVIDED TO PARTICIPANTS OVER THE AGE OF SEVEN(7). THESE INCLUDES:
+                           </h3>
+                           <div className="ser-fea-list fix">
+                              <ul>
+                                 <li><i className="fas fa-check"></i>
                                     <b>
-                                    Assessment and Support: 
+                                       Assessment and Support:
                                     </b>
-                                    <span> Our services are provided to support our participant’s care plan by proving training, 
-                                  or supervision of a care giver to respond to complex care needs of the participant.</span>
-                                    </li>
+                                    <span> Our services are provided to support our participant’s care plan by proving training,
+                                       or supervision of a care giver to respond to complex care needs of the participant.</span>
+                                 </li>
 
-                                    <li><i className="fas fa-check"></i>
+                                 <li><i className="fas fa-check"></i>
                                     <b>
-                                    Counselling: 
+                                       Counselling:
                                     </b>
-                                    <span> Our counselling services are provided to facilitate self-knowledge, emotional acceptance and growth, and the optimal development of personal resources, to help the 
-                                    participant work towards their personal goals and gain greater insight into their lives.</span>
-                                    </li>
+                                    <span> Our counselling services are provided to facilitate self-knowledge, emotional acceptance and growth, and the optimal development of personal resources, to help the
+                                       participant work towards their personal goals and gain greater insight into their lives.</span>
+                                 </li>
 
-                                    <li><i className="fas fa-check"></i>
+                                 <li><i className="fas fa-check"></i>
                                     <b>
-                                    Community Engagement Assistance: 
+                                       Community Engagement Assistance:
                                     </b>
-                                    <span> Our support and services are provided to empower 
-                                    participants by developing and improving their social interaction skills.
+                                    <span> Our support and services are provided to empower
+                                       participants by developing and improving their social interaction skills.
                                     </span>
-                                    </li>
+                                 </li>
 
-                                    <li><i className="fas fa-check"></i>
-                                    <b> Community Nursing Care for Continence Aid: 
+                                 <li><i className="fas fa-check"></i>
+                                    <b> Community Nursing Care for Continence Aid:
                                     </b>
                                     <span> We provide continence aids assessment, recommendation, and training support.
                                     </span>
-                                    </li>
+                                 </li>
 
-                                    <li><i className="fas fa-check"></i>
-                                    <span> We also assist our participants to develop the skill to engage effectively in the community through a group approach 
-                                        to help them gain insight into their lives, and make informed decisions.
+                                 <li><i className="fas fa-check"></i>
+                                    <span> We also assist our participants to develop the skill to engage effectively in the community through a group approach
+                                       to help them gain insight into their lives, and make informed decisions.
                                     </span>
-                                    </li>
+                                 </li>
 
-                                    <li><i className="fas fa-check"></i>
+                                 <li><i className="fas fa-check"></i>
                                     <span> We provide Therapeutic support by an allied health assistant working under the
-                                         delegation and direct supervision at all times of our therapist.
+                                       delegation and direct supervision at all times of our therapist.
                                     </span>
-                                    </li>
+                                 </li>
 
-                                    <li><i className="fas fa-check"></i>
-                                    <span> We provide assessment, recommendation, therapy or training 
-                                        (including Assistive Technology) by our psychologist or physiotherapist. <b> Our Exercise Physiologist</b> provides advice to a participant regarding exercise required due to the impact of their disability.
+                                 <li><i className="fas fa-check"></i>
+                                    <span> We provide assessment, recommendation, therapy or training
+                                       (including Assistive Technology) by our psychologist or physiotherapist. <b> Our Exercise Physiologist</b> provides advice to a participant regarding exercise required due to the impact of their disability.
                                     </span>
-                                    </li>
-                                    <p>We are here to help…</p>
-                                 </ul>
-                              </div>
+                                 </li>
+                                 <p>We are here to help…</p>
+                              </ul>
+                           </div>
                         </div>
-                      
+
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -101,10 +101,10 @@ const Therapeutic = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -122,7 +122,7 @@ const Therapeutic = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -187,9 +187,9 @@ const Therapeutic = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default Therapeutic;

@@ -9,7 +9,7 @@ const DoctorDetails = () => {
     return (
         <>
             <HomeHeader />
-            <CommonPageHeader title="COVID 19 UPDATES" subtitle="Covid-Details" />
+            <CommonPageHeader title="Covid-19 Updates" subtitle="Covid-Details" />
             <DoctorDetailsArea />
             <HomeTwoFooter />
         </>

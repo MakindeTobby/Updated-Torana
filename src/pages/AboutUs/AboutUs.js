@@ -19,7 +19,7 @@ const AboutUs = () => {
          {/* <HomeTwoNavBar /> */}
          <CommonPageHeader title="About Us" subtitle="About" />
          <AboutArea />
-         <AboutCounter />
+         {/* <AboutCounter /> */}
          <AboutAppoinment />
          {/* <HomeOurTeam /> */}
          {/* <HomeFact /> */}

@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const Accomodation = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -34,37 +34,37 @@ const Accomodation = () => {
                            </div>
                         </div>
                         <div className="service-details-text mb-30">
-                            <h3> OUR SUPPORT CAN INCLUDE:</h3>
-                           <p> 
-                           Helping participants to reclassify or create accommodation/tenancy objectives. We know how 
-                           challenging it can be to identify your housing needs and plan towards finding he right tenancy/ 
-                           accommodation that suits your needs. We have a team of skilled professionals
-                            ready to work through this process with you, no matter what stage you are in achieving set goals.
-                             </p>
-                             <p>
-                             Investigating elective lodging choices. We help our participants investigate
-                              available options, ensuring that they make the right choice in securing an 
+                           <h3> OUR SUPPORT CAN INCLUDE:</h3>
+                           <p>
+                              Helping participants to reclassify or create accommodation/tenancy objectives. We know how
+                              challenging it can be to identify your housing needs and plan towards finding he right tenancy/
+                              accommodation that suits your needs. We have a team of skilled professionals
+                              ready to work through this process with you, no matter what stage you are in achieving set goals.
+                           </p>
+                           <p>
+                              Investigating elective lodging choices. We help our participants investigate
+                              available options, ensuring that they make the right choice in securing an
                               accommodation/tenancy that supports their needs.
-                             </p>
-                             <p>
-                             We are totally committed to providing all necessary support to our participants, ensuring that 
-                             their housing needs are meet in every way possible.
-                             </p>
-                             <p>
-                             People with disability (and families) are faced with the challenge of moving out of their family home 
-                             and into a house of their own. Participants and their families will need to decide for themselves where 
-                             they live, who they live with and how they are supported.Finding the right accommodation /tenancy as a 
-                             person living with a disability can be quiet challenging. With the NDIS ,accessing the Specialist Disability Accomodation(SDA) funding, may not be easy. We can educate and help you understand how the NDIS can meet your needs. However, there are other avenues we could explore with
+                           </p>
+                           <p>
+                              We are totally committed to providing all necessary support to our participants, ensuring that
+                              their housing needs are meet in every way possible.
+                           </p>
+                           <p>
+                              People with disability (and families) are faced with the challenge of moving out of their family home
+                              and into a house of their own. Participants and their families will need to decide for themselves where
+                              they live, who they live with and how they are supported.Finding the right accommodation /tenancy as a
+                              person living with a disability can be quiet challenging. With the NDIS ,accessing the Specialist Disability Accomodation(SDA) funding, may not be easy. We can educate and help you understand how the NDIS can meet your needs. However, there are other avenues we could explore with
                               you such as private accommodation modification, and private/shared property rental.
-                             </p>
-                             <p>
-                             Torana Care Australia can give one on one help to assist participants to accomplish their 
-                             individual Accommodation and Tenancy objectives. We are well able to help participants beat boundaries 
-                             that sway a present occupancy. We support participants to investigate and rent a private accommodation.
-                              We help in liaising with specialist organizations to determine a suitable accommodation for our 
+                           </p>
+                           <p>
+                              Torana Care Australia can give one on one help to assist participants to accomplish their
+                              individual Accommodation and Tenancy objectives. We are well able to help participants beat boundaries
+                              that sway a present occupancy. We support participants to investigate and rent a private accommodation.
+                              We help in liaising with specialist organizations to determine a suitable accommodation for our
                               participants
                               with the aim of accomplishing their individual objectives.
-                             </p>
+                           </p>
                         </div>
                      </article>
                   </div>
@@ -74,10 +74,10 @@ const Accomodation = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -95,7 +95,7 @@ const Accomodation = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -160,9 +160,9 @@ const Accomodation = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default Accomodation;

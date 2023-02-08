@@ -80,7 +80,7 @@ const HomeHeader = () => {
                                        <li><Link to="/servicesDetails">Services Details</Link></li>
                                     </ul> */}
                                  </li>
-                                 <li><Link to="/servicesTwo">NDIS Services +</Link>
+                                 <li><Link to="/services">NDIS Services +</Link>
                                     <ul className="submenu">
                                        <li><Link to="/community-nursing">Community Nursing</Link></li>
                                        <li><Link to="/complex-health-care-support">Complex Health Care Support</Link></li>
@@ -88,6 +88,7 @@ const HomeHeader = () => {
                                        <li><Link to="/therapeutic">Therapeutic Support</Link></li>
                                        <li><Link to="/household">Household Task Support</Link></li>
                                        <li><Link to="/exercise-phy">Exercise Physiologist</Link></li>
+                                       <li><Link to="/services">More Services</Link></li>
                                     </ul>
                                  </li>
                                  <li><Link to="/contact">Contact</Link>
@@ -101,7 +102,7 @@ const HomeHeader = () => {
                                        <li><Link to="/register">Register</Link></li>
                                     </ul> */}
                                  </li>
-                                 <li><Link to="/blogs">Careers</Link>
+                                 <li><Link to="/career">Careers</Link>
                                     {/* <ul className="submenu">
                                        <li><Link to="/blogs">Blog Right Sidebar</Link></li>
                                        <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>

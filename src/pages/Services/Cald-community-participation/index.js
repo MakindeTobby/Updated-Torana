@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const CaldCommunity = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -35,18 +35,18 @@ const CaldCommunity = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           We support our CALD(Cultural And Linguistically Diverse) participants engage with their communities.
-                            We understand the importance of being actively involved in your cultural activities which forms part of 
-                            your value system. Each participant is supported
-                            to express their cultural needs and their expectation. We are open to learning new cultures and values.
-                             </p>
-                             <p>
-                             We have a team of passionate professionals trained to support your values and beliefs in a way that suits you.
-                             </p>
+                              We support our CALD(Cultural And Linguistically Diverse) participants engage with their communities.
+                              We understand the importance of being actively involved in your cultural activities which forms part of
+                              your value system. Each participant is supported
+                              to express their cultural needs and their expectation. We are open to learning new cultures and values.
+                           </p>
+                           <p>
+                              We have a team of passionate professionals trained to support your values and beliefs in a way that suits you.
+                           </p>
 
-                             <p>
-                             We would like to hear from you.
-                             </p>
+                           <p>
+                              We would like to hear from you.
+                           </p>
                         </div>
                      </article>
                   </div>
@@ -59,7 +59,7 @@ const CaldCommunity = () => {
                            <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -77,7 +77,7 @@ const CaldCommunity = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -142,9 +142,9 @@ const CaldCommunity = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default CaldCommunity;

@@ -13,7 +13,7 @@ const CommonSectionArea = ({ area_header }) => {
                      <div className="about-right-side pt-55 mb-30">
                         <div className="about-title mb-20">
                            <h5>About Torana Care Australia</h5>
-                           <h2>We Strengthen The “WILL” of our participants</h2>
+                           <h2>We strengthen the <b>WILL</b> of our participants</h2>
                         </div>
                         <div className="about-text mb-50">
                            <p>

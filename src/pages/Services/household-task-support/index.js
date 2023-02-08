@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const Household = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -26,7 +26,6 @@ const Household = () => {
                               <img className="section-back-icon back-icon-left" src="img/section/section-back-icon-sky.png" alt="" />
                            </div>
                            <div className="section-text pos-rel">
-                              <h5 className="green-color text-up-case"></h5>
                               <h1>Household Task Support</h1>
                            </div>
                            <div className="section-line pos-rel">
@@ -35,20 +34,20 @@ const Household = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           Household task refers to the management of duties and chores involved in the running of a household, such as cleaning, cooking, home maintenance, shopping, and bill payment. These tasks may be performed by members of the household, or by 
-                           other persons hired for the purpose. The term is also used to refer to the money allocated for such use.
+                              Household task refers to the management of duties and chores involved in the running of a household, such as cleaning, cooking, home maintenance, shopping, and bill payment. These tasks may be performed by members of the household, or by
+                              other persons hired for the purpose. The term is also used to refer to the money allocated for such use.
                            </p>
                            <p>
-                           Persons living with a disability sometimes find housekeeping very challenging and require different levels of support, to maintain their homes. Housekeeping can be personal to persons requiring support. Carer givers having 
-                           access to sensitive area in their homes may not be their personal choice but necessary to get by.
+                              Persons living with a disability sometimes find housekeeping very challenging and require different levels of support, to maintain their homes. Housekeeping can be personal to persons requiring support. Carer givers having
+                              access to sensitive area in their homes may not be their personal choice but necessary to get by.
                            </p>
                            <p>
-                           At Torana Care Australia we understand how hard it can be to have carer at your home to take care of all your household tasks. Our disability support professionals are given relevant
-                            information and training to provide quality household support to our participants.
+                              At Torana Care Australia we understand how hard it can be to have carer at your home to take care of all your household tasks. Our disability support professionals are given relevant
+                              information and training to provide quality household support to our participants.
                            </p>
                            <p>
-                           We have a team of warm and hardworking support workers, passionate about your well-being,
-                            ready to support you with your house-hold tasks, in the comfort of your home.
+                              We have a team of warm and hardworking support workers, passionate about your well-being,
+                              ready to support you with your house-hold tasks, in the comfort of your home.
                            </p>
                         </div>
                         <div className="service-details-feature fix mb-35">
@@ -67,11 +66,11 @@ const Household = () => {
                                     <li><i className="fas fa-check"></i>dish-washing and other household tasks</li>
                                  </ul>
                                  <p>
-                                 Let us know how we can help!
+                                    Let us know how we can help!
                                  </p>
                               </div>
                            </div>
-                          </div>
+                        </div>
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -80,10 +79,10 @@ const Household = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -101,7 +100,7 @@ const Household = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -166,9 +165,9 @@ const Household = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default Household;
