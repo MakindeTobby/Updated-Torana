@@ -45,21 +45,21 @@ const ServicesTwoArea = () => {
                   <ServicesTwoSingleItem image="img/services/service-main-3.jpeg" title="SOCIAL SUPPORT AND SERVICES"
                      content="We provide innovative community participation planning and support provision to our participants. We will work with you and your support network, 
                   to determine the best kind of social support you may engage in, to help you achieve your goals"
-                  link='/social-support'
+                     link='/social-support'
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-4.jpeg" title="THERAPEUTIC SUPPORT"
                      content="Our Therapeutic Supports and Services are provided to participants over the age of seven(7). These includes:"
-                  link='/therapeutic'
+                     link='/therapeutic'
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-5.jpeg" title="HOUSEHOLD TASK SUPPORT"
                      content="We understand how hard it can be for you to take care of all your household tasks, such as:"
-                  link="/household"
+                     link="/household"
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-6.png" title="EXERCISE PHYSIOLOGY AND PERSONAL TRAINING"
 
                      content="Our Exercise Physiologist and Personal Trainer will work with our participants in the delivery of 
                   exercise physiology services including:"
-                  link="/exercise-phy"
+                     link="/exercise-phy"
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-7.jpg" title="GROUP AND CENTRE-BASED ACTIVITIES"
 
@@ -78,7 +78,7 @@ const ServicesTwoArea = () => {
                      content="Torana Care Australia is committed to providing quality and safe complex health supports and services, 
                      which represent some of the highest risks for our participants and their families."
                   />
-                  <ServicesTwoSingleItem image="img/services/service-main-10.jpg" title="ACCOMMODATION/TENANCY ASSISTANCE"
+                  <ServicesTwoSingleItem image="img/services/service-main-10.jpg" title="ACCOMMODATION / TENANCY ASSISTANCE"
 
                      content="Torana Care Australia can give one on one help to assist participants to accomplish their 
                      individual Accommodation and Tenancy objectives, 

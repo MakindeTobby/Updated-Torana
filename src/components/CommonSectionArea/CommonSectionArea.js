@@ -29,8 +29,8 @@ const CommonSectionArea = ({ area_header }) => {
                               </div>
                               <div className="mv-title fix">
                                  <h3>Our Mission</h3>
-                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse.</p>
+                                 <p>Helping people with disabilities live their lives beyond limits by inspiring them effectively,
+                                    employing best communication methods, pushing them beyond the comfort zones to achieving extraordinary results.</p>
                               </div>
                            </div>
                            <div className="single-item">
@@ -38,9 +38,12 @@ const CommonSectionArea = ({ area_header }) => {
                                  <img src="img/about/destination-icon-2.png" alt="" />
                               </div>
                               <div className="mv-title fix">
-                                 <h3>Our Vission</h3>
-                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse.</p>
+                                 <h3>Our Vision</h3>
+                                 <p>To create equal opportunity for people living with disability,
+                                    irrespective of state of health, cultural diversity and beliefs.</p>
+                                 <p>
+                                    To create a world where people living with disability can compete with everyone else in all spheres of life
+                                 </p>
                               </div>
                            </div>
                         </div>
