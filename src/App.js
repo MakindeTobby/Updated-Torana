@@ -44,6 +44,10 @@ import CommunityNursing from './pages/Services/CommunityNursing';
 import Special from './pages/Services/specialist-behaviour-support';
 import SocialSupport from './pages/Services/social-support-and-services';
 import Therapeutic from './pages/Services/therapeutic-support';
+import Household from './pages/Services/household-task-support';
+import ExercisePhy from './pages/Services/exercise-physiology-and-personal-training';
+import GroupandCentre from './pages/Services/Group And Centre-Based Activities';
+import Specialist from './pages/Services/specialist-support-coordination';
 
 
 function App() {
@@ -67,6 +71,10 @@ function App() {
             <Route path="/special" element={<Special />} />
             <Route path="/social-support" element={<SocialSupport />} />
             <Route path="/therapeutic" element={<Therapeutic />} />
+            <Route path="/household" element={<Household />} />
+            <Route path="/exercise-phy" element={<ExercisePhy />} />
+            <Route path="/group-center" element={<GroupandCentre />} />
+            <Route path="/specialist-support-coordination" element={<Specialist />} />
 
             {/* <Route path="/doctors" element={<DoctorsOne />} /> */}
             {/* <Route path="/doctorsTwo" element={<DoctorsTwo />} /> */}

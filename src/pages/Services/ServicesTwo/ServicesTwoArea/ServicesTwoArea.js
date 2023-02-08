@@ -53,22 +53,25 @@ const ServicesTwoArea = () => {
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-5.jpeg" title="HOUSEHOLD TASK SUPPORT"
                      content="We understand how hard it can be for you to take care of all your household tasks, such as:"
+                  link="/household"
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-6.png" title="EXERCISE PHYSIOLOGY AND PERSONAL TRAINING"
 
                      content="Our Exercise Physiologist and Personal Trainer will work with our participants in the delivery of 
                   exercise physiology services including:"
+                  link="/exercise-phy"
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-7.jpg" title="GROUP AND CENTRE-BASED ACTIVITIES"
 
                      content="We provide a range of group and centre-based activities, tailored to suit the interest and 
                      needs of our participants."
+                     link="/group-center"
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-8.jpeg" title="SPECIALIST SUPPORT COORDINATION"
 
                      content="Our Specialist support coordinator will support the participant to manage challenges in their 
                      support environment which may include health, education and Capacity building.
-"
+"                      link="/specialist-support-coordination"
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-9.jpeg" title="COMPLEX HEALTH CARE SUPPORT"
 
