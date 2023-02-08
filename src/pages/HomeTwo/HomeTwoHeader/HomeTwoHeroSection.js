@@ -8,7 +8,7 @@ const HomeTwoHeroSection = () => {
    const { setIsOpen } = values;
    return (
       <>
-         <VideoPopup videoId="oU_GUAWz52w" />
+         <VideoPopup />
 
          <section className="hero-area">
             <div className="hero-slider hero_two_slider">

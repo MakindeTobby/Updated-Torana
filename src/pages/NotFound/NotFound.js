@@ -3,14 +3,15 @@ import { Link } from 'react-router-dom';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
 import Footer from '../../components/Shared/Footer';
 import HomeHeader from '../Home/Home/HomeHeader/HomeHeader';
+import HomeTwoFooter from '../HomeTwo/HomeTwoFooter/HomeTwoFooter';
 
 const NotFound = () => {
   return (
     <>
       <HomeHeader />
-      <CommonPageHeader title="Page not Found" subtitle="404 Not Found" />
+      {/* <CommonPageHeader title="Page not Found" subtitle="404 Not Found" /> */}
 
-      <div className='pt-120 pb-120'>
+      <div className='pt-100 pb-120'>
         <div className='container'>
           <div className='row'>
             <div className='col-xl-8 offset-xl-2'>
@@ -27,7 +28,7 @@ const NotFound = () => {
         </div>
       </div>
 
-      <Footer/>
+      <HomeTwoFooter />
     </>
   );
 };

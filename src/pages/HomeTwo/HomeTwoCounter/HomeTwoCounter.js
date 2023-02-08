@@ -9,7 +9,7 @@ const HomeTwoCounter = () => {
                     <div className="row justify-content-around">
 
                         <HomeTwoSingleCount icon="4" counter="140" subtitle="Expert Doctors" />
-                        <HomeTwoSingleCount icon="5" counter="399" subtitle="Problem Solve" />
+                        <HomeTwoSingleCount icon="5" counter="399" subtitle="Problem Solved" />
                         <HomeTwoSingleCount icon="6" counter="100" subtitle="Happy Clients" />
 
                     </div>
