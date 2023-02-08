@@ -83,7 +83,7 @@ const HomeHeader = () => {
                                  <li><Link to="/servicesTwo">NDIS Services +</Link>
                                     <ul className="submenu">
                                        <li><Link to="/community-nursing">Community Nursing</Link></li>
-                                       <li><Link to="/special">Complex Health Care Support</Link></li>
+                                       <li><Link to="/complex-health-care-support">Complex Health Care Support</Link></li>
                                        <li><Link to="/social-support">Social Support and Services</Link></li>
                                        <li><Link to="/therapeutic">Therapeutic Support</Link></li>
                                        <li><Link to="/household">Household Task Support</Link></li>

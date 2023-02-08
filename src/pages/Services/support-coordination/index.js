@@ -7,7 +7,7 @@ import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
 import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
 
-const Household = () => {
+const SuppoertCo = () => {
    
     return (
         <>
@@ -19,7 +19,7 @@ const Household = () => {
                   <div className="col-xl-7 col-lg-8">
                      <article className="service-details-box">
                         <div className="service-details-thumb mb-80">
-                           <img className="img" src="img/services/service-main-5.jpeg" alt="" />
+                           <img className="img" src="img/services/service-main-14.jpg" alt="" />
                         </div>
                         <div className="section-title pos-rel mb-45">
                            <div className="section-icon">
@@ -27,7 +27,7 @@ const Household = () => {
                            </div>
                            <div className="section-text pos-rel">
                               <h5 className="green-color text-up-case"></h5>
-                              <h1>Household Task Support</h1>
+                              <h1> Support Coordination</h1>
                            </div>
                            <div className="section-line pos-rel">
                               <img src="img/shape/section-title-line.png" alt="" />
@@ -35,43 +35,78 @@ const Household = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           Household task refers to the management of duties and chores involved in the running of a household, such as cleaning, cooking, home maintenance, shopping, and bill payment. These tasks may be performed by members of the household, or by 
-                           other persons hired for the purpose. The term is also used to refer to the money allocated for such use.
-                           </p>
-                           <p>
-                           Persons living with a disability sometimes find housekeeping very challenging and require different levels of support, to maintain their homes. Housekeeping can be personal to persons requiring support. Carer givers having 
-                           access to sensitive area in their homes may not be their personal choice but necessary to get by.
-                           </p>
-                           <p>
-                           At Torana Care Australia we understand how hard it can be to have carer at your home to take care of all your household tasks. Our disability support professionals are given relevant
-                            information and training to provide quality household support to our participants.
-                           </p>
-                           <p>
-                           We have a team of warm and hardworking support workers, passionate about your well-being,
-                            ready to support you with your house-hold tasks, in the comfort of your home.
-                           </p>
-                        </div>
-                        <div className="service-details-feature fix mb-35">
+                           Torana Care Australia Provides two(2) levels of Support coordination such as:
+                             </p>
+
+                             <p>
+                             <b>
+                             LEVEL 1: SUPPORT CONNECTION
+                             </b>
+                             </p>
+
+                             <p>
+                             This support assists a participant to implement their plan by strengthening their ability to connect with 
+                             the broader systems of supports and to understand the purpose of the funded supports. Our Support
+                              Connection assists a participant to understand their NDIS plan, connect participants with broader 
+                              systems of supports, and provide assistance to connect with providers. This service will also 
+                             assist participants to achieve effective utilisation of their NDIS plan and answer questions as they arise.
+                             </p>
+
+                             <p>
+                             Support Connection helps to increases a participant’s capacity to maintain (or in some cases change) 
+                             support relationships, resolve service delivery 
+                             issues, and participate independently in NDIA processes. Our services include, but is not limited to:
+                             </p>
+
+                             <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
                               <div className="ser-fea-icon f-left">
-                                 <img src="img/services/ser-fea-icon-1.png" alt="" />
+                                 {/* <img src="img/services/ser-fea-icon-1.png" alt="" /> */}
                               </div>
                               <div className="ser-fea-list fix">
-                                 <h3>OUR SERVICES</h3>
                                  <ul>
-                                    <li><i className="fas fa-check"></i>Cleaning</li>
-                                    <li><i className="fas fa-check"></i>Gardening</li>
-                                    <li><i className="fas fa-check"></i>Meal preparation</li>
-                                    <li><i className="fas fa-check"></i>Shopping</li>
-                                    <li><i className="fas fa-check"></i>Laundry</li>
-                                    <li><i className="fas fa-check"></i>dish-washing and other household tasks</li>
+                                    <li><i className="fas fa-check"></i> Understand the participant’s plan;</li>
+                                    <li><i className="fas fa-check"></i> Connect with Supports and Services;</li>
+                                    <li><i className="fas fa-check"></i> Establish Supports;</li>
+                                    <li><i className="fas fa-check"></i> Coach, Refine, Reflect; and</li>
+                                    <li><i className="fas fa-check"></i> Report to the NDIA.</li>
                                  </ul>
-                                 <p>
-                                 Let us know how we can help!
-                                 </p>
+                              </div>
+                             <p>
+                                <b>
+                                LEVEL 2: COORDINATION OF SUPPORTS
+                                </b>
+                             </p>
+                             <p>
+                             This support strengthens a participant’s ability to design and then build their supports with an 
+                             emphasis on linking the broader systems of support across a complex service delivery environment. 
+                             Our Coordination of Supports focuses on supporting participants to direct their lives, not just their 
+                             services, and also focuses on assisting participants to build and maintain a resilient network of formal and informal supports. This involves working together with the participant to understand the funding, identify what participants expect from services, and how participants want this designed. This service also includes coaching participants, 
+                             and working with participants to develop capacity and resilience in their network.
+                             </p>
+                             <p>
+                                <b>
+                                OUR SPECIALIST SUPPORT COORDINATION SERVICES INCLUDES, BUT IS NOT LIMITED TO
+                                </b>
+                             </p>
+                             <div className="ser-fea-list fix">
+                                 <ul>
+                                    <li><i className="fas fa-check"></i> Understand the participant’s plan;</li>
+                                    <li><i className="fas fa-check"></i> Connect with Supports and Services;</li>
+                                    <li><i className="fas fa-check"></i> Design Support Approaches;</li>
+                                    <li><i className="fas fa-check"></i> Establish Supports;</li>
+                                    <li><i className="fas fa-check"></i> Coach, Refine, Reflect;</li>
+                                    <li><i className="fas fa-check"></i> Targeted Support Coordination;</li>
+                                    <li><i className="fas fa-check"></i> Crisis: Planning, Prevention, Mitigation and Action;</li>
+                                    <li><i className="fas fa-check"></i> Address Complex Barriers;</li>
+                                    <li><i className="fas fa-check"></i> Design Complex Service Plan;</li>
+                                    <li><i className="fas fa-check"></i> Build Capacity and Resilience; and</li>
+                                    <li><i className="fas fa-check"></i> Report to the NDIA.</li>
+                                 </ul>
                               </div>
                            </div>
                           </div>
+                        </div>
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -171,4 +206,4 @@ const Household = () => {
     );
 }
 
-export default Household;
+export default SuppoertCo;
