@@ -46,8 +46,8 @@ const HomeTwoHeroSection = () => {
                                                 <label htmlFor="input">select your location</label>
                                                 <select name="lc" id="lc" className="postform">
                                                    <option defaultValue="-1">Choose a Location</option>
-                                                   <option className="level-0" defaultValue="36">Chicago, United States</option>
-                                                   <option className="level-0" defaultValue="37">California, United States</option>
+                                                   {/* <option className="level-0" defaultValue="36">Chicago, United States</option>
+                                                   <option className="level-0" defaultValue="37">California, United States</option> */}
                                                 </select>
 
                                              </form>
@@ -62,8 +62,8 @@ const HomeTwoHeroSection = () => {
                                                 <label htmlFor="input">select your services</label>
                                                 <select name="lc" id="lc" className="postform">
                                                    <option defaultValue="-1">Choose a Service</option>
-                                                   <option className="level-0" defaultValue="36">Chicago, United States</option>
-                                                   <option className="level-0" defaultValue="37">California, United States</option>
+                                                   {/* <option className="level-0" defaultValue="36">Chicago, United States</option>
+                                                   <option className="level-0" defaultValue="37">California, United States</option> */}
                                                 </select>
                                              </form>
                                           </div>
