@@ -57,7 +57,7 @@ const Specialist = () => {
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
                               <div className="ser-fea-icon f-left">
-                                 <img src="img/services/ser-fea-icon-1.png" alt="" />
+                                 {/* <img src="img/services/ser-fea-icon-1.png" alt="" /> */}
                               </div>
                               <div className="ser-fea-list fix">
                               <h3>OUR SPECIALIST SUPPORT COORDINATION SERVICES INCLUDES, BUT IS NOT LIMITED TO</h3>
