@@ -10,7 +10,7 @@ const HomeTwoMissionArea = () => {
                <div className="row">
                   <div className="col-xl-6 col-lg-10 col-md-12">
                      <div className="about-title mb-20">
-                        <h5 className="pink-color">Our Mission & Vission</h5>
+                        <h5 className="pink-color">Our Mission & Vision</h5>
                         <h1>Professional and Friendly Health Care.</h1>
                      </div>
                      <div className="about-text mission-about-text">

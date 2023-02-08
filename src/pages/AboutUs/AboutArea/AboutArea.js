@@ -7,13 +7,13 @@ const AboutArea = () => {
    const [isOpen, setOpen] = useState(false);
    return (
       <>
-         <ModalVideo channel='youtube' autoplay isOpen={isOpen}
-            videoId="I3u3lFA9GX4" onClose={() => setOpen(false)} />
+         <ModalVideo channel='custom' url='https://toranacareaustralia.org.au/wp-content/uploads/2020/08/About-Torana-Care-Australia.mp4' autoplay isOpen={isOpen}
+            onClose={() => setOpen(false)} />
 
          <CommonSectionArea area_header={
             <div className="about-left-side pos-rel mb-30">
                <div className="about-front-img pos-rel">
-                  <img src="img/about/info.jpg" alt="" />
+                  <img src="img/about/seth.jpg" alt="" />
                   <button onClick={() => setOpen(true)} className="popup-video about-video-btn white-video-btn">
                      <i className="fas fa-play"></i></button>
                </div>

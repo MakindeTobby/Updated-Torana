@@ -21,10 +21,10 @@ const AboutUs = () => {
          <AboutArea />
          <AboutCounter />
          <AboutAppoinment />
-         <HomeOurTeam />
-         <HomeFact />
-         <AboutTestimonial />
-         <AboutAnalysis />
+         {/* <HomeOurTeam /> */}
+         {/* <HomeFact /> */}
+         {/* <AboutTestimonial /> */}
+         {/* <AboutAnalysis /> */}
          {/* <Footer /> */}
          <HomeTwoFooter />
       </>
