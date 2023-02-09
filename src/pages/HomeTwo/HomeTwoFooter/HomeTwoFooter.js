@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeSingleFooterBlog from '../../../components/HomeSingleFooterBlog/HomeSingleFooterBlog';
 
 const HomeTwoFooter = () => {
    return (

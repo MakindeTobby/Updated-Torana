@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeSingleFooterBlog from '../HomeSingleFooterBlog/HomeSingleFooterBlog';
 
 const Footer = () => {
    return (
@@ -57,9 +56,7 @@ const Footer = () => {
                               <h3>News Feeds</h3>
                            </div>
                            <div className="blog-feeds pe-15">
-                              <HomeSingleFooterBlog image="1" />
-                              <HomeSingleFooterBlog image="2" />
-                              <HomeSingleFooterBlog image="3" />
+
                            </div>
                         </div>
                      </div>

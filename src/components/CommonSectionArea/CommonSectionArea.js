@@ -1,4 +1,5 @@
 import React from 'react';
+import { BiPlusMedical } from 'react-icons/bi'
 
 const CommonSectionArea = ({ area_header }) => {
    return (
@@ -25,7 +26,8 @@ const CommonSectionArea = ({ area_header }) => {
                         <div className="our-destination">
                            <div className="single-item mb-30">
                               <div className="mv-icon f-left">
-                                 <img src="img/about/destination-icon-1.png" alt="" />
+                                 {/* <img src="img/about/destination-icon-1.png" alt="" /> */}
+                                 <BiPlusMedical className='text-danger fs-1' />
                               </div>
                               <div className="mv-title fix">
                                  <h3>Our Mission</h3>
@@ -35,7 +37,9 @@ const CommonSectionArea = ({ area_header }) => {
                            </div>
                            <div className="single-item">
                               <div className="mv-icon f-left">
-                                 <img src="img/about/destination-icon-2.png" alt="" />
+                                 {/* <img src="img/about/destination-icon-2.png" alt="" /> */}
+                                 <BiPlusMedical className='text-danger fs-1' />
+
                               </div>
                               <div className="mv-title fix">
                                  <h3>Our Vision</h3>
