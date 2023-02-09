@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const ExercisePhy = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -35,18 +35,18 @@ const ExercisePhy = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           Exercise physiologists/personal trainer specialise in clinical exercise interventions for 
-                           people with a broad range of health issues. Persons needing these services may be at risk of developing, 
-                           or have existing, medical conditions and injuries. The aims of exercise physiology interventions are to 
-                           prevent or manage acute, sub- acute or chronic disease or injury, and assist in restoring one’s optimal 
-                           physical function, health or wellness. These interventions are exercise-based and include health and 
-                           physical activity education, advice and support and lifestyle modification with a strong focus on 
-                           achieving behavioural change. There are a wide range of reasons why a person may benefit from consulting 
-                           an accredited exercise physiologist. <b> 
-                           These include 
-                           chronic disease management referrals after diagnosis of a range of conditions 
-                           including:
-                           </b>
+                              Exercise physiologists/personal trainer specialise in clinical exercise interventions for
+                              people with a broad range of health issues. Persons needing these services may be at risk of developing,
+                              or have existing, medical conditions and injuries. The aims of exercise physiology interventions are to
+                              prevent or manage acute, sub- acute or chronic disease or injury, and assist in restoring one’s optimal
+                              physical function, health or wellness. These interventions are exercise-based and include health and
+                              physical activity education, advice and support and lifestyle modification with a strong focus on
+                              achieving behavioural change. There are a wide range of reasons why a person may benefit from consulting
+                              an accredited exercise physiologist. <b>
+                                 These include
+                                 chronic disease management referrals after diagnosis of a range of conditions
+                                 including:
+                              </b>
                            </p>
                         </div>
                         <div className="service-details-feature fix mb-35">
@@ -70,24 +70,24 @@ const ExercisePhy = () => {
                                  </ul>
                               </div>
                            </div>
-                          </div>
+                        </div>
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
                               <div className="ser-fea-icon f-left">
-                              {/* <img src="img/services/ser-fea-icon-2.png" alt="" /> */}
+                                 {/* <img src="img/services/ser-fea-icon-2.png" alt="" /> */}
                               </div>
                               <div className="ser-fea-list fix">
-                              <h3>OUR SERVICES</h3>
-                              <p> Our Exercise Physiologist and Personal Trainer will work with our participants in the delivery of exercise physiology services including:</p>
+                                 <h3>OUR SERVICES</h3>
+                                 <p> Our Exercise Physiologist and Personal Trainer will work with our participants in the delivery of exercise physiology services including:</p>
                                  <ul>
                                     <li><i className="fas fa-check"></i>chronic disease self-management and rehabilitation</li>
                                     <li><i className="fas fa-check"></i>Individualised treatments that help our client gain as much movement and physical independence as possible</li>
-                                    <li><i className="fas fa-check"></i>coordinating the delivery of physical and health education via tailored exercise sessions targeted to assist clients self-manage chronic disease</li>                                    
+                                    <li><i className="fas fa-check"></i>coordinating the delivery of physical and health education via tailored exercise sessions targeted to assist clients self-manage chronic disease</li>
                                  </ul>
-                               <p>We are happy to discuss your need in relation to your physical health goals.</p>
+                                 <p>We are happy to discuss your need in relation to your physical health goals.</p>
                               </div>
                            </div>
-                          </div>
+                        </div>
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -96,10 +96,10 @@ const ExercisePhy = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -117,7 +117,7 @@ const ExercisePhy = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -157,9 +157,15 @@ const ExercisePhy = () => {
 
                                     <select className="form-select select_style" aria-label="Default select example">
                                        <option defaultValue="Select type of care">Select type of care</option>
-                                       <option defaultValue="1">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
+                                       <option className="level-0"> Accommodation</option>
+                                       <option className="level-0"> Assistive Support</option>
+                                       <option className="level-0"> Household Task Support</option>
+                                       <option className="level-0"> Social Support and Services</option>
+                                       <option className="level-0"> Therapeutic Support</option>
+                                       <option className="level-0"> Community Nursing</option>
+                                       <option className="level-0"> Complex Health Care</option>
+                                       <option className="level-0"> Support Coordination</option>
+                                       <option className="level-0">  Specialist Behaviour</option>
                                     </select>
                                  </div>
                               </div>
@@ -182,9 +188,9 @@ const ExercisePhy = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default ExercisePhy;

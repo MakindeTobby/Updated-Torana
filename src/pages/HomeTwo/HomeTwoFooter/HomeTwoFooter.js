@@ -15,12 +15,12 @@ const HomeTwoFooter = () => {
                               <img src="img/logo/torana white.png" alt="" />
                            </div>
                         </div>
-                        <div className="col-xl-2 col-lg-3 d-none d-lg-block d-xl-block">
+                        <div className="col-xl-3 col-lg-3 d-none d-lg-block d-xl-block">
                            <div className="footer-subscribe-title">
                               <span>Subscribe to Our Newsletter</span>
                            </div>
                         </div>
-                        <div className="col-xl-6 col-lg-5 col-md-8">
+                        <div className="col-xl-5 col-lg-5 col-md-8">
                            <form className="footer-newsletter" action="#">
                               <input type="text" placeholder="Your Email Address...." />
                               <button className="primary_btn">subscribe</button>
@@ -58,9 +58,9 @@ const HomeTwoFooter = () => {
                                     <div className="footer-co-content">
                                        <span>socials network</span>
                                        <ul>
-                                          <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                                          <li><a href="https://web.facebook.com/Toranacareaustralia?_rdc=1&_rdr"><i className="fab fa-facebook-f"></i></a></li>
                                           {/* <li><a href="#"><i className="fab fa-behance"></i></a></li> */}
-                                          <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+                                          <li><a href="https://www.linkedin.com/in/torana-care-australia-baa2571a9/"><i className="fab fa-linkedin"></i></a></li>
                                           {/* <li><a href="#"><i className="fab fa-youtube"></i></a></li> */}
                                           {/* <li><a href="#"><i className="fab fa-twitter"></i></a></li> */}
                                        </ul>
@@ -78,9 +78,10 @@ const HomeTwoFooter = () => {
 
                               <div className="footer-menu footer-menu-2 fix">
                                  <ul>
-                                    <li><Link to="/servicesDetails">Xero Login</Link></li>
-                                    <li><Link to="/servicesDetails">Departments</Link></li>
-                                    <li><Link to="/servicesDetails">Work pro login</Link></li>
+                                    <li><Link to="/">Xero Login</Link></li>
+                                    <li><Link to="/">Departments</Link></li>
+                                    <li><Link to="/">Work pro login</Link></li>
+                                    <li><Link to="/">Background</Link></li>
 
                                  </ul>
                               </div>
@@ -94,11 +95,10 @@ const HomeTwoFooter = () => {
                               <div className="footer-menu footer-menu-2 fix">
                                  <ul>
                                     <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/servicesDetails">Background</Link></li>
                                     <li><Link to="/careers">Careers</Link></li>
                                     <li><Link to="/services">Registered NDIS Provider</Link></li>
                                     <li><Link to="/contact">Complaint and Feedback</Link></li>
-                                    <li><Link to="/blogs">News</Link></li>
+                                    <li><Link to="/">News</Link></li>
                                     <li><Link to="/contact">Guides</Link></li>
                                     <li><Link to="/contact">Contact Us</Link></li>
                                     <li><Link to="/about">Privacy Policy</Link></li>
@@ -116,10 +116,23 @@ const HomeTwoFooter = () => {
                   </div>
                   <div className="footer-bottom-0">
                      <div className="row">
-                        <div className="col-xl-12">
+                        <div className="col-xl-6">
                            <div className="footer-copyright-area text-center">
-                              <p className="white-color">Copyright ©2020 Torana Care Australia.<strong>
-                              </strong> All rights reserved</p>
+
+                              <p className='text-white'>
+                                 Copyright ©2023
+                                 <Link to={'/'} className="white-color text-decoration-underline"> Torana Care Australia. <strong>
+                                 </strong> </Link>
+                                 All rights reserved
+                              </p>
+                           </div>
+                        </div>
+                        <div className="col-xl-6">
+                           <div className="footer-copyright-area text-center">
+                              <p className="white-color"><b>Powered by:</b>
+                                 <a href='https://promaxsolutions.com.au/' className='text-white text-decoration-underline'> Promax solutions</a>
+                              </p>
+
                            </div>
                         </div>
                      </div>

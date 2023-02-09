@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const ComplexHealth = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -35,24 +35,24 @@ const ComplexHealth = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           High Intensity daily personal activity represents the most complex and highest risk support and service
-                            delivery to participants having health conditions that require continuous care. Some participants may 
-                            have multiple complex and fragile health needs, requiring highly skilled health professionals to take on 
-                            the role of care giving. Safely assisting with and/or supervising personal tasks of daily life to enable 
-                            the participant to live as autonomously as possible is significant in promoting the participant’s 
-                            independence and improving the quality of life. These supports are provided by a worker with additional
-                             qualifications and experience relevant to the participants’ complex health needs. These individual 
-                             supports can be provided in a range of environments, including but not limited to, the participant’s own home, shared and supported living accommodations.
-                             </p>
-                             <p>
-                             Owing to the complexities involved in providing daily support to individuals with
+                              High Intensity daily personal activity represents the most complex and highest risk support and service
+                              delivery to participants having health conditions that require continuous care. Some participants may
+                              have multiple complex and fragile health needs, requiring highly skilled health professionals to take on
+                              the role of care giving. Safely assisting with and/or supervising personal tasks of daily life to enable
+                              the participant to live as autonomously as possible is significant in promoting the participant’s
+                              independence and improving the quality of life. These supports are provided by a worker with additional
+                              qualifications and experience relevant to the participants’ complex health needs. These individual
+                              supports can be provided in a range of environments, including but not limited to, the participant’s own home, shared and supported living accommodations.
+                           </p>
+                           <p>
+                              Owing to the complexities involved in providing daily support to individuals with
                               challenging health needs, Torana Care Australia has built
                               a team of healthcare professionals, managed by a <b> Specialist GP 24/7, to ensure our participants gets quality healthcare at all times.</b>
-                             </p>
-                             <p>
-                             We are committed to providing the best and safe complex health supports and services in collaboration with other health care professions, to our participants and their families.We understand the importance of partnership with the participant’s support network
+                           </p>
+                           <p>
+                              We are committed to providing the best and safe complex health supports and services in collaboration with other health care professions, to our participants and their families.We understand the importance of partnership with the participant’s support network
                               in achieving set goals. In all we do, our participants remain at the centre of their support and services.
-                             </p>
+                           </p>
                         </div>
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
@@ -60,7 +60,7 @@ const ComplexHealth = () => {
                                  {/* <img src="img/services/ser-fea-icon-1.png" alt="" /> */}
                               </div>
                               <div className="ser-fea-list fix">
-                              <h3> OUR COMPLEX HEALTH SERVICES INCLUDE:</h3>
+                                 <h3> OUR COMPLEX HEALTH SERVICES INCLUDE:</h3>
                                  <ul>
                                     <li><i className="fas fa-check"></i> Complex Bowel Care Management</li>
                                     <li><i className="fas fa-check"></i> Complex Wound Care Management</li>
@@ -71,11 +71,11 @@ const ComplexHealth = () => {
                                     <li><i className="fas fa-check"></i> Subcutaneous Injection Administration and Management.</li>
                                  </ul>
                               </div>
-                              <p> 
-                              Get in touch with us today to discuss your needs.
-                               </p>
+                              <p>
+                                 Get in touch with us today to discuss your needs.
+                              </p>
                            </div>
-                          </div>
+                        </div>
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -84,10 +84,10 @@ const ComplexHealth = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -105,7 +105,7 @@ const ComplexHealth = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -145,9 +145,15 @@ const ComplexHealth = () => {
 
                                     <select className="form-select select_style" aria-label="Default select example">
                                        <option defaultValue="Select type of care">Select type of care</option>
-                                       <option defaultValue="1">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
+                                       <option className="level-0"> Accommodation</option>
+                                       <option className="level-0"> Assistive Support</option>
+                                       <option className="level-0"> Household Task Support</option>
+                                       <option className="level-0"> Social Support and Services</option>
+                                       <option className="level-0"> Therapeutic Support</option>
+                                       <option className="level-0"> Community Nursing</option>
+                                       <option className="level-0"> Complex Health Care</option>
+                                       <option className="level-0"> Support Coordination</option>
+                                       <option className="level-0">  Specialist Behaviour</option>
                                     </select>
                                  </div>
                               </div>
@@ -170,9 +176,9 @@ const ComplexHealth = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default ComplexHealth;

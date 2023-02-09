@@ -14,7 +14,7 @@ const HomeTwoAbout = () => {
                         <HomeTwoSingleAbout icon="1" title="Advanced Care" spacing="b-40"
                            text="Our Support And Services Are Built On The Highest Principles Of Care-Giving, Putting You First In All We Do"
                         />
-                        <HomeTwoSingleAbout icon="2" title="Disability Support" spacing="t-40"
+                        <HomeTwoSingleAbout icon="5" title="Disability Support" spacing="t-40"
                            text="Making specialised disability support and service delivery, easier to access"
                         />
                         <HomeTwoSingleAbout icon="3" title="Qualified Health Experts" spacing="b-30"

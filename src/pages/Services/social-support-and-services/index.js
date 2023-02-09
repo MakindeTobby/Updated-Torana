@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const SocialSupport = () => {
 
-    return (
-        <>
-            <HomeHeader />
+   return (
+      <>
+         <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -35,21 +35,21 @@ const SocialSupport = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           We provide innovative community participation planning and support provision to our participants. 
-                           We will work with you and your support network,
-                            to determine the best kind of social support you may engage in, to help you achieve your goals
+                              We provide innovative community participation planning and support provision to our participants.
+                              We will work with you and your support network,
+                              to determine the best kind of social support you may engage in, to help you achieve your goals
                            </p>
                            <p>
-                           Are you worried about being home most of the time?
+                              Are you worried about being home most of the time?
                            </p>
                            <p>
-                           Are you unsure about what social activities to engage in?
+                              Are you unsure about what social activities to engage in?
                            </p>
                            <p>
-                           We would like to hear from you.
+                              We would like to hear from you.
                            </p>
                         </div>
-                        
+
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -58,10 +58,10 @@ const SocialSupport = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -79,7 +79,7 @@ const SocialSupport = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -119,9 +119,15 @@ const SocialSupport = () => {
 
                                     <select className="form-select select_style" aria-label="Default select example">
                                        <option defaultValue="Select type of care">Select type of care</option>
-                                       <option defaultValue="1">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
+                                       <option className="level-0"> Accommodation</option>
+                                       <option className="level-0"> Assistive Support</option>
+                                       <option className="level-0"> Household Task Support</option>
+                                       <option className="level-0"> Social Support and Services</option>
+                                       <option className="level-0"> Therapeutic Support</option>
+                                       <option className="level-0"> Community Nursing</option>
+                                       <option className="level-0"> Complex Health Care</option>
+                                       <option className="level-0"> Support Coordination</option>
+                                       <option className="level-0">  Specialist Behaviour</option>
                                     </select>
                                  </div>
                               </div>
@@ -144,9 +150,9 @@ const SocialSupport = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default SocialSupport

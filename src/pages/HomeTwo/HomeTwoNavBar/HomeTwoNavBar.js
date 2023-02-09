@@ -117,8 +117,8 @@ Group/Shared Independent Living */}
                         <div className="header-right f-right d-flex">
                            <Link to="/contact" className="primary_btn btn-icon btn-icon-green"><span>+</span>contact
                               us</Link>
-                           {/* <Link to="/contact" className="primary_btn btn-icon btn-icon-white">
-                              <i className="fas fa-phone"></i>Make A Call</Link> */}
+                           <a href="tel:+61499322078" className="primary_btn btn-icon btn-icon-white">
+                              <i className="fas fa-phone"></i>Make A Call</a>
                         </div>
                      </div>
                   </div>

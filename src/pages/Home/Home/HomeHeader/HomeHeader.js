@@ -41,7 +41,7 @@ const HomeHeader = () => {
                         <div className="header-right f-right">
                            <div className="header-lang f-right pos-rel d-none d-lg-block">
                               <div className="lang-icon">
-                                 <img src="img/icon/lang.png" alt="" />
+                                 <img src="img/icon/flag.png" alt="" width="100%" />
                                  <span>EN<i className="fas fa-angle-down"></i></span>
                               </div>
                               <ul className="header-lang-list">
@@ -53,10 +53,10 @@ const HomeHeader = () => {
                            </div>
                            <div className="header-social-icons f-right d-none d-xl-block">
                               <ul>
-                                 <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                                 <li><a href="https://web.facebook.com/Toranacareaustralia?_rdc=1&_rdr"><i className="fab fa-facebook-f"></i></a></li>
                                  {/* <li><a href="#"><i className="fab fa-behance"></i></a></li> */}
                                  {/* <li><a href="#"><i className="fab fa-youtube"></i></a></li> */}
-                                 <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+                                 <li><a href="https://www.linkedin.com/in/torana-care-australia-baa2571a9/"><i className="fab fa-linkedin"></i></a></li>
                                  {/* <li><a href="#"><i className="fab fa-pinterest"></i></a></li> */}
                               </ul>
                            </div>
@@ -64,21 +64,9 @@ const HomeHeader = () => {
                         <div className="header__menu f-right">
                            <nav id="mobile-menu">
                               <ul>
-                                 {/* <li><Link to="/">Home +</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/">Home style 1</Link></li>
-                                       <li><Link to="/homeTwo">Home style 2</Link></li>
-                                       <li><Link to="/homeThree">Home style 3</Link></li>
-                                       <li><Link to="/homeFour">Home style 4</Link></li>
-                                       <li><Link to="/homeFive">Home style 5</Link></li>
-                                    </ul>
-                                 </li> */}
+
                                  <li><Link to="/about">About</Link>
-                                    {/* <ul className="submenu">
-                                       <li><Link to="/services">Services 01</Link></li>
-                                       <li><Link to="/servicesTwo">Services 02</Link></li>
-                                       <li><Link to="/servicesDetails">Services Details</Link></li>
-                                    </ul> */}
+
                                  </li>
                                  <li><Link to="/services">NDIS Services +</Link>
                                     <ul className="submenu">
@@ -92,42 +80,13 @@ const HomeHeader = () => {
                                     </ul>
                                  </li>
                                  <li><Link to="/contact">Contact</Link>
-                                    {/* <ul className="submenu">
-                                       <li><Link to="/shop">Shop Page</Link></li>
-                                       <li><Link to="/shopDetails">Shop Details</Link></li>
-                                       <li><Link to="/shoppingCart">Shopping Cart</Link></li>
-                                       <li><Link to="/checkout">Checkout</Link></li>
-                                       <li><Link to="/wishList">Wishlist</Link></li>
-                                       <li><Link to="/login">Login</Link></li>
-                                       <li><Link to="/register">Register</Link></li>
-                                    </ul> */}
+
                                  </li>
                                  <li><Link to="/career">Careers</Link>
-                                    {/* <ul className="submenu">
-                                       <li><Link to="/blogs">Blog Right Sidebar</Link></li>
-                                       <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>
-                                       <li><Link to="/blogNoSideBar">Blog No Sidebar</Link></li>
-                                       <li><Link to="/blogTwoColumn">Blog 2 Column</Link></li>
-                                       <li><Link to="/blogTwoMasonry">Blog 2 Col Masonry</Link></li>
-                                       <li><Link to="/blogThreeColumn">Blog 3 Column</Link></li>
-                                       <li><Link to="/blogThreeColMasonry">Blog 3 Col Masonry</Link></li>
-                                       <li><Link to="/blogDetails">Blog Details</Link></li>
-                                       <li><Link to="/blogDetailsLeftSidebar">Details Left Sidebar</Link></li>
-                                       <li><Link to="/blogDetailsAudio">Details Audio</Link></li>
-                                       <li><Link to="/blogDetailsVideo">Details Video</Link></li>
-                                       <li><Link to="/blogDetailsGallery">Details Gallery</Link></li>
-                                    </ul> */}
+
                                  </li>
                                  <li><Link to="/covid19-updates">Covid-19 Updates</Link>
-                                    {/* <ul className="submenu">
-                                       <li><Link to="/about">About</Link></li>
-                                       <li><Link to="/appoinment">Appoinment</Link></li>
-                                       <li><Link to="/portfolioTwoColumn">Portfolio 2 column</Link></li>
-                                       <li><Link to="/portfolioThreeColumn">Portfolio 3 column</Link></li>
-                                       <li><Link to="/portfolioSlider">Portfolio Slider</Link></li>
-                                       <li><Link to="/contact">Contact</Link></li>
-                                       <li><Link to="/notMatch">404 page</Link></li>
-                                    </ul> */}
+
                                  </li>
                               </ul>
                            </nav>

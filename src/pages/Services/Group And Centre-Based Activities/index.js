@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const GroupandCentre = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -35,17 +35,17 @@ const GroupandCentre = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           Group Centre-based activity is a platform where persons living with a disability can come together to build their social skills, communication and get busy exploring a range of interesting activities with
-                            like minds, under the supervision of experienced health care professionals.
-                             </p>
-                             <p>
-                             At Torana Care Australia, we understand how boring and frustrating in can be for persons living with a disability to remain unengaged within a lengthy space of time and in the four walls of their homes. Being part of a daily centre-based activity group is rewarding as it builds 
-                             the capacity and further improves the well-being of persons living with a disability.
-                             </p>
-                             <p>
-                             We provide a range of group and centre-based activities, tailored to suit the interest and needs of our participants. We make these activities fun and interesting, giving each participant a chance to express themselves with the aim of achieving the best 
-                             possible outcome. Our services will be provided based on our participant’s set goals.
-                             </p>
+                              Group Centre-based activity is a platform where persons living with a disability can come together to build their social skills, communication and get busy exploring a range of interesting activities with
+                              like minds, under the supervision of experienced health care professionals.
+                           </p>
+                           <p>
+                              At Torana Care Australia, we understand how boring and frustrating in can be for persons living with a disability to remain unengaged within a lengthy space of time and in the four walls of their homes. Being part of a daily centre-based activity group is rewarding as it builds
+                              the capacity and further improves the well-being of persons living with a disability.
+                           </p>
+                           <p>
+                              We provide a range of group and centre-based activities, tailored to suit the interest and needs of our participants. We make these activities fun and interesting, giving each participant a chance to express themselves with the aim of achieving the best
+                              possible outcome. Our services will be provided based on our participant’s set goals.
+                           </p>
                         </div>
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
@@ -53,7 +53,7 @@ const GroupandCentre = () => {
                                  {/* <img src="img/services/ser-fea-icon-1.png" alt="" /> */}
                               </div>
                               <div className="ser-fea-list fix">
-                              <h3>OUR LIST OF GROUP ACTIVITIES INCLUDES:</h3>
+                                 <h3>OUR LIST OF GROUP ACTIVITIES INCLUDES:</h3>
                                  <ul>
                                     <li><i className="fas fa-check"></i> Knitting</li>
                                     <li><i className="fas fa-check"></i> Drawing</li>
@@ -66,7 +66,7 @@ const GroupandCentre = () => {
                               </div>
                               <p> We are happy to discuss other group activities that may interest you.</p>
                            </div>
-                          </div>
+                        </div>
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -75,10 +75,10 @@ const GroupandCentre = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -96,7 +96,7 @@ const GroupandCentre = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -136,9 +136,15 @@ const GroupandCentre = () => {
 
                                     <select className="form-select select_style" aria-label="Default select example">
                                        <option defaultValue="Select type of care">Select type of care</option>
-                                       <option defaultValue="1">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
+                                       <option className="level-0"> Accommodation</option>
+                                       <option className="level-0"> Assistive Support</option>
+                                       <option className="level-0"> Household Task Support</option>
+                                       <option className="level-0"> Social Support and Services</option>
+                                       <option className="level-0"> Therapeutic Support</option>
+                                       <option className="level-0"> Community Nursing</option>
+                                       <option className="level-0"> Complex Health Care</option>
+                                       <option className="level-0"> Support Coordination</option>
+                                       <option className="level-0">  Specialist Behaviour</option>
                                     </select>
                                  </div>
                               </div>
@@ -161,9 +167,9 @@ const GroupandCentre = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default GroupandCentre;

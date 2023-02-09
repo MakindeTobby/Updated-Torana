@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const Special = () => {
 
-    return (
-        <>
-            <HomeHeader />
+   return (
+      <>
+         <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -35,29 +35,29 @@ const Special = () => {
                         </div>
                         <div className="service-details-text mb-30">
                            <p>
-                           We offer clinical social help to decrease the danger of hurtful 
-                           conduct and produce positive results. Our clinicians give proficient individualized
-                            examination and techniques that advance pro-social conduct and improve general well-being.
+                              We offer clinical social help to decrease the danger of hurtful
+                              conduct and produce positive results. Our clinicians give proficient individualized
+                              examination and techniques that advance pro-social conduct and improve general well-being.
                            </p>
                            <p>
-                           Our support and services include specialist behavioural intervention support, which is an intensive
-                            support for a participant, intending to address significantly harmful or persistent behaviours of concern. We develop a Behaviour support plan that aims to limit the likelihood of behaviours of concern developing or increasing once identified. This plan outlines the specifically designed positive behavioural support strategies for a participant, their family and 
-                           support persons that will achieve the intended outcome of eliminating or reducing behaviours of concern.
+                              Our support and services include specialist behavioural intervention support, which is an intensive
+                              support for a participant, intending to address significantly harmful or persistent behaviours of concern. We develop a Behaviour support plan that aims to limit the likelihood of behaviours of concern developing or increasing once identified. This plan outlines the specifically designed positive behavioural support strategies for a participant, their family and
+                              support persons that will achieve the intended outcome of eliminating or reducing behaviours of concern.
                            </p>
                            <p>
-                           Our team of behaviour support practitioners are ready to manage our participants’ specialist
-                            behaviour support 
-                           needs Individually and holistically.
+                              Our team of behaviour support practitioners are ready to manage our participants’ specialist
+                              behaviour support
+                              needs Individually and holistically.
                            </p>
                            <p>
-                           We are committed to working through this process with you in collaboration with 
-                           other professionals and main stream agents.
+                              We are committed to working through this process with you in collaboration with
+                              other professionals and main stream agents.
                            </p>
                            <p>
-                           Let us know how we can help.
+                              Let us know how we can help.
                            </p>
                         </div>
-                        
+
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -66,10 +66,10 @@ const Special = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -87,7 +87,7 @@ const Special = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -127,9 +127,15 @@ const Special = () => {
 
                                     <select className="form-select select_style" aria-label="Default select example">
                                        <option defaultValue="Select type of care">Select type of care</option>
-                                       <option defaultValue="1">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
+                                       <option className="level-0"> Accommodation</option>
+                                       <option className="level-0"> Assistive Support</option>
+                                       <option className="level-0"> Household Task Support</option>
+                                       <option className="level-0"> Social Support and Services</option>
+                                       <option className="level-0"> Therapeutic Support</option>
+                                       <option className="level-0"> Community Nursing</option>
+                                       <option className="level-0"> Complex Health Care</option>
+                                       <option className="level-0"> Support Coordination</option>
+                                       <option className="level-0">  Specialist Behaviour</option>
                                     </select>
                                  </div>
                               </div>
@@ -152,9 +158,9 @@ const Special = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default Special;

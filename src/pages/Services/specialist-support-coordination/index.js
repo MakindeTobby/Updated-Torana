@@ -5,15 +5,15 @@ import HomeTwoFooter from "../../HomeTwo/HomeTwoFooter/HomeTwoFooter"
 import { FaWheelchair } from "react-icons/fa";
 import { MdAddTask } from "react-icons/md";
 import { SiOpenaigym } from "react-icons/si";
-import { TbMedicalCross,TbSocial,TbPhysotherapist } from "react-icons/tb";
+import { TbMedicalCross, TbSocial, TbPhysotherapist } from "react-icons/tb";
 
 const Specialist = () => {
-   
-    return (
-        <>
-            <HomeHeader />
 
-            <div className="service-details-area pt-10 pb-100">
+   return (
+      <>
+         <HomeHeader />
+
+         <div className="service-details-area pt-10 pb-100">
             <div className="container">
                <div className="row">
                   <div className="col-xl-7 col-lg-8">
@@ -34,25 +34,25 @@ const Specialist = () => {
                            </div>
                         </div>
                         <div className="service-details-text mb-30">
-                            <h3> SPECIALIST SUPPORT COORDINATION</h3>
+                           <h3> SPECIALIST SUPPORT COORDINATION</h3>
                            <p>
-                           This support is delivered utilising an expert or specialist approach, necessitated by specific high 
-                           complex needs or high-level risks in a participant’s situation. Our Specialist support coordinator will 
-                           support the participant to manage challenges in their support environment which may include health,
-                            education and Capacity building.We work with our participants,in collaboration with other providers and
-                             professionals to develop a robust plan that meet set goals both on short and long term bases. We follow 
-                             through this process with our 
-                           participants via support monitoring and assessments till desired results are achieved.
-                             </p>
-                             <p>
-                             Our Specialist Support Coordinators negotiate appropriate support solutions 
-                             with multiple stakeholders and seek to achieve well-coordinated plan implementation. 
-                             We also provide assistance to stakeholders with resolving points of crisis for participants, 
-                             assist to ensure a consistent delivery of service and access to relevant supports during crisis 
-                             situations.Our Specialist Support Coordination is generally delivered through an intensive and time 
-                             limited period necessitated by the participant’s immediate and significant barriers to plan implementation. Depending on individual circumstances, our Specialist Support Coordinator may also design a complex service plan that focuses on how all the stakeholders in a participant’s life will interact to resolve barriers and promote appropriate plan implementation. Once developed, our Specialist Support Coordinator will continue to monitor the plan,
+                              This support is delivered utilising an expert or specialist approach, necessitated by specific high
+                              complex needs or high-level risks in a participant’s situation. Our Specialist support coordinator will
+                              support the participant to manage challenges in their support environment which may include health,
+                              education and Capacity building.We work with our participants,in collaboration with other providers and
+                              professionals to develop a robust plan that meet set goals both on short and long term bases. We follow
+                              through this process with our
+                              participants via support monitoring and assessments till desired results are achieved.
+                           </p>
+                           <p>
+                              Our Specialist Support Coordinators negotiate appropriate support solutions
+                              with multiple stakeholders and seek to achieve well-coordinated plan implementation.
+                              We also provide assistance to stakeholders with resolving points of crisis for participants,
+                              assist to ensure a consistent delivery of service and access to relevant supports during crisis
+                              situations.Our Specialist Support Coordination is generally delivered through an intensive and time
+                              limited period necessitated by the participant’s immediate and significant barriers to plan implementation. Depending on individual circumstances, our Specialist Support Coordinator may also design a complex service plan that focuses on how all the stakeholders in a participant’s life will interact to resolve barriers and promote appropriate plan implementation. Once developed, our Specialist Support Coordinator will continue to monitor the plan,
                               which may be maintained by the participant’s support workers or other care supports.
-                             </p>
+                           </p>
                         </div>
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">
@@ -60,7 +60,7 @@ const Specialist = () => {
                                  {/* <img src="img/services/ser-fea-icon-1.png" alt="" /> */}
                               </div>
                               <div className="ser-fea-list fix">
-                              <h3>OUR SPECIALIST SUPPORT COORDINATION SERVICES INCLUDES, BUT IS NOT LIMITED TO</h3>
+                                 <h3>OUR SPECIALIST SUPPORT COORDINATION SERVICES INCLUDES, BUT IS NOT LIMITED TO</h3>
                                  <ul>
                                     <li><i className="fas fa-check"></i> Understand the participant’s plan;</li>
                                     <li><i className="fas fa-check"></i> Connect with Supports and Services;</li>
@@ -76,7 +76,7 @@ const Specialist = () => {
                                  </ul>
                               </div>
                            </div>
-                          </div>
+                        </div>
                      </article>
                   </div>
                   <div className="col-xl-5 col-lg-4">
@@ -85,10 +85,10 @@ const Specialist = () => {
                            <h3 className="widget-title">More Services</h3>
                         </div>
                         <div className="more-service-list">
-                        <ul>
+                           <ul>
                               <li>
                                  <Link to="/community-nursing">
-                                 <FaWheelchair className="fs-1 text-danger" />
+                                    <FaWheelchair className="fs-1 text-danger" />
                                     <div className="more-service-title">Community Nursing</div>
                                  </Link>
                               </li>
@@ -106,7 +106,7 @@ const Specialist = () => {
                               </li>
                               <li>
                                  <Link to="/therapeutic">
-                                        <TbPhysotherapist className="fs-1 text-danger" />
+                                    <TbPhysotherapist className="fs-1 text-danger" />
                                     <div className="more-service-title">THERAPEUTIC SUPPORT</div>
                                  </Link>
                               </li>
@@ -146,9 +146,15 @@ const Specialist = () => {
 
                                     <select className="form-select select_style" aria-label="Default select example">
                                        <option defaultValue="Select type of care">Select type of care</option>
-                                       <option defaultValue="1">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
+                                       <option className="level-0"> Accommodation</option>
+                                       <option className="level-0"> Assistive Support</option>
+                                       <option className="level-0"> Household Task Support</option>
+                                       <option className="level-0"> Social Support and Services</option>
+                                       <option className="level-0"> Therapeutic Support</option>
+                                       <option className="level-0"> Community Nursing</option>
+                                       <option className="level-0"> Complex Health Care</option>
+                                       <option className="level-0"> Support Coordination</option>
+                                       <option className="level-0">  Specialist Behaviour</option>
                                     </select>
                                  </div>
                               </div>
@@ -171,9 +177,9 @@ const Specialist = () => {
                </div>
             </div>
          </div>
-            <HomeTwoFooter />
-        </>
-    );
+         <HomeTwoFooter />
+      </>
+   );
 }
 
 export default Specialist;

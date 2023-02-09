@@ -5,10 +5,13 @@ import reportWebVitals from './reportWebVitals';
 import 'react-image-lightbox/style.css';
 import './index.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 ReactDOM.render(
   <React.Fragment>
-      <App />
+    <ToastContainer position='top-right' />
+    <App />
   </React.Fragment>,
   document.getElementById('root')
 );

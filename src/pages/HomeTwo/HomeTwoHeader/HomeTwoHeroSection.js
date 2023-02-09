@@ -21,7 +21,7 @@ const HomeTwoHeroSection = () => {
                               <div className="hero-text hero-text-2 pt-35">
                                  <div className="hero-slider-caption hero-slider-caption-2">
                                     <h5 className="white-color">We are  here for your care.</h5>
-                                    <h1 className="white-color" >Best Care & Better Doctor.</h1>
+                                    <h1 className="white-color" >Best Care & Best Carers.</h1>
                                  </div>
                                  <div className="hero-slider-btn">
                                     <Link to="/about" className="primary_btn btn-icon btn-icon-blue ml-0"><span>+</span>about us</Link>
@@ -46,8 +46,12 @@ const HomeTwoHeroSection = () => {
                                                 <label htmlFor="input">select your location</label>
                                                 <select name="lc" id="lc" className="postform">
                                                    <option defaultValue="-1">Choose a Location</option>
-                                                   {/* <option className="level-0" defaultValue="36">Chicago, United States</option>
-                                                   <option className="level-0" defaultValue="37">California, United States</option> */}
+                                                   <option className="level-0" defaultValue="36">New South Wales</option>
+                                                   <option className="level-0" defaultValue="37">Victoria</option>
+                                                   <option className="level-0" defaultValue="38">Queensland</option>
+                                                   <option className="level-0" defaultValue="39">Western Australia</option>
+                                                   <option className="level-0" defaultValue="40">South Australia</option>
+                                                   <option className="level-0" defaultValue="40">Tasmania</option>
                                                 </select>
 
                                              </form>
@@ -62,8 +66,16 @@ const HomeTwoHeroSection = () => {
                                                 <label htmlFor="input">select your services</label>
                                                 <select name="lc" id="lc" className="postform">
                                                    <option defaultValue="-1">Choose a Service</option>
-                                                   {/* <option className="level-0" defaultValue="36">Chicago, United States</option>
-                                                   <option className="level-0" defaultValue="37">California, United States</option> */}
+                                                   <option className="level-0"> Accommodation</option>
+                                                   <option className="level-0"> Assistive Support</option>
+                                                   <option className="level-0"> Household Task Support</option>
+                                                   <option className="level-0"> Social Support and Services</option>
+                                                   <option className="level-0"> Therapeutic Support</option>
+                                                   <option className="level-0"> Community Nursing</option>
+                                                   <option className="level-0"> Complex Health Care</option>
+                                                   <option className="level-0"> Support Coordination</option>
+                                                   <option className="level-0">  Specialist Behaviour</option>
+
                                                 </select>
                                              </form>
                                           </div>
