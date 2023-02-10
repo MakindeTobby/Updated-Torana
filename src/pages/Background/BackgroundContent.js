@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-const CareerArea = () => {
+const BackgroundContent = () => {
     return (
         <>
-            <div className="doctor-details-area pt-115 pb-70">
+            <div className="doctor-details-area pt-100 pb-70">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-7 col-lg-8">
@@ -14,8 +14,8 @@ const CareerArea = () => {
                                             alt="" />
                                     </div>
                                     <div className="section-text pos-rel">
-                                        <h5 className="green-color text-up-case">ANNOUNCEMENT</h5>
-                                        <h1>We are currently hiring</h1>
+                                        <h5 className="green-color text-up-case">Background</h5>
+                                        <h1>Lets be the shoulder for you to lean on.</h1>
                                     </div>
                                     <div className="section-line pos-rel">
                                         <img src="img/shape/section-title-line.png" alt="" />
@@ -66,7 +66,7 @@ const CareerArea = () => {
                             <div className="service-widget mb-50">
                                 <div className="team-wrapper team-box-2 team-box-3 text-center mb-30">
                                     <div className="team-thumb">
-                                        <img src="img/team/helpcare.jpg" alt="" />
+                                        <img src="img/team/lean-on-arms.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -83,4 +83,4 @@ const CareerArea = () => {
     );
 }
 
-export default CareerArea;
+export default BackgroundContent;

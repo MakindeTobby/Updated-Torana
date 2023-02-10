@@ -34,12 +34,11 @@ const HomeTwoNavBar = () => {
                                        <li><Link to="/homeFive">Home style 5</Link></li> */}
                                  {/* </ul> */}
                                  {/* </li> */}
-                                 <li><Link to="/about">About</Link>
-                                    {/* <ul className="submenu">
-                                       <li><Link to="/services">Services 01</Link></li>
-                                       <li><Link to="/servicesTwo">Services 02</Link></li> */}
-                                    {/* <li><Link to="/servicesDetails">Services Details</Link></li> */}
-                                    {/* </ul> */}
+                                 <li><Link to="/about">About +</Link>
+                                    <ul className="submenu">
+                                       <li><Link to="/background">Background</Link></li>
+
+                                    </ul>
                                  </li>
                                  <li><Link to="/services">NDIS Services +</Link>
                                     <ul className="submenu">

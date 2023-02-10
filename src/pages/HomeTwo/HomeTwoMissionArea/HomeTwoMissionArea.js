@@ -24,10 +24,10 @@ const HomeTwoMissionArea = () => {
                   </div>
                   <div className="col-xl-6 col-lg-6 d-lg-none d-xl-block">
                      <div className="mv-right-img pos-rel mb-30">
-                        <img src="img/about/caregiver.jpg" alt="" />
+                        <img src="img/about/caregiver2.jpg" alt="" />
                      </div>
                      <div className="testi-quato-icon about-icon-white d-none d-xl-block">
-                        <img src="img/appoinment/torana-white-pt1.png" alt="" width={'70%'} />
+                        <img src="img/appoinment/NDIS.png" alt="" width={'100%'} />
                      </div>
                   </div>
                </div>

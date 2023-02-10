@@ -65,8 +65,11 @@ const HomeHeader = () => {
                            <nav id="mobile-menu">
                               <ul>
 
-                                 <li><Link to="/about">About</Link>
+                                 <li><Link to="/about">About +</Link>
+                                    <ul className="submenu">
+                                       <li><Link to="/background">Background</Link></li>
 
+                                    </ul>
                                  </li>
                                  <li><Link to="/services">NDIS Services +</Link>
                                     <ul className="submenu">
@@ -86,6 +89,9 @@ const HomeHeader = () => {
 
                                  </li>
                                  <li><Link to="/covid19-updates">Covid-19 Updates</Link>
+
+                                 </li>
+                                 <li><Link to="/covid19-updates">Refer a client</Link>
 
                                  </li>
                               </ul>
