@@ -18,9 +18,10 @@ const CommonSectionArea = ({ area_header }) => {
                         </div>
                         <div className="about-text mb-50">
                            <p>
-                              We Understand The Needs Of Persons Living With Disability From Medical,
-                              Technological And Social Standpoints. We Believe That, Any Human Being Is As Strong As Their "WILL" To Achieve Set Goals, Irrespective Of Their Disability. Just Like The Saying, “Where There Is A Will, There Is A Way”, We Strengthen The “WILL” Of Our Participants, To Make “WAY” For Them To Be Whatever They Want To Be, With Our Help.
-                              Our Support And Services Aim To Bridge The Gap Between Our Participant’s “Will” And The “Way” To Their Goals.
+                              We unnderstand the needs of persons living with disability from medical,
+                              technological and social standpoints. We believe that, any human being is as strong as their "WILL" to achieve set goals, irrespective of their disability. Just like the saying, “Where there is a will, there is a way”,
+                              we strengthen the “WILL” of our participants, to make “WAY” for them to be whatever they want to be, with our help.
+                              Our support and services aim to bridge the gap between our participant’s “Will” and the “Way” to their goals.
                            </p>
                         </div>
                         <div className="our-destination">

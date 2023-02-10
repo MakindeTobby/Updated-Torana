@@ -17,7 +17,7 @@ const ServicesTwoAbout = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-6 col-md-12 pt-4">
+                        <div className="col-xl-6 col-lg-6 col-md-12 pt-5">
                             <div className="facalty-text">
                                 <p>Our Support And Services Are Built On The Highest Principles Of Care-Giving,
                                     Putting You First In All We Do And Helping You Live Your Life Beyond Limits.</p>

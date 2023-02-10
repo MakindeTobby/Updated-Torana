@@ -22,10 +22,8 @@ import CapacityBuilding from './pages/Services/capacity-building-support-and-ser
 import GroupShared from './pages/Services/group-shared-living-shared-independent-living-and-respite';
 import SuppoertCo from './pages/Services/support-coordination';
 import CaldCommunity from './pages/Services/Cald-community-participation';
-import HomeTwo from './pages/HomeTwo/HomeTwo';
 import ScrollTop from './components/ScrollTop';
 import AllContext from './context/AllContext';
-import AboutUs from './pages/AboutUs/AboutUs';
 import Appointment from './pages/Appointment/Appointment';
 import Contact from './pages/Contact/Contact';
 import Career from './pages/Career';
@@ -34,12 +32,12 @@ import DetailsGallery from './pages/DetailsGallery/DetailsGallery';
 import DetailsLeftSideBar from './pages/DetailsLeftSideBar/DetailsLeftSideBar';
 import DetailsVideo from './pages/DetailsVideo/DetailsVideo';
 import DoctorDetails from './pages/Doctors/DoctorDetails/DoctorDetails';
-import ServicesDetails from './pages/Services/ServicesDetails/ServicesDetails';
-import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
+// import ServicesDetails from './pages/Services/ServicesDetails/ServicesDetails';
 import Fallback from './components/Fallback';
 
 const Home = lazy(() => import('./pages/HomeTwo/HomeTwo'));
 const Services = lazy(() => import('./pages/Services/ServicesTwo/ServicesTwo'));
+const About = lazy(() => import('./pages/AboutUs/AboutUs'));
 
 function App() {
   return (
@@ -52,7 +50,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
               <Route path="/career" element={<Career />} />
-              <Route path="/servicesDetails" element={<ServicesDetails />} />
+              <Route path="/about" element={<About />} />
+              {/* <Route path="/servicesDetails" element={<ServicesDetails />} /> */}
               <Route path="/community-nursing" element={<CommunityNursing />} />
               <Route path="/special" element={<Special />} />
               <Route path="/social-support" element={<SocialSupport />} />
@@ -73,7 +72,6 @@ function App() {
               <Route path="/blogDetailsAudio" element={<DetailsAudio />} />
               <Route path="/blogDetailsVideo" element={<DetailsVideo />} />
               <Route path="/blogDetailsGallery" element={<DetailsGallery />} />
-              <Route path="/about" element={<AboutUs />} />
               <Route path="/appoinment" element={<Appointment />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/notMatch" element={<NotFound />} />

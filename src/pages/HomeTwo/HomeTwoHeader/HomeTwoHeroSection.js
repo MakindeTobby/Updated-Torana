@@ -1,4 +1,6 @@
 import React from 'react';
+import { MdLocationPin } from 'react-icons/md';
+import { RiServiceFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import VideoPopup from '../../../components/VideoPopup/VideoPopup';
 import useGlobalContext from '../../../hooks/useGlobalContext';
@@ -40,12 +42,13 @@ const HomeTwoHeroSection = () => {
                                        <div className="col-xl-12">
                                           <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
                                              <div className="appoint-ment-icon">
-                                                <img src="img/icon/caregive-option-icon-2.png" alt="" />
+                                                {/* <img src="img/icon/caregive-option-icon-2.png" alt="" /> */}
+                                                <MdLocationPin className='fs-1 text-danger' />
                                              </div>
                                              <form className="appointment-form-2" action="#">
                                                 <label htmlFor="input">select your location</label>
                                                 <select name="lc" id="lc" className="postform">
-                                                   <option defaultValue="-1">Choose a Location</option>
+                                                   <option defaultValue="-1" hidden>Choose a Location</option>
                                                    <option className="level-0" defaultValue="36">New South Wales</option>
                                                    <option className="level-0" defaultValue="37">Victoria</option>
                                                    <option className="level-0" defaultValue="38">Queensland</option>
@@ -60,12 +63,13 @@ const HomeTwoHeroSection = () => {
                                        <div className="col-xl-12">
                                           <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
                                              <div className="appoint-ment-icon">
-                                                <img src="img/icon/caregive-option-icon-2.png" alt="" />
+                                                {/* <img src="img/icon/caregive-option-icon-2.png" alt="" /> */}
+                                                <RiServiceFill className='fs-1 text-danger' />
                                              </div>
                                              <form className="appointment-form-2" action="#">
                                                 <label htmlFor="input">select your services</label>
-                                                <select name="lc" id="lc" className="postform">
-                                                   <option defaultValue="-1">Choose a Service</option>
+                                                <select name="lc" id="lc" className="postform w-100 overflow-hidden">
+                                                   <option defaultValue="-1" hidden>Choose a Service</option>
                                                    <option className="level-0"> Accommodation</option>
                                                    <option className="level-0"> Assistive Support</option>
                                                    <option className="level-0"> Household Task Support</option>

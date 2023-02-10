@@ -3,50 +3,7 @@ import { Link } from 'react-router-dom';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const ServicesDetailsArea = () => {
-   const data = [
-      {
-         name: 'Page A',
-         uv: 4000,
-         pv: 2400,
-         amt: 2400,
-      },
-      {
-         name: 'Page B',
-         uv: 3000,
-         pv: 1398,
-         amt: 2210,
-      },
-      {
-         name: 'Page C',
-         uv: 2000,
-         pv: 9800,
-         amt: 2290,
-      },
-      {
-         name: 'Page D',
-         uv: 2780,
-         pv: 3908,
-         amt: 2000,
-      },
-      {
-         name: 'Page E',
-         uv: 1890,
-         pv: 4800,
-         amt: 2181,
-      },
-      {
-         name: 'Page F',
-         uv: 2390,
-         pv: 3800,
-         amt: 2500,
-      },
-      {
-         name: 'Page G',
-         uv: 3490,
-         pv: 4300,
-         amt: 2100,
-      },
-   ];
+
    return (
       <>
          <div className="service-details-area pt-120 pb-100">
@@ -74,11 +31,11 @@ const ServicesDetailsArea = () => {
                               care to clients in the community. They carry the truly necessary considerations and provide healthcare
                               support to clients/participants in the solace of their homes, inline with the requirements of the client’s medical team. Giving the required instruction to clients about their well-being conditions is an integral part of their duty. Providing essential nursing care in the Community are significant obligations of the Nurse. They also have a duty to offer emotional help to the client and their families, providing insights to psychological wellness worries within their scope of duties and further escalation of health/medical concerns to appropriate places as required. Keeping and making comprehensive
                               reports of the client’s health condition is an essential segment of the community nurse.</p>
-                           <p>At Torana Care Australia, we have a team of competent and caring Nurses, ready to take 
+                           <p>At Torana Care Australia, we have a team of competent and caring Nurses, ready to take
                               care of your nursing needs as explained above.
                               Our Nurses work with individuals and their families to help manage an ailment, keep up
-                               well-being and manage any out of hospital care medical needs. We intend to help and keep
-                            up our participant’s freedom, security and sound way of life, simultaneously and also provide support to carers.</p>
+                              well-being and manage any out of hospital care medical needs. We intend to help and keep
+                              up our participant’s freedom, security and sound way of life, simultaneously and also provide support to carers.</p>
                         </div>
                         <div className="service-details-feature fix mb-35">
                            <div className="ser-fea-box f-left">

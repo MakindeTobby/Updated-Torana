@@ -8,7 +8,7 @@ const ServicesTwoSingleItem = ({ image, title, content, link }) => {
                 <div className="service-box-3 mb-30 text-center">
                     <div className="service-thumb">
                         <Link to="/servicesDetails">
-                            <img src={image} alt="" />
+                            <img src={image} alt="" width="100%" />
                         </Link>
                     </div>
                     <div className="service-content-box">
