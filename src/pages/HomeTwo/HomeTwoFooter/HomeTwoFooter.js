@@ -100,8 +100,8 @@ const HomeTwoFooter = () => {
                                     <li><Link to="/">News</Link></li>
                                     <li><Link to="/contact">Guides</Link></li>
                                     <li><Link to="/contact">Contact Us</Link></li>
-                                    <li><Link to="/about">Privacy Policy</Link></li>
-                                    <li><Link to="/about">Terms of Use</Link></li>
+                                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                                    <li><Link to="/terms-and-conditions">Terms of Use</Link></li>
                                  </ul>
                               </div>
 
