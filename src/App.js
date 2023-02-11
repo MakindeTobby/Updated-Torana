@@ -35,6 +35,8 @@ import DoctorDetails from './pages/Doctors/DoctorDetails/DoctorDetails';
 // import ServicesDetails from './pages/Services/ServicesDetails/ServicesDetails';
 import Fallback from './components/Fallback';
 import Background from './pages/Background';
+import Privacy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
 
 const Home = lazy(() => import('./pages/HomeTwo/HomeTwo'));
 const Services = lazy(() => import('./pages/Services/ServicesTwo/ServicesTwo'));
@@ -52,8 +54,9 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/career" element={<Career />} />
               <Route path="/about" element={<About />} />
+              <Route path="/privacy-policy" element={<Privacy />} />
+              <Route path="/terms-and-conditions" element={<Terms />} />
               <Route path="/background" element={<Background />} />
-
               {/* <Route path="/servicesDetails" element={<ServicesDetails />} /> */}
               <Route path="/community-nursing" element={<CommunityNursing />} />
               <Route path="/special" element={<Special />} />

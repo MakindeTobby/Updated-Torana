@@ -91,9 +91,9 @@ const HomeHeader = () => {
                                  <li><Link to="/covid19-updates">Covid-19 Updates</Link>
 
                                  </li>
-                                 <li><Link to="/covid19-updates">Refer a client</Link>
+                                 {/* <li><Link to="/covid19-updates">Refer a client</Link>
 
-                                 </li>
+                                 </li> */}
                               </ul>
                            </nav>
                         </div>
