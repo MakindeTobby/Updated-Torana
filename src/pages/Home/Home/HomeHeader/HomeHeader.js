@@ -44,12 +44,12 @@ const HomeHeader = () => {
                                  <img src="img/icon/flag.png" alt="" width="100%" />
                                  <span>EN<i className="fas fa-angle-down"></i></span>
                               </div>
-                              <ul className="header-lang-list">
-                                 {/* <li><a href="#">USA</a></li>
+                              {/* <ul className="header-lang-list"> */}
+                              {/* <li><a href="#">USA</a></li>
                                  <li><a href="#">UK</a></li>
                                  <li><a href="#">CA</a></li>
                                  <li><a href="#">AU</a></li> */}
-                              </ul>
+                              {/* </ul> */}
                            </div>
                            <div className="header-social-icons f-right d-none d-xl-block">
                               <ul>

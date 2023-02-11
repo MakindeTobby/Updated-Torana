@@ -16,7 +16,7 @@ const DoctorDetailsArea = () => {
                            </div>
                            <div className="section-text pos-rel">
                               <h5 className="green-color text-up-case">MESSAGE FROM THE CHAIRMAN</h5>
-                              <h1>What to know.</h1>
+                              <h1>Be Informed!</h1>
                            </div>
                            <div className="section-line pos-rel">
                               <img src="img/shape/section-title-line.png" alt="" />

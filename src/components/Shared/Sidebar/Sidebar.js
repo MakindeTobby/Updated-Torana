@@ -5,6 +5,7 @@ import Collapsible from 'react-collapsible';
 
 const Sidebar = ({ show, handleClose }) => {
    const Services = <NavLink to="/services">NDIS Services </NavLink>
+   const About = <NavLink to="/about">About </NavLink>
 
    return (
       <>
@@ -20,9 +21,13 @@ const Sidebar = ({ show, handleClose }) => {
                   <Link to={'/'} className="mb-4 d-block">
                      Home
                   </Link>
-                  <Link to={'/about'} className="mb-2 d-block" >
-                     About
-                  </Link>
+                  <Collapsible trigger={About} triggerTagName="div"
+                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
+                     <ul className="sidebar_sub_menu text-white mt-3">
+                        <li><Link to="/background">Background</Link></li>
+
+                     </ul>
+                  </Collapsible>
 
                   <Collapsible trigger={Services} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
@@ -36,6 +41,8 @@ const Sidebar = ({ show, handleClose }) => {
                         <li><Link to="/services">More Services</Link></li>
                      </ul>
                   </Collapsible>
+
+
 
                   <Link to={'/career'} className="mb-4 d-block">
                      Careers

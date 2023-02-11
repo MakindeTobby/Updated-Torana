@@ -80,7 +80,7 @@ const HomeTwoFooter = () => {
                                     <li><Link to="/">Xero Login</Link></li>
                                     <li><Link to="/">Departments</Link></li>
                                     <li><Link to="/">Work pro login</Link></li>
-                                    <li><Link to="/">Background</Link></li>
+                                    <li><Link to="/background">Background</Link></li>
 
                                  </ul>
                               </div>

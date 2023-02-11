@@ -54,7 +54,9 @@ const ContactFormArea = () => {
                                  <button
 
                                     className="primary_btn btn-icon ml-0" type="button">
-                                    <span>+</span> Submit</button>
+                                    <span>+</span> Submit
+                                    {/* <span className='spinner-border text-danger'></span> */}
+                                 </button>
                               </div>
                            </div>
                         </div>
