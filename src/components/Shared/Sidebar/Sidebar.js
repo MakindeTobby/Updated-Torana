@@ -44,6 +44,9 @@ const Sidebar = ({ show, handleClose }) => {
 
 
 
+                  <Link to={'/contact'} className="mb-4 d-block">
+                     Contact
+                  </Link>
                   <Link to={'/career'} className="mb-4 d-block">
                      Careers
                   </Link>

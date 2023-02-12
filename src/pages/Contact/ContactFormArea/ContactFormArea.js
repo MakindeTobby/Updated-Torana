@@ -1,12 +1,45 @@
 
+import { async } from '@firebase/util';
+import axios from 'axios';
 import React, { useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
 const ContactFormArea = () => {
-
+   const name = useRef(null)
    const email = useRef(null)
+   const phone = useRef(null)
    const subject = useRef(null)
-   const body = useRef(null)
+   const message = useRef(null)
+
+   const handleForm = async (e) => {
+      e.preventDefault()
+      try {
+         const response = await axios({
+            method: 'post',
+            url: 'http://profitmax-001-site8.ctempurl.com/api/Account/send_email',
+            data: {
+               name: name.current.value,
+               email: email.current.value,
+               phone: phone.current.value,
+               subject: subject.current.value,
+               message: message.current.value,
+               mailFrom: email.current.value,
+               recipient: "makindetobiloba9@gmail.com"
+            }
+         });
+
+         console.log(response);
+      } catch (error) {
+         console.log(error);
+      }
+      // try {
+      //    const { data } = await axios.post("http://profitmax-001-site8.ctempurl.com/api/Account/send_email", Info)
+      //    console.log(data);
+      // } catch (error) {
+      //    console.log(error);
+      // }
+
+   }
 
    return (
       <>
@@ -23,11 +56,11 @@ const ContactFormArea = () => {
 
                   </div>
                   <div className="contact-form">
-                     <form id="contact-form" action="#">
+                     <form id="contact-form" action="#" onSubmit={handleForm}>
                         <div className="row">
                            <div className="col-lg-6">
                               <div className="form-box user-icon mb-30">
-                                 <input type="text" name="name" placeholder="Your Name" required />
+                                 <input type="text" name="name" ref={name} placeholder="Your Name" required />
                               </div>
                            </div>
                            <div className="col-lg-6">
@@ -37,7 +70,7 @@ const ContactFormArea = () => {
                            </div>
                            <div className="col-lg-6">
                               <div className="form-box phone-icon mb-30">
-                                 <input type="text" name="phone" placeholder="Your Phone" required />
+                                 <input type="text" name="phone" placeholder="Your Phone" ref={phone} required />
                               </div>
                            </div>
                            <div className="col-lg-6">
@@ -47,13 +80,13 @@ const ContactFormArea = () => {
                            </div>
                            <div className="col-lg-12">
                               <div className="form-box message-icon mb-30">
-                                 <textarea name="message" id="message" cols="30" rows="10" ref={body}
+                                 <textarea name="message" id="message" cols="30" rows="10" ref={message}
                                     placeholder="Your Message" required></textarea>
                               </div>
                               <div className="contact-btn text-center">
                                  <button
 
-                                    className="primary_btn btn-icon ml-0" type="button">
+                                    className="primary_btn btn-icon ml-0" type="submit">
                                     <span>+</span> Submit
                                     {/* <span className='spinner-border text-danger'></span> */}
                                  </button>
