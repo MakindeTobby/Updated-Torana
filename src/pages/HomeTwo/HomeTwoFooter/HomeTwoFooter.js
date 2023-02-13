@@ -93,6 +93,7 @@ const HomeTwoFooter = () => {
 
                               <div className="footer-menu footer-menu-2 fix">
                                  <ul>
+                                    <li><Link to="/covid19-updates">Covid-19 Updates</Link></li>
                                     <li><Link to="/about">About</Link></li>
                                     <li><Link to="/careers">Careers</Link></li>
                                     <li><Link to="/services">Registered NDIS Provider</Link></li>

@@ -88,7 +88,7 @@ const HomeHeader = () => {
                                  <li><Link to="/career">Careers</Link>
 
                                  </li>
-                                 <li><Link to="/covid19-updates">Covid-19 Updates</Link>
+                                 <li><Link to="/">Refer a Client</Link>
 
                                  </li>
                                  {/* <li><Link to="/covid19-updates">Refer a client</Link>

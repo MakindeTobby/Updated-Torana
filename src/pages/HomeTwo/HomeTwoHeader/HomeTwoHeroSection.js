@@ -35,8 +35,8 @@ const HomeTwoHeroSection = () => {
                               <div className="slider-right-2">
                                  <div className="caregive-box">
                                     <div className="search-form">
-                                       <span className="sub-heading">We are here for you</span>
-                                       <h3>Find A Care Giver</h3>
+                                       <span className="sub-heading">Welcome</span>
+                                       <h3>We are here for you</h3>
                                     </div>
                                     <div className="row">
                                        <div className="col-xl-12">

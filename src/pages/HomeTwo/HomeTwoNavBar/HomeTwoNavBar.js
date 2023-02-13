@@ -72,7 +72,7 @@ Group/Shared Independent Living */}
                                  <li><Link to="/career">Careers </Link>
 
                                  </li>
-                                 <li><Link to="/covid19-updates">Covid-19 Updates</Link>
+                                 <li><Link to="/">Refer a client</Link>
 
                                  </li>
 

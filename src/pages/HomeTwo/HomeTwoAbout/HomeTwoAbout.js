@@ -12,15 +12,15 @@ const HomeTwoAbout = () => {
                      <div className="row">
 
                         <HomeTwoSingleAbout icon="1" title="Advanced Care" spacing="b-40"
-                           text="Our Support And Services Are Built On The Highest Principles Of Care-Giving, Putting You First In All We Do"
+                           text="Our Support And Services Are Built On The Highest Principles Of Care-Giving."
                         />
-                        <HomeTwoSingleAbout icon="5" title="Disability Support" spacing="t-40"
-                           text="Making specialised disability support and service delivery, easier to access"
+                        <HomeTwoSingleAbout icon="5" title="Disability Support" spacing="b-40"
+                           text="Making specialised disability support and service delivery, easier to access."
                         />
-                        <HomeTwoSingleAbout icon="3" title="Qualified Health Experts" spacing="b-30"
-                           text="You're provided with qualified health care professional"
+                        <HomeTwoSingleAbout icon="3" title="Experienced Care Workers"
+                           text="You're provided with experienced care workers with proven records and of quality standard."
                         />
-                        <HomeTwoSingleAbout icon="4" title="Daily Care" spacing="t-40 mb-30"
+                        <HomeTwoSingleAbout icon="4" title="Daily Care" spacing="b-40 mb-30"
                            text="On a daily basis, we give professional carer or companion who lives in the vicinity of the client"
                         />
 
