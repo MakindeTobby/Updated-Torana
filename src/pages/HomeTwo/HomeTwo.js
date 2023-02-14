@@ -19,9 +19,9 @@ const HomeTwo = () => {
             <HomeTwoHeroSection />
             <HomeTwoAbout />
             <HomeTwoMissionArea />
+            <HomeTwoServicesArea />
             <HomeTwoCounter />
             <HomeTwoAppoinmentArea />
-            <HomeTwoServicesArea />
             {/* <HomeTwoTestimonials/> */}
             {/* <HomeTwoNewsLetter/> */}
             {/* <HomeTwoTeamArea /> */}

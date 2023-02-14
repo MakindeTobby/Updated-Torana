@@ -3,8 +3,6 @@ import CommonPageHeader from '../../../components/CommonPageHeader/CommonPageHea
 import Footer from '../../../components/Shared/Footer';
 import HomeHeader from '../../Home/Home/HomeHeader/HomeHeader';
 import HomeTwoFooter from '../../HomeTwo/HomeTwoFooter/HomeTwoFooter';
-import CalculateArea from '../ServicesOne/CalculateArea/CalculateArea';
-import ServicesOneHiringArea from '../ServicesOne/ServicesOneHiringArea/ServicesOneHiringArea';
 import ServicesTwoAbout from './ServicesTwoAbout/ServicesTwoAbout';
 import ServicesTwoArea from './ServicesTwoArea/ServicesTwoArea';
 
@@ -15,10 +13,7 @@ const ServicesTwo = () => {
             <CommonPageHeader title="Our Services" subtitle="Services" />
             <ServicesTwoAbout />
             <ServicesTwoArea />
-            {/* <CalculateArea /> */}
-            <ServicesOneHiringArea />
             <HomeTwoFooter />
-            {/* <Footer/> */}
         </>
     );
 };

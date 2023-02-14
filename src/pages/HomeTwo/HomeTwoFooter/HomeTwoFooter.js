@@ -97,7 +97,7 @@ const HomeTwoFooter = () => {
                                     <li><Link to="/about">About</Link></li>
                                     <li><Link to="/careers">Careers</Link></li>
                                     <li><Link to="/services">Registered NDIS Provider</Link></li>
-                                    <li><Link to="/contact">Complaint and Feedback</Link></li>
+                                    <li><Link to="/contact">Comment and Feedback</Link></li>
                                     <li><Link to="/">News</Link></li>
                                     <li><Link to="/contact">Guides</Link></li>
                                     <li><Link to="/contact">Contact Us</Link></li>
@@ -121,7 +121,7 @@ const HomeTwoFooter = () => {
 
                               <p className='text-white'>
                                  Copyright ©2023
-                                 <Link to={'/'} className="white-color text-decoration-underline"> Torana Care Australia. <strong>
+                                 <Link to={'/'} className="white-color">  Torana Care Australia. <strong>
                                  </strong> </Link>
                                  All rights reserved
                               </p>
@@ -129,8 +129,8 @@ const HomeTwoFooter = () => {
                         </div>
                         <div className="col-xl-6">
                            <div className="footer-copyright-area text-center">
-                              <p className="white-color"><b>Powered by:</b>
-                                 <a href='https://promaxsolutions.com.au/' className='text-white text-decoration-underline'> Promax solutions</a>
+                              <p className="white-color"><b>Powered by: </b>
+                                 <a href='https://promaxsolutions.com.au/' className='text-white'>  Promax solutions</a>
                               </p>
 
                            </div>

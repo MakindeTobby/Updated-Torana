@@ -10,10 +10,7 @@ const DoctorDetailsArea = () => {
                   <div className="col-xl-7 col-lg-8">
                      <article className="doctor-details-box">
                         <div className="section-title pos-rel mb-25">
-                           <div className="section-icon">
-                              <img className="section-back-icon back-icon-left" src="img/section/section-back-icon-sky.png"
-                                 alt="" />
-                           </div>
+
                            <div className="section-text pos-rel">
                               <h5 className="green-color text-up-case">MESSAGE FROM THE CHAIRMAN</h5>
                               <h1>Be Informed!</h1>
@@ -116,10 +113,16 @@ const DoctorDetailsArea = () => {
                               <div className="col-xl-12">
                                  <div className="contact-input contact-icon contact-hourglass">
                                     <select className="form-select select_style" aria-label="Default select example">
-                                       <option defaultValue="Select type of care">Select type of care</option>
-                                       <option defaultValue="1">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
-                                       <option defaultValue="2">Select type of care</option>
+                                       <option defaultValue="Select type of care" hidden>Select type of care</option>
+                                       <option className="level-0"> Accommodation</option>
+                                       <option className="level-0"> Assistive Support</option>
+                                       <option className="level-0"> Household Task Support</option>
+                                       <option className="level-0"> Social Support and Services</option>
+                                       <option className="level-0"> Therapeutic Support</option>
+                                       <option className="level-0"> Community Nursing</option>
+                                       <option className="level-0"> Complex Health Care</option>
+                                       <option className="level-0"> Support Coordination</option>
+                                       <option className="level-0">  Specialist Behaviour</option>
                                     </select>
                                  </div>
                               </div>

@@ -8,19 +8,17 @@ const ServicesTwoAbout = () => {
                     <div className="row ">
                         <div className="col-xl-6 col-lg-6 col-md-12">
                             <div className="section-title section-title-m-0 mb-30 pos-rel text-end">
-                                <div className="section-icon">
-                                    <img className="section-back-icon back-icon-right" src="img/section/section-back-icon.png" alt="" />
-                                </div>
+
                                 <div className="section-text section-text-small pos-rel">
-                                    <h5>What We Do</h5>
-                                    <h1>Making Specialised Disability Support And Service Delivery,Easier To Access....</h1>
+                                    <h5>What we do</h5>
+                                    <h1>Making specialised disability support and service delivery,Easier to Access....</h1>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-12 pt-5">
                             <div className="facalty-text">
-                                <p>Our Support And Services Are Built On The Highest Principles Of Care-Giving,
-                                    Putting You First In All We Do And Helping You Live Your Life Beyond Limits.</p>
+                                <p>Our support and services are built on the highest principles of Care-Giving,
+                                    putting you first in all we do and helping you live your life beyond limits.</p>
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ const HomeTwoSingleService = ({ icon, number, title, content, link }) => {
    return (
       <>
          <div className="col-xl-3 col-lg-4 col-md-12">
-            <div className="service-box service-box-2 mb-30 pos-rel d-flex shadow-sm
+            <div className="service-box service-box-2 mb-30 pos-rel d-flex
             flex-column justify-content-center align-items-center"
                style={{ height: "20rem" }}
             >

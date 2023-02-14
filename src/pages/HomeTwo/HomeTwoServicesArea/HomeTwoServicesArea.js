@@ -4,14 +4,14 @@ import HomeTwoSingleService from '../../../components/HomeTwoSingleService/HomeT
 const HomeTwoServicesArea = () => {
    return (
       <>
-         <section className="servcies-area gray-bg pt-100 pb-90">
+         <section className="servcies-area gray-bg pt-50 pb-40">
             <div className="container">
                <div className="row">
                   <div className="col-xl-4 offset-xl-4 col-lg-10 offset-lg-1">
                      <div className="section-title text-center pos-rel mb-75">
-                        <div className="section-icon">
+                        {/* <div className="section-icon">
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
-                        </div>
+                        </div> */}
                         <div className="section-text pos-rel">
                            {/* <h5></h5> */}
                            <h1>Services we offer</h1>

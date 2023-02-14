@@ -22,9 +22,7 @@ const Special = () => {
                            <img className="img" src="img/services/service-main-2.jpg" alt="" />
                         </div>
                         <div className="section-title pos-rel mb-45">
-                           <div className="section-icon">
-                              <img className="section-back-icon back-icon-left" src="img/section/section-back-icon-sky.png" alt="" />
-                           </div>
+
                            <div className="section-text pos-rel">
                               <h5 className="green-color text-up-case"></h5>
                               <h1>Specialist Behaviour Support</h1>
@@ -126,7 +124,7 @@ const Special = () => {
                                  <div className="contact-input contact-icon contact-hourglass">
 
                                     <select className="form-select select_style" aria-label="Default select example">
-                                       <option defaultValue="Select type of care">Select type of care</option>
+                                       <option defaultValue="Select type of care" hidden>Select type of care</option>
                                        <option className="level-0"> Accommodation</option>
                                        <option className="level-0"> Assistive Support</option>
                                        <option className="level-0"> Household Task Support</option>

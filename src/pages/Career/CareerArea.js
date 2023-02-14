@@ -9,10 +9,7 @@ const CareerArea = () => {
                         <div className="col-xl-7 col-lg-8">
                             <article className="doctor-details-box">
                                 <div className="section-title pos-rel mb-25">
-                                    <div className="section-icon">
-                                        <img className="section-back-icon back-icon-left" src="img/section/section-back-icon-sky.png"
-                                            alt="" />
-                                    </div>
+
                                     <div className="section-text pos-rel">
                                         <h5 className="green-color text-up-case">ANNOUNCEMENT</h5>
                                         <h1>We are currently hiring</h1>
