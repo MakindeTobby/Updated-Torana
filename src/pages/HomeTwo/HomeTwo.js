@@ -7,10 +7,7 @@ import HomeTwoFooter from './HomeTwoFooter/HomeTwoFooter';
 import HomeTwoHeroSection from './HomeTwoHeader/HomeTwoHeroSection';
 import HomeTwoMissionArea from './HomeTwoMissionArea/HomeTwoMissionArea';
 import HomeTwoNavBar from './HomeTwoNavBar/HomeTwoNavBar';
-import HomeTwoNewsLetter from './HomeTwoNewsLetter/HomeTwoNewsLetter';
 import HomeTwoServicesArea from './HomeTwoServicesArea/HomeTwoServicesArea';
-import HomeTwoTeamArea from './HomeTwoTeamArea/HomeTwoTeamArea';
-import HomeTwoTestimonials from './HomeTwoTestimonials/HomeTwoTestimonials';
 
 const HomeTwo = () => {
     return (
@@ -22,10 +19,6 @@ const HomeTwo = () => {
             <HomeTwoServicesArea />
             <HomeTwoCounter />
             <HomeTwoAppoinmentArea />
-            {/* <HomeTwoTestimonials/> */}
-            {/* <HomeTwoNewsLetter/> */}
-            {/* <HomeTwoTeamArea /> */}
-            {/* <HomeTwoBlogs/> */}
             <HomeTwoFooter />
         </>
     );

@@ -1,8 +1,43 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import HomeTwoSingleAppoinment from '../../../components/HomeTwoSingleAppoinment/HomeTwoSingleAppoinment';
-
+import axios from 'axios';
+import React, { useRef } from 'react';
+import Swal from 'sweetalert2';
 const HomeTwoAppoinmentArea = () => {
+   const name = useRef(null)
+   const email = useRef(null)
+   const phone = useRef(null)
+   const message = useRef(null)
+
+   const handleForm = async () => {
+      try {
+         const { data } = await axios({
+            method: 'post',
+            url: 'http://profitmax-001-site8.ctempurl.com/api/Account/send_email',
+            data: {
+               name: name.current.value,
+               email: email.current.value,
+               phone: phone.current.value,
+               subject: "Appointment",
+               message: message.current.value,
+               mailFrom: email.current.value,
+               recipient: "info@toranacareaustralia.org.au"
+            }
+         });
+         Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: data.message,
+            showConfirmButton: false,
+            timer: 1500
+         })
+         name.current.value = "";
+         email.current.value = "";
+         phone.current.value = "";
+         message.current.value = "";
+         email.current.value = "";
+      } catch (error) {
+         console.log(error);
+      }
+   }
    return (
       <>
          <section className="appoinment-area gray-bg pb-15">
@@ -18,9 +53,31 @@ const HomeTwoAppoinmentArea = () => {
                                     <h1>Get An Appointment</h1>
                                  </div>
                                  <div className="row">
+                                    <div className="col-xl-6 col-lg-6 col-md-6">
+                                       <div className="appoinment-form-box d-flex mb-40">
+                                          <div className="appoint-ment-icon">
+                                             <img src={`img/icon/caregive-option-icon-3.png`} alt="" />
+                                          </div>
+                                          <form className="appointment-form-2" action="#">
+                                             <label htmlFor="input">Your Name</label>
+                                             <input type="text" placeholder="Enter your name" ref={name} required />
+                                          </form>
+                                       </div>
+                                    </div>
+                                    <div className="col-xl-6 col-lg-6 col-md-6">
+                                       <div className="appoinment-form-box d-flex mb-40">
+                                          <div className="appoint-ment-icon">
+                                             <img src={`img/icon/caregive-option-icon-4.png`} alt="" />
+                                          </div>
+                                          <form className="appointment-form-2" action="#">
+                                             <label htmlFor="input">Your Email</label>
+                                             <input type="text" placeholder="Enter your email" ref={email} required />
+                                          </form>
+                                       </div>
+                                    </div>
 
-                                    <HomeTwoSingleAppoinment icon="3" name="Name" />
-                                    <HomeTwoSingleAppoinment icon="4" name="Email" />
+
+
 
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                        <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
@@ -29,8 +86,8 @@ const HomeTwoAppoinmentArea = () => {
                                           </div>
                                           <form className="appointment-form-2" action="#">
                                              <label htmlFor="input">select your services</label>
-                                             <select name="lc" id="lc" className="postform">
-                                                <option defaultValue="-1">Choose A Service</option>
+                                             <select name="lc" id="lc" className="postform outline-none" ref={message} required>
+                                                <option defaultValue="-1" hidden>Choose A Service</option>
                                                 <option className="level-0"> Accommodation</option>
                                                 <option className="level-0"> Assistive Support</option>
                                                 <option className="level-0"> Household Task Support</option>
@@ -39,17 +96,30 @@ const HomeTwoAppoinmentArea = () => {
                                                 <option className="level-0"> Community Nursing</option>
                                                 <option className="level-0"> Complex Health Care</option>
                                                 <option className="level-0"> Support Coordination</option>
-                                                <option className="level-0">  Specialist Support</option>
+                                                <option className="level-0"> Specialist Support</option>
                                              </select>
                                           </form>
                                        </div>
                                     </div>
+                                    <div className="col-xl-6 col-lg-6 col-md-6">
+                                       <div className="appoinment-form-box d-flex mb-40">
+                                          <div className="appoint-ment-icon">
+                                             <img src={`img/icon/caregive-option-icon-5.png`} alt="" />
+                                          </div>
+                                          <form className="appointment-form-2" action="#">
+                                             <label htmlFor="input">Your Phone</label>
+                                             <input type="text" placeholder="Enter your phone" ref={phone} required />
+                                          </form>
+                                       </div>
+                                    </div>
 
-                                    <HomeTwoSingleAppoinment icon="5" name="Phone" />
+
 
                                     <div className="col-xl-6 col-lg-12">
                                        <div className="appoint-button">
-                                          <Link to="/contact" className="primary_btn green-bg-btn">Make Appointment</Link>
+
+                                          {/* <Link to="/contact" className="primary_btn green-bg-btn">Make Appointment</Link> */}
+                                          <button onClick={handleForm} className="primary_btn green-bg-btn">Make Appointment</button>
                                        </div>
                                     </div>
                                  </div>

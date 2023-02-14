@@ -38,7 +38,7 @@ const HomeTwoFooter = () => {
                                     </div>
                                     <div className="footer-co-content">
                                        <span>Mon to Fri : 08h30 - 18h00</span>
-                                       <h4>+61 499 322 078</h4>
+                                       <a href='tel:+61499322078'><h4>+61 499 322 078</h4></a>
                                     </div>
                                  </div>
                                  <div className="f-contact-info-box fix mb-30">
@@ -47,7 +47,7 @@ const HomeTwoFooter = () => {
                                     </div>
                                     <div className="footer-co-content">
                                        <span>do you have a question?</span>
-                                       <h5 className='text-white'>info@toranacareaustralia.org.au</h5>
+                                       <a href='mailto:info@toranacareaustralia.org.au'><h5 className='text-white'>info@toranacareaustralia.org.au</h5></a>
                                     </div>
                                  </div>
                                  <div className="f-contact-info-box fix mb-30">
@@ -77,9 +77,9 @@ const HomeTwoFooter = () => {
 
                               <div className="footer-menu footer-menu-2 fix">
                                  <ul>
-                                    <li><Link to="/">Xero Login</Link></li>
-                                    <li><Link to="/">Departments</Link></li>
-                                    <li><Link to="/">Work pro login</Link></li>
+                                    <li><Link to="https://www.xero.com/au">Xero Login</Link></li>
+                                    <li><Link to="https://1467a717015014.au.deputy.com/login?noredirectonce=1">Deputy Scheduling</Link></li>
+                                    <li><Link to="https://workpro.com.au">Work pro login</Link></li>
                                     <li><Link to="/background">Background</Link></li>
 
                                  </ul>

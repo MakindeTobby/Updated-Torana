@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 
 ReactDOM.render(
   <React.Fragment>
-    <ToastContainer position='top-right' />
+    <ToastContainer position='bottom-center' />
     <App />
   </React.Fragment>,
   document.getElementById('root')

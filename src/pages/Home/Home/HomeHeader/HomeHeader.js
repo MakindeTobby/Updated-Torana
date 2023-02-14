@@ -16,8 +16,8 @@ const HomeHeader = () => {
                   <div className="row d-flex align-items-center">
                      <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
                         <div className="header-info">
-                           <span><i className="fas fa-phone"></i> +61 499 322 078</span>
-                           <span><i className="fas fa-envelope"></i> info@toranacareaustralia.org.au</span>
+                           <span> <a href='tel:+61499322078'><i className="fas fa-phone"></i> +61 499 322 078</a></span>
+                           <span> <a href='mailto:info@toranacareaustralia.org.au'><i className="fas fa-envelope"></i> info@toranacareaustralia.org.au</a></span>
                         </div>
                      </div>
                      <div className="col-xl-5 col-lg-5 col-md-4">

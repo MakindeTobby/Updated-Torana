@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomeTwoSingleAppoinment = ({icon,name}) => {
+const HomeTwoSingleAppoinment = ({ icon, name, ref }) => {
    return (
       <>
          <div className="col-xl-6 col-lg-6 col-md-6">
@@ -10,7 +10,7 @@ const HomeTwoSingleAppoinment = ({icon,name}) => {
                </div>
                <form className="appointment-form-2" action="#">
                   <label htmlFor="input">your {name}</label>
-                  <input type="text" placeholder={`Enter Your ${name}`} />
+                  <input type="text" placeholder={`Enter Your ${name}`} ref={ref} />
                </form>
             </div>
          </div>

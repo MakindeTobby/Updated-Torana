@@ -1,20 +1,20 @@
 
-import { async } from '@firebase/util';
 import axios from 'axios';
 import React, { useRef, useState } from 'react';
 import { toast } from 'react-toastify';
+import Swal from 'sweetalert2'
 
 const ContactFormArea = () => {
-   const name = useRef(null)
-   const email = useRef(null)
-   const phone = useRef(null)
-   const subject = useRef(null)
-   const message = useRef(null)
+   const name = useRef(null);
+   const email = useRef(null);
+   const phone = useRef(null);
+   const subject = useRef(null);
+   const message = useRef(null);
 
    const handleForm = async (e) => {
       e.preventDefault()
       try {
-         const response = await axios({
+         const { data } = await axios({
             method: 'post',
             url: 'http://profitmax-001-site8.ctempurl.com/api/Account/send_email',
             data: {
@@ -24,22 +24,28 @@ const ContactFormArea = () => {
                subject: subject.current.value,
                message: message.current.value,
                mailFrom: email.current.value,
-               recipient: "makindetobiloba9@gmail.com"
+               recipient: "info@toranacareaustralia.org.au"
             }
          });
-
-         console.log(response);
+         Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: data.message,
+            showConfirmButton: false,
+            timer: 1500
+         })
+         name.current.value = "";
+         email.current.value = "";
+         phone.current.value = "";
+         subject.current.value = "";
+         message.current.value = "";
+         email.current.value = "";
       } catch (error) {
          console.log(error);
       }
-      // try {
-      //    const { data } = await axios.post("http://profitmax-001-site8.ctempurl.com/api/Account/send_email", Info)
-      //    console.log(data);
-      // } catch (error) {
-      //    console.log(error);
-      // }
 
-   }
+
+   };
 
    return (
       <>
