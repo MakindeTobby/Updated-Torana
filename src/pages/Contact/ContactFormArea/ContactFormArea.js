@@ -10,10 +10,12 @@ const ContactFormArea = () => {
    const phone = useRef(null);
    const subject = useRef(null);
    const message = useRef(null);
+   const [loading, setLoading] = useState(false)
 
    const handleForm = async (e) => {
       e.preventDefault()
       try {
+         setLoading(true)
          const { data } = await axios({
             method: 'post',
             url: 'http://profitmax-001-site8.ctempurl.com/api/Account/send_email',
@@ -40,8 +42,10 @@ const ContactFormArea = () => {
          subject.current.value = "";
          message.current.value = "";
          email.current.value = "";
+         setLoading(false)
       } catch (error) {
          console.log(error);
+         setLoading(false)
       }
 
 
@@ -92,9 +96,9 @@ const ContactFormArea = () => {
                               <div className="contact-btn text-center">
                                  <button
 
-                                    className="primary_btn btn-icon ml-0" type="submit">
-                                    <span>+</span> Submit
-                                    {/* <span className='spinner-border text-danger'></span> */}
+                                    className="primary_btn rounded-3" type="submit">
+                                    {loading ? <span className='spinner-border  text-white'></span> : "Submit"}
+
                                  </button>
                               </div>
                            </div>

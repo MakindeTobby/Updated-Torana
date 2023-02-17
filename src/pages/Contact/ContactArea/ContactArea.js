@@ -18,7 +18,6 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-map-marker-alt"></i>
                                 <h3>Visit Here</h3>
-
                                 <p>114 bernard heinze av, moncrieff, australia capital territory, 2913</p>
                             </div>
                         </div>
