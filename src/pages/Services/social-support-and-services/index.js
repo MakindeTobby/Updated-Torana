@@ -137,13 +137,7 @@ const SocialSupport = () => {
                               tabIndex="0"><span>+</span>Request for call</a>
                         </div>
                      </div>
-                     {/* <div className="service-widget mb-50 border-0 p-0">
-                        <div className="banner-widget">
-                           <Link to="/contact">
-                              <img src="img/services/services-banner.png" alt="" />
-                           </Link>
-                        </div>
-                     </div> */}
+
                   </div>
                </div>
             </div>

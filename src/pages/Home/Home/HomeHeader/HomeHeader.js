@@ -88,7 +88,7 @@ const HomeHeader = () => {
                                  <li><Link to="/career">Careers</Link>
 
                                  </li>
-                                 <li><Link to="/">Refer a Client</Link>
+                                 <li><a href="https://forms.gle/F8g3wWGTuNMjoDnC8">Refer a client</a>
 
                                  </li>
                                  {/* <li><Link to="/covid19-updates">Refer a client</Link>

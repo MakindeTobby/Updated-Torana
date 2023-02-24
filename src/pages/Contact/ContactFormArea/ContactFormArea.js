@@ -26,15 +26,15 @@ const ContactFormArea = () => {
                subject: subject.current.value,
                message: message.current.value,
                mailFrom: email.current.value,
-               recipient: "info@toranacareaustralia.org.au"
+               // recipient: "info@toranacareaustralia.org.au"
+               recipient: "makindetobiloba9@gmail.com"
             }
          });
          Swal.fire({
             position: 'center',
             icon: 'success',
             title: data.message,
-            showConfirmButton: false,
-            timer: 1500
+
          })
          name.current.value = "";
          email.current.value = "";

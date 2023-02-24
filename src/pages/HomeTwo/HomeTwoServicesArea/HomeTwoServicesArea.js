@@ -12,8 +12,7 @@ const HomeTwoServicesArea = () => {
                         {/* <div className="section-icon">
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
                         </div> */}
-                        <div className="section-text pos-rel">
-                           {/* <h5></h5> */}
+                        <div className="section-text pos-rel w-100">
                            <h1>Services we offer</h1>
                         </div>
                         <div className="section-line pos-rel">

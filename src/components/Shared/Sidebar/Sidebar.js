@@ -53,7 +53,7 @@ const Sidebar = ({ show, handleClose }) => {
                   <Link to={'/covid19-updates'} className="mb-4 d-block" >
                      Covid-19 updates
                   </Link>
-
+                  <a href="https://forms.gle/F8g3wWGTuNMjoDnC8">Refer a client</a>
 
 
                </Offcanvas.Body>

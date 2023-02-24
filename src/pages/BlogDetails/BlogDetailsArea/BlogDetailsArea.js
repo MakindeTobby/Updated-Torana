@@ -13,7 +13,7 @@ const BlogDetailsArea = () => {
                      <img src="img/blog/b2.jpg" alt="blog img" />
                   </div>} />
 
-                  <BlogDetailsRightSide/>
+                  <BlogDetailsRightSide />
 
                </div>
             </div>

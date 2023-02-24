@@ -37,6 +37,12 @@ import Fallback from './components/Fallback';
 import Background from './pages/Background';
 import Privacy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
+import ThankYou from './pages/ThankYou/ThankYouPage';
+import BlogThreeColumn from './pages/BlogThreeColumn/BlogThreeColumn';
+import BlogDetails from './pages/BlogDetails/BlogDetails';
+import PositiveThinking from './pages/BlogDetails/Positive-thinking';
+import AppreciateYou from './pages/BlogDetails/Appreciate-you';
+import LivingLife from './pages/BlogDetails/Living-Life';
 
 const Home = lazy(() => import('./pages/HomeTwo/HomeTwo'));
 const Services = lazy(() => import('./pages/Services/ServicesTwo/ServicesTwo'));
@@ -74,13 +80,18 @@ function App() {
               <Route path="/support-coordination" element={<SuppoertCo />} />
               <Route path="/cald-community-participation" element={<CaldCommunity />} />
               <Route path="/covid19-updates" element={<DoctorDetails />} />
+              <Route path="/blog" element={<BlogThreeColumn />} />
+              <Route path="/blogDetails" element={<BlogDetails />} />
+              <Route path="/positive-thinking" element={<PositiveThinking />} />
+              <Route path="/appreciate-you" element={<AppreciateYou />} />
+              <Route path="/living-life-beyond-limits" element={<LivingLife />} />
               <Route path="/blogDetailsLeftSidebar" element={<DetailsLeftSideBar />} />
               <Route path="/blogDetailsAudio" element={<DetailsAudio />} />
               <Route path="/blogDetailsVideo" element={<DetailsVideo />} />
               <Route path="/blogDetailsGallery" element={<DetailsGallery />} />
               <Route path="/appoinment" element={<Appointment />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/notMatch" element={<NotFound />} />
+              <Route path="/thank-you" element={<ThankYou />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
