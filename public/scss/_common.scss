@@ -350,8 +350,8 @@ label {
 }
 
 .play-btn {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     line-height: 60px;
     display: inline-block;
     border-radius: 50%;
@@ -362,7 +362,19 @@ label {
     color: #fff;
     padding-left: 3px;
     margin-left: 27px;
+    animation: ripple 1000ms infinite;
 
+}
+
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0px #ffffff12, 0 0 0 0px #fff, 0 0 0 0px #ffffff12, 0 0 0 0px #fff, 0 0 0 0px #ffffff12, 0 0 0 0px #fff, 0 0 0 0px #ffffff12, 0 0 0 0px #fff;
+    }
+
+    100% {
+        box-shadow: 0 0 0 6px #ffffff12, 0 0 0 8px rgba(255, 255, 255, 0), 0 0 0 10px
+    }
 }
 
 .play-icon {
@@ -403,14 +415,27 @@ label {
     width: 120px;
     height: 120px;
     line-height: 119px;
-    background: #fff;
-    color: #223645;
-}
-
-.about-video-btn.white-video-btn:hover {
     background: #e12454;
     border: 2px solid #e12454;
     color: #fff;
+    font-size: large;
+    animation: ripple 1000ms infinite;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0px #ffffff12, 0 0 0 0px #fff, 0 0 0 0px #ffffff12, 0 0 0 0px #fff, 0 0 0 0px #ffffff12, 0 0 0 0px #fff, 0 0 0 0px #ffffff12, 0 0 0 0px #fff;
+    }
+
+    100% {
+        box-shadow: 0 0 0 6px #ffffff12, 0 0 0 8px rgba(255, 255, 255, 0), 0 0 0 10px
+    }
+}
+
+.about-video-btn.white-video-btn:hover {
+    background: #ffffff;
+    border: 2px solid #fff;
+    color: #e12454;
 }
 
 .breadcrumb>.active {

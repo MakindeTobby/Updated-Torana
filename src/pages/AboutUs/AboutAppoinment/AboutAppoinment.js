@@ -11,7 +11,7 @@ const AboutAppoinment = () => {
                      <div className="appoinment-box white">
                         <div className="appoinment-content">
                            <span className="small-text">Our Approach</span>
-                           <h1>If you are a patient seeking quality care.</h1>
+                           <h1>If you are an NDIS participant seeking quality care.</h1>
                            <p>We are passionate about providing quality services that builds and support
                               the capacity of our participants and improve the quality of their life.</p>
                            {/* <ul className="professinals-list pt-30">

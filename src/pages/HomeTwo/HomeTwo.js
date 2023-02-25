@@ -19,6 +19,7 @@ const HomeTwo = () => {
             <HomeTwoServicesArea />
             <HomeTwoCounter />
             <HomeTwoAppoinmentArea />
+            <HomeTwoBlogs />
             <HomeTwoFooter />
         </>
     );

@@ -39,18 +39,18 @@ const HomeHeader = () => {
                      </div>
                      <div className="col-xl-9 col-lg-9 col-md-6 col-6">
                         <div className="header-right f-right">
-                           <div className="header-lang f-right pos-rel d-none d-lg-block">
-                              <div className="lang-icon">
+                           {/* <div className="header-lang f-right pos-rel d-none d-lg-block"> */}
+                           {/* <div className="lang-icon">
                                  <img src="img/icon/flag.png" alt="" width="100%" />
                                  <span>EN<i className="fas fa-angle-down"></i></span>
-                              </div>
-                              {/* <ul className="header-lang-list"> */}
-                              {/* <li><a href="#">USA</a></li>
+                              </div> */}
+                           {/* <ul className="header-lang-list"> */}
+                           {/* <li><a href="#">USA</a></li>
                                  <li><a href="#">UK</a></li>
                                  <li><a href="#">CA</a></li>
                                  <li><a href="#">AU</a></li> */}
-                              {/* </ul> */}
-                           </div>
+                           {/* </ul> */}
+                           {/* </div> */}
                            <div className="header-social-icons f-right d-none d-xl-block">
                               <ul>
                                  <li><a href="https://web.facebook.com/Toranacareaustralia?_rdc=1&_rdr"><i className="fab fa-facebook-f"></i></a></li>
@@ -88,7 +88,8 @@ const HomeHeader = () => {
                                  <li><Link to="/career">Careers</Link>
 
                                  </li>
-                                 <li><a href="https://forms.gle/F8g3wWGTuNMjoDnC8">Refer a client</a>
+                                 {/* <li><a href="https://forms.gle/F8g3wWGTuNMjoDnC8">Refer a client</a> */}
+                                 <li><Link to="/referral-page">Refer a client</Link>
 
                                  </li>
                                  {/* <li><Link to="/covid19-updates">Refer a client</Link>

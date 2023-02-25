@@ -43,6 +43,7 @@ import BlogDetails from './pages/BlogDetails/BlogDetails';
 import PositiveThinking from './pages/BlogDetails/Positive-thinking';
 import AppreciateYou from './pages/BlogDetails/Appreciate-you';
 import LivingLife from './pages/BlogDetails/Living-Life';
+import Referral from './pages/Referral';
 
 const Home = lazy(() => import('./pages/HomeTwo/HomeTwo'));
 const Services = lazy(() => import('./pages/Services/ServicesTwo/ServicesTwo'));
@@ -91,6 +92,7 @@ function App() {
               <Route path="/blogDetailsGallery" element={<DetailsGallery />} />
               <Route path="/appoinment" element={<Appointment />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/referral-page" element={<Referral />} />
               <Route path="/thank-you" element={<ThankYou />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

@@ -72,7 +72,7 @@ Group/Shared Independent Living */}
                                  <li><Link to="/career">Careers </Link>
 
                                  </li>
-                                 <li><a href="https://forms.gle/F8g3wWGTuNMjoDnC8">Refer a client</a>
+                                 <li><Link to="/referral-page">Refer a client</Link>
 
                                  </li>
 

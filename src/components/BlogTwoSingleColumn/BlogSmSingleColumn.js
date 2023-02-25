@@ -11,13 +11,13 @@ const BlogSmSingleColumn = ({ image, masonry, column, title, content, comment, u
                      <img src={`img/blog/b${image}.jpg`} alt="blog img"/>
                   </Link>
                </div> */}
-               <div className="postbox__text p-30" style={{ height: "18rem" }}>
+               <div className="postbox__text p-30">
 
                   <h3 className="blog-title blog-title-sm">
                      <Link to={`${link}`}>{title}
                      </Link>
                   </h3>
-                  <div className="post-text">
+                  <div className="post-text mb-10">
                      <p>{content}</p>
                   </div>
                   <div className="read-more mb-15">
