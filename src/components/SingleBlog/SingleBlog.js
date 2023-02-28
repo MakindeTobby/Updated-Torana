@@ -13,7 +13,7 @@ const SingleBlog = ({ image, title, content, link }) => {
                         </Link>
                     </div>
                     <div className="service-content-box align-items-center">
-                        <div className="service-content" style={{ height: "13rem", overflow: "hidden" }}>
+                        <div className="service-content" style={{ height: "15rem", overflow: "hidden" }}>
                             <h3><Link to={`${link}`}>{title}</Link></h3>
                             <p>{content}</p>
                         </div>

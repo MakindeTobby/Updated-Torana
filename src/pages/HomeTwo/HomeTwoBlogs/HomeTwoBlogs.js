@@ -11,7 +11,7 @@ const HomeTwoBlogs = () => {
                             <div className="section-title text-center pos-rel mb-70">
 
                                 <div className="section-text pos-rel">
-                                    <h4>Blog</h4>
+                                    <h4 className='text-muted mb-8'>Blog</h4>
                                     <h2>Take a break and read about interesting topics.</h2>
                                 </div>
                                 <div className="section-line pos-rel">
@@ -23,15 +23,15 @@ const HomeTwoBlogs = () => {
                     <div className="row">
 
                         <SingleBlog image="img/blog/blog-1.jpg" title="Positive Thinking a powerful act"
-                            content="Life can be hard especially when we are faced with multiple health challenges that attack our bodies. The worse of it all is knowing that "
+                            content="Life can be hard especially when we are faced with multiple health challenges that attack our bodies. The worse of it all is knowing that.... "
                             link="/positive-thinking"
                         />
                         <SingleBlog image="img/blog/blog-2.jpg" title="Appreciate You"
-                            content="Being alive comes with lots of challenges. Every individual, both Able or Disable face difficulties. Some challenges are physical, but others may not be physical. "
+                            content="Being alive comes with lots of challenges. Every individual, both Able or Disable face difficulties. Some challenges are physical, but others may not be physical..... "
                             link="/appreciate-you"
                         />
                         <SingleBlog image="img/blog/blog-3.png" title="Living Life Beyond Limits"
-                            content="Life can be very challenging when you have a disability. Sometimes you may feel like being alive is to no good. For many, there are "
+                            content="Life can be very challenging when you have a disability. Sometimes you may feel like being alive is to no good. For many, there are...... "
 
                             link="/living-life-beyond-limits"
                         />

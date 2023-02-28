@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaPlay, FaUser } from 'react-icons/fa';
 import { MdLocationPin } from 'react-icons/md';
 import { RiServiceFill } from 'react-icons/ri';
@@ -8,7 +8,13 @@ import useGlobalContext from '../../../hooks/useGlobalContext';
 
 const HomeTwoHeroSection = () => {
    const values = useGlobalContext();
-   const { setIsOpen } = values;
+   const { setIsOpen, storeService, storeLocation, } = values;
+   const [location, setLocation] = useState("");
+   const [service, setService] = useState("");
+   localStorage.setItem('service', service);
+   localStorage.setItem('location', location);
+
+   console.log(service, location);
    return (
       <>
          <VideoPopup />
@@ -46,23 +52,7 @@ const HomeTwoHeroSection = () => {
                                        <h3>We are here for you</h3>
                                     </div>
                                     <div className="row">
-                                       {/* <div className="col-xl-12">
-                                          <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
-                                             <div className="appoint-ment-icon">
-                                                <FaUser className='fs-2'
-                                                   style={{ color: "rgb(225, 36, 84)" }}
-                                                />
-                                             </div>
-                                             <form className="appointment-form-2" action="#">
-                                                <label htmlFor="input">Enter Email or Phone</label>
-                                                <input type="text" name="lc" id="lc" className=" outline-none"
 
-                                                />
-
-
-                                             </form>
-                                          </div>
-                                       </div> */}
                                        <div className="col-xl-12">
                                           <div className="appoinment-form-box appoinment-form-box-option d-flex mb-40">
                                              <div className="appoint-ment-icon">
@@ -73,11 +63,13 @@ const HomeTwoHeroSection = () => {
                                              </div>
                                              <form className="appointment-form-2" action="#">
                                                 <label htmlFor="input">select your location</label>
-                                                <select name="lc" id="lc" className="postform outline-none">
+                                                <select name="lc" id="lc" className="postform w-100 overflow-hidden border-0" onChange={e => setLocation(e.target.value)}>
                                                    <option defaultValue="-1" hidden>Choose a Location</option>
+                                                   <option className="level-0" defaultValue="36">Australian Capital Territory</option>
                                                    <option className="level-0" defaultValue="36">New South Wales</option>
                                                    <option className="level-0" defaultValue="37">Victoria</option>
                                                    <option className="level-0" defaultValue="38">Queensland</option>
+                                                   <option className="level-0" defaultValue="39">Northern Territory</option>
                                                    <option className="level-0" defaultValue="39">Western Australia</option>
                                                    <option className="level-0" defaultValue="40">South Australia</option>
                                                    <option className="level-0" defaultValue="40">Tasmania</option>
@@ -94,7 +86,7 @@ const HomeTwoHeroSection = () => {
                                              </div>
                                              <form className="appointment-form-2" action="#">
                                                 <label htmlFor="input">select your services</label>
-                                                <select name="lc" id="lc" className="postform w-100 overflow-hidden">
+                                                <select name="lc" id="lc" className="postform w-100 overflow-hidden border-0" onChange={e => setService(e.target.value)}>
                                                    <option defaultValue="-1" hidden>Choose a Service</option>
                                                    <option className="level-0"> Accommodation</option>
                                                    <option className="level-0"> Assistive Support</option>
@@ -113,7 +105,7 @@ const HomeTwoHeroSection = () => {
                                        </div>
                                        <div className="col-xl-12 mb-35">
                                           <div className="inner caregive-btn text-center">
-                                             <Link to="/thank-you" className="primary_btn gray-btn-border">Make Appointment</Link>
+                                             <Link to="/thank-you" className="primary_btn rounded-pill">Make Appointment</Link>
                                           </div>
                                        </div>
                                     </div>

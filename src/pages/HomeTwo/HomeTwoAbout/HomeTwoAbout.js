@@ -21,7 +21,7 @@ const HomeTwoAbout = () => {
                            text="You're provided with experienced care workers with proven records and of quality standard."
                         />
                         <HomeTwoSingleAbout icon="4" title="Daily Care" spacing="b-40 mb-30"
-                           text="On a daily basis, we give professional carer or companion who lives in the vicinity of the client"
+                           text="On a daily basis, we give professional carer or companion who lives in the vicinity of the client."
                         />
 
                      </div>

@@ -3,7 +3,7 @@ import useFirebase from '../hooks/useFirebase';
 
 export const AuthContext = createContext();
 
-const AllContext = ({children}) => {
+const AllContext = ({ children }) => {
     // Slick ArrowLeft
     const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
         <button
@@ -46,10 +46,11 @@ const AllContext = ({children}) => {
                 setStickyMenu(false)
             }
         }
-       window.addEventListener('scroll', stickyMenuBar);
-    },[])
+        window.addEventListener('scroll', stickyMenuBar);
+    }, [])
 
     const [isOpen, setIsOpen] = useState(false);
+
     const value = {
         auth: useFirebase(),
         isOpen,
@@ -57,13 +58,14 @@ const AllContext = ({children}) => {
         stickyMenu,
         SlickArrowLeft,
         SlickArrowRight,
+
     }
     return (
-       <>
-           <AuthContext.Provider value={value}>
+        <>
+            <AuthContext.Provider value={value}>
                 {children}
-           </AuthContext.Provider>
-       </>
+            </AuthContext.Provider>
+        </>
     );
 };
 
