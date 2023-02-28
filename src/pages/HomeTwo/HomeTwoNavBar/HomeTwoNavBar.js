@@ -18,7 +18,7 @@ const HomeTwoNavBar = () => {
                   <div className="row d-flex align-items-center">
                      <div className="col-xl-2 col-lg-2 col-md-3 col-6">
                         <div className="logo pos-rel">
-                           <Link to="/"><img src="img/logo/torana white.png" alt="" /></Link>
+                           <Link to="/"><img src="img/logo/new-logo.png" alt="" /></Link>
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-8 col-md-6 col-6">

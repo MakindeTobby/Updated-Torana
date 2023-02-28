@@ -62,7 +62,7 @@ const ThankYou = () => {
             {/* <HomeHeader /> */}
             {/* <CommonPageHeader title="Page not Found" subtitle="404 Not Found" /> */}
 
-            <div className='pt-150 pb-150'>
+            <div className='pt-50 pb-150'>
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-xl-8 offset-xl-2'>
@@ -90,7 +90,7 @@ const ThankYou = () => {
                                             <div className='row mb-40'>
                                                 <div className="col-xl-9 col-lg-6 col-md-6">
                                                     <div className="about-title">
-                                                        <h2>Appointment Request Form</h2>
+                                                        <h3>Appointment Request Form</h3>
                                                     </div>
 
                                                 </div>

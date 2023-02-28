@@ -34,7 +34,8 @@ const HomeHeader = () => {
                   <div className="row align-items-center">
                      <div className="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                         <div className="logo logo-circle pos-rel">
-                           <Link to="/"><img src="img/logo/Torana color.png" alt="" /></Link>
+                           <Link to="/"><img src="img/logo/torana 1x 2.png" alt="" width={'80%'} /></Link>
+
                         </div>
                      </div>
                      <div className="col-xl-9 col-lg-9 col-md-6 col-6">

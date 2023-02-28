@@ -1,14 +1,17 @@
 import axios from 'axios';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import Swal from 'sweetalert2';
 const HomeTwoAppoinmentArea = () => {
    const name = useRef(null)
    const email = useRef(null)
    const phone = useRef(null)
    const message = useRef(null)
+   const [loading, setLoading] = useState(false)
+
 
    const handleForm = async () => {
       try {
+         setLoading(true)
          const { data } = await axios({
             method: 'post',
             url: 'http://profitmax-001-site8.ctempurl.com/api/Account/send_email',
@@ -19,8 +22,11 @@ const HomeTwoAppoinmentArea = () => {
                subject: "Appointment",
                message: message.current.value,
                mailFrom: email.current.value,
-               recipient: "info@toranacareaustralia.org.au"
+
+               recipient: "makindetobiloba9@gmail.com"
+               // recipient: "info@toranacareaustralia.org.au"
             }
+
          });
          Swal.fire({
             position: 'center',
@@ -34,8 +40,12 @@ const HomeTwoAppoinmentArea = () => {
          phone.current.value = "";
          message.current.value = "";
          email.current.value = "";
+         setLoading(false)
+
       } catch (error) {
          console.log(error);
+         setLoading(false)
+
       }
    }
    return (
@@ -119,7 +129,12 @@ const HomeTwoAppoinmentArea = () => {
                                        <div className="appoint-button">
 
                                           {/* <Link to="/contact" className="primary_btn green-bg-btn">Make Appointment</Link> */}
-                                          <button onClick={handleForm} className="primary_btn green-bg-btn">Make Appointment</button>
+                                          <button onClick={handleForm} className="primary_btn green-bg-btn">
+
+
+                                             {loading ? <span className='spinner-border  text-white'></span> : "Make Appointment"}
+
+                                          </button>
                                        </div>
                                     </div>
                                  </div>
@@ -128,7 +143,7 @@ const HomeTwoAppoinmentArea = () => {
                            <div className="col-xl-4">
                               <div className="appoinment-right f-right">
                                  {/* <img src="img/appoinment/torana-white-pt2.png" width={'25%'} alt="" /> */}
-                                 <img src="img/appoinment/torana-pink.png" alt="" />
+                                 <img src="img/appoinment/appointment-new.jpg" alt="" />
                               </div>
                            </div>
                         </div>

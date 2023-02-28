@@ -11,7 +11,8 @@ const HomeTwoFooter = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-4 col-md-4">
                            <div className="footer-logo-2">
-                              <img src="img/logo/torana white.png" alt="" />
+                              <Link to="/"><img src="img/logo/new-logo.png" alt="" width={'50%'} /></Link>
+
                            </div>
                         </div>
                         <div className="col-xl-3 col-lg-3 d-none d-lg-block d-xl-block">

@@ -2,17 +2,27 @@ import React, { useState } from 'react';
 import { FaPlay, FaUser } from 'react-icons/fa';
 import { MdLocationPin } from 'react-icons/md';
 import { RiServiceFill } from 'react-icons/ri';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import VideoPopup from '../../../components/VideoPopup/VideoPopup';
 import useGlobalContext from '../../../hooks/useGlobalContext';
 
 const HomeTwoHeroSection = () => {
+   const navigate = useNavigate()
    const values = useGlobalContext();
    const { setIsOpen, storeService, storeLocation, } = values;
    const [location, setLocation] = useState("");
    const [service, setService] = useState("");
-   localStorage.setItem('service', service);
-   localStorage.setItem('location', location);
+
+
+   const goTo = () => {
+      if (location === '' || service === "") {
+         return
+      } else {
+         localStorage.setItem('service', service);
+         localStorage.setItem('location', location);
+         navigate("/thank-you")
+      }
+   }
 
    console.log(service, location);
    return (
@@ -105,7 +115,7 @@ const HomeTwoHeroSection = () => {
                                        </div>
                                        <div className="col-xl-12 mb-35">
                                           <div className="inner caregive-btn text-center">
-                                             <Link to="/thank-you" className="primary_btn rounded-pill">Make Appointment</Link>
+                                             <button onClick={goTo} className="primary_btn rounded-pill">Make Appointment</button>
                                           </div>
                                        </div>
                                     </div>
