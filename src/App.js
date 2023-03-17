@@ -3,9 +3,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import './App.css';
 
-
-
-
 import NotFound from './pages/NotFound/NotFound';
 import CommunityNursing from './pages/Services/CommunityNursing';
 import Special from './pages/Services/specialist-behaviour-support';
@@ -26,7 +23,6 @@ import ScrollTop from './components/ScrollTop';
 import AllContext from './context/AllContext';
 import Appointment from './pages/Appointment/Appointment';
 import Contact from './pages/Contact/Contact';
-import Career from './pages/Career';
 import DetailsAudio from './pages/DetailsAudio/DetailsAudio';
 import DetailsGallery from './pages/DetailsGallery/DetailsGallery';
 import DetailsLeftSideBar from './pages/DetailsLeftSideBar/DetailsLeftSideBar';
@@ -48,6 +44,8 @@ import Referral from './pages/Referral';
 const Home = lazy(() => import('./pages/HomeTwo/HomeTwo'));
 const Services = lazy(() => import('./pages/Services/ServicesTwo/ServicesTwo'));
 const About = lazy(() => import('./pages/AboutUs/AboutUs'));
+const Career = lazy(() => import('./pages/Career'));
+
 
 function App() {
   return (
