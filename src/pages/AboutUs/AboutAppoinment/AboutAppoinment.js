@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AboutAppoinment = () => {
    return (
       <>
-         <section className="appoinment-section pt-120 pb-120" data-background="img/bg/appointment.jpg">
+         <section className="appoinment-section pt-120 pb-120" data-background="img/bg/appointment1.png">
             <div className="container">
                <div className="row">
                   <div className="col-lg-8">

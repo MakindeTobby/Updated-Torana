@@ -55,44 +55,44 @@ function App() {
           <Suspense fallback={<Fallback />}>
             <ScrollTop />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/services" element={<Services />} />
-              <Route path="/career" element={<Career />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/privacy-policy" element={<Privacy />} />
-              <Route path="/terms-and-conditions" element={<Terms />} />
-              <Route path="/background" element={<Background />} />
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/services" element={<Services />} />
+              <Route exact path="/career" element={<Career />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/privacy-policy" element={<Privacy />} />
+              <Route exact path="/terms-and-conditions" element={<Terms />} />
+              <Route exact path="/background" element={<Background />} />
               {/* <Route path="/servicesDetails" element={<ServicesDetails />} /> */}
-              <Route path="/community-nursing" element={<CommunityNursing />} />
-              <Route path="/special" element={<Special />} />
-              <Route path="/social-support" element={<SocialSupport />} />
-              <Route path="/therapeutic" element={<Therapeutic />} />
-              <Route path="/household" element={<Household />} />
-              <Route path="/exercise-phy" element={<ExercisePhy />} />
-              <Route path="/group-center" element={<GroupandCentre />} />
-              <Route path="/specialist-support-coordination" element={<Specialist />} />
-              <Route path="/complex-health-care-support" element={<ComplexHealth />} />
-              <Route path="/accommodation-tenancy-assistance" element={<Accomodation />} />
-              <Route path="/assistive-support-and-services" element={<AssistiveSuppoert />} />
-              <Route path="/capacity-building-support-and-services" element={<CapacityBuilding />} />
-              <Route path="/group-shared-living-shared-independent-living-and-respite" element={<GroupShared />} />
-              <Route path="/support-coordination" element={<SuppoertCo />} />
-              <Route path="/cald-community-participation" element={<CaldCommunity />} />
-              <Route path="/covid19-updates" element={<DoctorDetails />} />
-              <Route path="/blog" element={<BlogThreeColumn />} />
-              <Route path="/blogDetails" element={<BlogDetails />} />
-              <Route path="/positive-thinking" element={<PositiveThinking />} />
-              <Route path="/appreciate-you" element={<AppreciateYou />} />
-              <Route path="/living-life-beyond-limits" element={<LivingLife />} />
-              <Route path="/blogDetailsLeftSidebar" element={<DetailsLeftSideBar />} />
-              <Route path="/blogDetailsAudio" element={<DetailsAudio />} />
-              <Route path="/blogDetailsVideo" element={<DetailsVideo />} />
-              <Route path="/blogDetailsGallery" element={<DetailsGallery />} />
-              <Route path="/appoinment" element={<Appointment />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/referral-page" element={<Referral />} />
-              <Route path="/thank-you" element={<ThankYou />} />
-              <Route path="*" element={<NotFound />} />
+              <Route exact path="/community-nursing" element={<CommunityNursing />} />
+              <Route exact path="/special" element={<Special />} />
+              <Route exact path="/social-support" element={<SocialSupport />} />
+              <Route exact path="/therapeutic" element={<Therapeutic />} />
+              <Route exact path="/household" element={<Household />} />
+              <Route exact path="/exercise-phy" element={<ExercisePhy />} />
+              <Route exact path="/group-center" element={<GroupandCentre />} />
+              <Route exact path="/specialist-support-coordination" element={<Specialist />} />
+              <Route exact path="/complex-health-care-support" element={<ComplexHealth />} />
+              <Route exact path="/accommodation-tenancy-assistance" element={<Accomodation />} />
+              <Route exact path="/assistive-support-and-services" element={<AssistiveSuppoert />} />
+              <Route exact path="/capacity-building-support-and-services" element={<CapacityBuilding />} />
+              <Route exact path="/group-shared-living-shared-independent-living-and-respite" element={<GroupShared />} />
+              <Route exact path="/support-coordination" element={<SuppoertCo />} />
+              <Route exact path="/cald-community-participation" element={<CaldCommunity />} />
+              <Route exact path="/covid19-updates" element={<DoctorDetails />} />
+              <Route exact path="/blog" element={<BlogThreeColumn />} />
+              <Route exact path="/blogDetails" element={<BlogDetails />} />
+              <Route exact path="/positive-thinking" element={<PositiveThinking />} />
+              <Route exact path="/appreciate-you" element={<AppreciateYou />} />
+              <Route exact path="/living-life-beyond-limits" element={<LivingLife />} />
+              <Route exact path="/blogDetailsLeftSidebar" element={<DetailsLeftSideBar />} />
+              <Route exact path="/blogDetailsAudio" element={<DetailsAudio />} />
+              <Route exact path="/blogDetailsVideo" element={<DetailsVideo />} />
+              <Route exact path="/blogDetailsGallery" element={<DetailsGallery />} />
+              <Route exact path="/appoinment" element={<Appointment />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/referral-page" element={<Referral />} />
+              <Route exact path="/thank-you" element={<ThankYou />} />
+              <Route exact path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
         </BrowserRouter>

@@ -23,8 +23,7 @@ const HomeTwoAppoinmentArea = () => {
                message: message.current.value,
                mailFrom: email.current.value,
 
-               recipient: "makindetobiloba9@gmail.com"
-               // recipient: "info@toranacareaustralia.org.au"
+               recipient: "info@toranacareaustralia.org.au"
             }
 
          });

@@ -10,7 +10,7 @@ const ServicesTwoArea = () => {
 
                <div className="row">
 
-                  <ServicesTwoSingleItem image="img/services/service-main-1.jpeg" title="COMMUNITY NURSING"
+                  <ServicesTwoSingleItem image="img/services/service-main-1.png" title="COMMUNITY NURSING"
                      content="We have a team of competent and caring Nurses, ready to take care of your nursing needs. Our Nurses work with individuals 
                   and their families to help manage an ailment, keep up well-being and manage any out of hospital care medical needs...."
                      link='/community-nursing'
@@ -80,7 +80,7 @@ const ServicesTwoArea = () => {
                   <ServicesTwoSingleItem image="img/services/service-main-10.jpg" title="GROUP/SHARED SUPPORTED LIVING,SUPPORTED INDEPENDENT LIVING/RESPITE"
 
                      content="At Torana Care Australia, we are committed to providing excellent support and services to our participants at all times. 
-                     A high quality of service is guaranteed irrespective of location and time...."
+                     "
                      link="/group-shared-living-shared-independent-living-and-respite"
                   />
                   <ServicesTwoSingleItem image="img/services/service-main-14.jpeg" title="SUPPORT COORDINATION"

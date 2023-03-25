@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader";
 import HomeHeader from "../Home/Home/HomeHeader/HomeHeader";
 import HomeTwoFooter from '../HomeTwo/HomeTwoFooter/HomeTwoFooter';
@@ -7,6 +8,11 @@ const Career = () => {
     return (
 
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Career - Torana Care Australia</title>
+                <link rel="canonical" href="https://toranacareaustralia.org.au/career" />
+            </Helmet>
             <HomeHeader />
             <CommonPageHeader title="Career" subtitle="career" />
             <CareerArea />

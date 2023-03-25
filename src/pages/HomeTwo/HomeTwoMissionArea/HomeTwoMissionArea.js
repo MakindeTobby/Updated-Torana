@@ -24,7 +24,7 @@ const HomeTwoMissionArea = () => {
                   </div>
                   <div className="col-xl-6 col-lg-6 d-lg-none d-xl-block">
                      <div className="mv-right-img pos-rel mb-30">
-                        <img src="img/about/caregiver2.jpg" alt="" />
+                        <img src="img/about/caregiver2.png" alt="" />
                      </div>
                      <div className="testi-quato-icon about-icon-white d-none d-xl-block">
                         <img src="img/appoinment/NDIS.png" alt="" width={'100%'} />

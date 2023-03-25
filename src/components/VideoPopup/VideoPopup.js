@@ -8,8 +8,11 @@ const VideoPopup = ({ videoId }) => {
     const { isOpen, setIsOpen } = popupValue
     return (
         <>
-            <ModalVideo channel='custom' url='https://toranacareaustralia.org.au/wp-content/uploads/2020/08/About-Torana-Care-Australia.mp4' autoplay isOpen={isOpen}
-                onClose={() => setIsOpen(false)} />
+            <ModalVideo
+
+                channel='youtube' autoplay isOpen={isOpen}
+                videoId={videoId} onClose={() => setIsOpen(false)}
+            />
         </>
     );
 };

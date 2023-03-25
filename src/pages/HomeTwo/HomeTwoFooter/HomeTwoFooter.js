@@ -78,10 +78,10 @@ const HomeTwoFooter = () => {
 
                               <div className="footer-menu footer-menu-2 fix">
                                  <ul>
-                                    <li><Link to="https://www.xero.com/au">Xero Login</Link></li>
-                                    <li><Link to="https://1467a717015014.au.deputy.com/login?noredirectonce=1">Deputy Scheduling</Link></li>
-                                    <li><Link to="https://workpro.com.au">Work pro login</Link></li>
-                                    <li><Link to="/background">Background</Link></li>
+                                    <li><a href="https://www.xero.com/au">Xero Login</a></li>
+                                    <li><a href="https://1467a717015014.au.deputy.com/login?noredirechrefnce=1">Deputy Scheduling</a></li>
+                                    <li><a href="https://workpro.com.au">Work pro login</a></li>
+                                    <li><a href="/background">Background</a></li>
 
                                  </ul>
                               </div>

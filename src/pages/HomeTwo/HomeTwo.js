@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import HomeTwoAbout from './HomeTwoAbout/HomeTwoAbout';
 import HomeTwoAppoinmentArea from './HomeTwoAppoinmentArea/HomeTwoAppoinmentArea';
 import HomeTwoBlogs from './HomeTwoBlogs/HomeTwoBlogs';
@@ -12,6 +13,12 @@ import HomeTwoServicesArea from './HomeTwoServicesArea/HomeTwoServicesArea';
 const HomeTwo = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home - Torana Care Australia</title>
+                <link rel="canonical" href="https://toranacareaustralia.org.au" />
+                <meta name="description" content="Welcome" />
+            </Helmet>
             <HomeTwoNavBar />
             <HomeTwoHeroSection />
             <HomeTwoAbout />

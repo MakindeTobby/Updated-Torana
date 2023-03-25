@@ -421,10 +421,10 @@ label {
     width: 120px;
     height: 120px;
     line-height: 119px;
-    background: #e12454;
+    background: transparent;
     border: 2px solid #e12454;
-    color: #fff;
-    font-size: large;
+    color: #e12454;
+    font-size: 30px;
     animation: ripple 1000ms infinite;
 }
 

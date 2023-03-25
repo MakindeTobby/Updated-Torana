@@ -27,7 +27,7 @@ const HomeTwoHeroSection = () => {
    console.log(service, location);
    return (
       <>
-         <VideoPopup />
+         <VideoPopup videoId="CIdiS4sMfzc" />
 
          <section className="hero-area">
             <div className="hero-slider hero_two_slider">

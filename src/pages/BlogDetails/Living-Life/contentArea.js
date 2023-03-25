@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ContentArea = () => {
     return (
         <>
-            <section className="blog-area pt-120 pb-80">
+            <section className="blog-area pt-50 pb-80">
                 <div className="container">
                     <div className="row">
 

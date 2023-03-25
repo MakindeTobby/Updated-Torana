@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
 import Footer from '../../components/Shared/Footer';
 import HomeFact from '../Home/Home/HomeFact/HomeFact';
@@ -15,6 +16,12 @@ import AboutTestimonial from './AboutTestimonial/AboutTestimonial';
 const AboutUs = () => {
    return (
       <>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>About us - Torana Care Australia</title>
+            <link rel="canonical" href="https://toranacareaustralia.org.au/about" />
+            <meta name="description" content="All you need to know about Torana" />
+         </Helmet>
          <HomeHeader />
          {/* <HomeTwoNavBar /> */}
          <CommonPageHeader title="About Us" subtitle="About" />

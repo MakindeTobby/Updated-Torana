@@ -10,10 +10,7 @@ const BackgroundContent = () => {
                         <div className="col-xl-7 col-lg-8">
                             <article className="doctor-details-box">
                                 <div className="section-title pos-rel mb-25">
-                                    <div className="section-icon">
-                                        <img className="section-back-icon back-icon-left" src="img/section/section-back-icon-sky.png"
-                                            alt="" />
-                                    </div>
+
                                     <div className="section-text pos-rel">
                                         <h5 className="green-color text-up-case">Background</h5>
                                         <h1>Let's be the shoulder for you to lean on.</h1>
@@ -50,7 +47,7 @@ const BackgroundContent = () => {
                                 <div className="section-title pos-rel mb-25">
                                     <h2>Florence</h2>
                                     <p>CO-FOUNDER</p>
-                                    <div className="border p-1 rounded-2">
+                                    <div className="border p-1 rounded-2" style={{ height: "8rem" }}>
                                         <p>Florence has a Bachelors Degree in Electrical and Electronics Engineering(Telecommunication Engineering Option). She developed interest in banking and worked as an operation banker for  (four) 4 years before moving overseas.
                                             She has overtime developed herself in different areas of human endeavors.</p>
                                     </div>
@@ -63,7 +60,7 @@ const BackgroundContent = () => {
                                 <div className="section-title pos-rel mb-25">
                                     <h2>Michael</h2>
                                     <p>CO-FOUNDER</p>
-                                    <div className="border p-1 rounded-2">
+                                    <div className="border p-1 rounded-2" style={{ height: "8rem" }}>
                                         <p>Michael has a Bachelors of Medicine,Bachelor of Surgery (MBBS) and he is currently practicing
                                             as a Specialist General Practitioner (GP) here in the Australian Capital Territory.He worked overseas as a General
                                             Practitioner and Clinical Tutor for over (Fourteen years)14 years.</p>
@@ -91,8 +88,8 @@ const BackgroundContent = () => {
                         </p>
                     </div>
 
-                    <div>
-                        <h4>Our Priority is to provide support and services that improve your quality of life...</h4>
+                    <div className="mb-20">
+                        <h4 className="text-uppercase fw-bold">Our Priority is to provide support and services that improve your quality of life...</h4>
                     </div>
 
                     <div className="mt-3">

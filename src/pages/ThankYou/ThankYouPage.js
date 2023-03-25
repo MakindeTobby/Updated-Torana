@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react';
-import { FaMobile, FaPhone, FaTimes } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 
 import { BsClock, BsPhone } from 'react-icons/bs'
 import { GoLocation } from 'react-icons/go'
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import { Helmet } from 'react-helmet';
 
 const ThankYou = () => {
     const navigate = useNavigate()
@@ -31,7 +31,8 @@ const ThankYou = () => {
                     subject: "Appointment",
                     message: "I'm requesting for " + service + " and I will like to be contacted at " + time.current.value + " my location is " + location,
                     mailFrom: email.current.value,
-                    recipient: "makindetobiloba9@gmail.com"
+                    recipient: "info@toranacareaustralia.org.au"
+
                 }
             });
             Swal.fire({
@@ -59,6 +60,12 @@ const ThankYou = () => {
 
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Appointment - Torana Care Australia</title>
+                <link rel="canonical" href="https://toranacareaustralia.org.au/thank-you" />
+                <meta name="description" content="Request for Appointment" />
+            </Helmet>
             {/* <HomeHeader /> */}
             {/* <CommonPageHeader title="Page not Found" subtitle="404 Not Found" /> */}
 
