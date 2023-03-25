@@ -8,9 +8,7 @@ const Banner = () => {
             </div>
 
             <div className="ser-form-btn text-center mt-40">
-                <Link to="/contact" className="primary_btn btn-icon ml-0"
-                    style={{ animationDelay: '0.6s' }}
-                    tabIndex="0"><span>+</span>Contact us</Link>
+                <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Contact us</Link>
             </div>
         </div>
     );
