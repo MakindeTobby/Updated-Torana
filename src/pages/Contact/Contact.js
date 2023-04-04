@@ -9,6 +9,7 @@ import ContactFormArea from './ContactFormArea/ContactFormArea';
 import ContactMap from './ContactMap/ContactMap';
 
 const Contact = () => {
+
     return (
         <>
             <Helmet>

@@ -1,12 +1,18 @@
+
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 export default function ScrollTop() {
-    const { pathname } = useLocation();
+    const { pathname, hash } = useLocation();
 
     useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [pathname]);
+        // Only scroll to the top if no hash fragment is present
+        if (!hash) {
+            window.scrollTo(0, 0);
+        }
+    }, [pathname, hash]);
 
     return null;
 }
+

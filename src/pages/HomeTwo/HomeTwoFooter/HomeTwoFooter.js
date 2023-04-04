@@ -100,7 +100,7 @@ const HomeTwoFooter = () => {
                                     <li><Link to="/services">Registered NDIS Provider</Link></li>
                                     <li><Link to="/contact">Comment and Feedback</Link></li>
                                     <li><Link to="/blog">Blog</Link></li>
-                                    <li><Link to="/contact">Guides</Link></li>
+                                    <li><Link to="/contact#maps">Guides</Link></li>
                                     <li><Link to="/contact">Contact Us</Link></li>
                                     <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                                     <li><Link to="/terms-and-conditions">Terms of Use</Link></li>

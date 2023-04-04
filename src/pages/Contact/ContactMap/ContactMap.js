@@ -3,7 +3,7 @@ import React from 'react';
 const ContactMap = () => {
     return (
         <>
-            <section className="map-area">
+            <section className="map-area" >
 
                 <div style={{ width: '98%' }} className="mx-auto">
 

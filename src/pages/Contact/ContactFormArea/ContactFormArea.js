@@ -51,7 +51,7 @@ const ContactFormArea = () => {
    };
 
    return (
-      <>
+      < >
          <section className="contact-form-area gray-bg pt-100 pb-100">
             <div className="container">
                <div className="form-wrapper">
@@ -64,7 +64,7 @@ const ContactFormArea = () => {
                      </div>
 
                   </div>
-                  <div className="contact-form">
+                  <div className="contact-form" id='maps'>
                      <form id="contact-form" action="#" onSubmit={handleForm}>
                         <div className="row">
                            <div className="col-lg-6">
@@ -103,7 +103,7 @@ const ContactFormArea = () => {
                            </div>
                         </div>
                      </form>
-                     <p className="ajax-response text-center"></p>
+                     <p className="ajax-response text-center" ></p>
                   </div>
                </div>
             </div>
