@@ -23,11 +23,15 @@ const HomeTwoMissionArea = () => {
                      </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 d-lg-none d-xl-block">
-                     <div className="mv-right-img pos-rel mb-30">
+                     <div className="mv-right-img pos-rel mb-30 position-relative">
                         <img src="img/about/caregiver2.png" alt="" />
+                        <img src="img/appoinment/award.jpeg" alt="" width={'30%'} className='position-absolute top-100 start-50 translate-middle rounded rounded-circle' />
+
                      </div>
-                     <div className="testi-quato-icon about-icon-white d-none d-xl-block">
+                     <div className="testi-quato-icon about-icon-white d-none d-xl-block ">
                         <img src="img/appoinment/NDIS.png" alt="" width={'100%'} />
+
+
                      </div>
                   </div>
                </div>
