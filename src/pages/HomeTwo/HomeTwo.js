@@ -9,6 +9,7 @@ import HomeTwoHeroSection from './HomeTwoHeader/HomeTwoHeroSection';
 import HomeTwoMissionArea from './HomeTwoMissionArea/HomeTwoMissionArea';
 import HomeTwoNavBar from './HomeTwoNavBar/HomeTwoNavBar';
 import HomeTwoServicesArea from './HomeTwoServicesArea/HomeTwoServicesArea';
+import HomeTwoAward from './HomeTwoAward/HomeTwoAward';
 
 const HomeTwo = () => {
     return (
@@ -26,6 +27,7 @@ const HomeTwo = () => {
             <HomeTwoServicesArea />
             <HomeTwoCounter />
             <HomeTwoAppoinmentArea />
+            <HomeTwoAward />
             <HomeTwoBlogs />
             <HomeTwoFooter />
         </>

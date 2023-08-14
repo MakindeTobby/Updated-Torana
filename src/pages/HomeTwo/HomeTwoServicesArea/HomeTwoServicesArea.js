@@ -9,9 +9,7 @@ const HomeTwoServicesArea = () => {
                <div className="row">
                   <div className="col-xl-4 offset-xl-4 col-lg-10 offset-lg-1">
                      <div className="section-title text-center pos-rel mb-75">
-                        {/* <div className="section-icon">
-                           <img className="section-back-icon" src="img/section/section-back-icon.png" alt="" />
-                        </div> */}
+
                         <div className="section-text pos-rel w-100">
                            <h1>Services we offer</h1>
                         </div>
