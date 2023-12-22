@@ -10,7 +10,7 @@ const AppreciateYou = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Appreciate You - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/appreciate-you" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/appreciate-you" />
             </Helmet>
             <HomeHeader />
             {/* <CommonPageHeader title="Blog Details" subtitle="Details" /> */}

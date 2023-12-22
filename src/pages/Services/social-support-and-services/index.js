@@ -17,7 +17,7 @@ const SocialSupport = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Social Support And Services- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/social-support" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/social-support" />
          </Helmet>
          <HomeHeader />
 

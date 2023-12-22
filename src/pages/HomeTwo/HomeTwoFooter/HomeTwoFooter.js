@@ -48,7 +48,7 @@ const HomeTwoFooter = () => {
                                     </div>
                                     <div className="footer-co-content">
                                        <span>do you have a question?</span>
-                                       <a href='mailto:info@toranacareaustralia.org.au'><h5 className='text-white'>info@toranacareaustralia.org.au</h5></a>
+                                       <a href='mailto:info@toranacareaustralia.com.au'><h5 className='text-white'>info@toranacareaustralia.com.au</h5></a>
                                     </div>
                                  </div>
                                  <div className="f-contact-info-box fix mb-30">

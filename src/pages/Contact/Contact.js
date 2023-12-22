@@ -15,7 +15,7 @@ const Contact = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Contact us - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/contact" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/contact" />
                 <meta name="description" content="Contact us" />
             </Helmet>
             <HomeHeader />

@@ -17,7 +17,7 @@ const ComplexHealth = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Complex health care support- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/complex-health-care-support" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/complex-health-care-support" />
          </Helmet>
          <HomeHeader />
 

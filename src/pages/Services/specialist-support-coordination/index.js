@@ -17,7 +17,7 @@ const Specialist = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Specialist Support Coordination- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/specialist-support-coordination" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/specialist-support-coordination" />
          </Helmet>
          <HomeHeader />
 

@@ -11,7 +11,7 @@ const Background = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Background - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/background" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/background" />
                 <meta name="description" content="Background" />
             </Helmet>
             <HomeHeader />

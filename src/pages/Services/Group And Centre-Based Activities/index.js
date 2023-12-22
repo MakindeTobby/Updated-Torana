@@ -17,7 +17,7 @@ const GroupandCentre = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Group And Centre-Based Activities- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/group-center" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/group-center" />
          </Helmet>
          <HomeHeader />
 

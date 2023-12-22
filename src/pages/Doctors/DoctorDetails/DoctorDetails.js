@@ -12,7 +12,7 @@ const DoctorDetails = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Covid-19 Updates - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/covid19-updates" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/covid19-updates" />
                 <meta name="description" content="Updates on Covid-19" />
             </Helmet>
             <HomeHeader />

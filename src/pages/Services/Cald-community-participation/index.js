@@ -17,7 +17,7 @@ const CaldCommunity = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>CALD community participation- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/cald-community-participation" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/cald-community-participation" />
          </Helmet>
          <HomeHeader />
 

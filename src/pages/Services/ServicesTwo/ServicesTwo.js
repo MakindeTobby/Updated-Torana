@@ -14,7 +14,7 @@ const ServicesTwo = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Our services - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/services" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/services" />
                 <meta name="description" content="Our Services" />
             </Helmet>
             <HomeHeader />

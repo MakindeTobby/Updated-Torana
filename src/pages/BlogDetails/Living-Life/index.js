@@ -10,7 +10,7 @@ const LivingLife = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Living Life beyond limits - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/living-life-beyond-limits" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/living-life-beyond-limits" />
             </Helmet>
             <HomeHeader />
             {/* <CommonPageHeader title="Blog Details" subtitle="Details" /> */}

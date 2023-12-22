@@ -17,7 +17,7 @@ const Household = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Household Task Support- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/household" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/household" />
          </Helmet>
          <HomeHeader />
 

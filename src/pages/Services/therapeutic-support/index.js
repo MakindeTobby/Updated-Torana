@@ -17,7 +17,7 @@ const Therapeutic = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Therapeutic Support- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/therapeutic" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/therapeutic" />
          </Helmet>
 
          <HomeHeader />

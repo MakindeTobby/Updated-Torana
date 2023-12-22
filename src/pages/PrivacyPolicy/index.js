@@ -10,7 +10,7 @@ const Privacy = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Privacy policy - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/privacy-policy" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/privacy-policy" />
                 <meta name="description" content="Privacy Policy" />
             </Helmet>
             <HomeHeader />

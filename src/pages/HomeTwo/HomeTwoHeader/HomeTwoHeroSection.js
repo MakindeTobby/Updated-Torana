@@ -5,6 +5,7 @@ import { RiServiceFill } from 'react-icons/ri';
 import { Link, useNavigate } from 'react-router-dom';
 import VideoPopup from '../../../components/VideoPopup/VideoPopup';
 import useGlobalContext from '../../../hooks/useGlobalContext';
+import Swal from 'sweetalert2';
 
 const HomeTwoHeroSection = () => {
    const navigate = useNavigate()
@@ -16,7 +17,13 @@ const HomeTwoHeroSection = () => {
 
    const goTo = () => {
       if (location === '' || service === "") {
-         return
+         return Swal.fire({
+            position: 'center',
+            icon: 'error',
+            text: 'Please select your location and type of service',
+            showConfirmButton: false,
+            timer: 1500
+         })
       } else {
          localStorage.setItem('service', service);
          localStorage.setItem('location', location);
@@ -83,6 +90,7 @@ const HomeTwoHeroSection = () => {
                                                    <option className="level-0" defaultValue="39">Western Australia</option>
                                                    <option className="level-0" defaultValue="40">South Australia</option>
                                                    <option className="level-0" defaultValue="40">Tasmania</option>
+                                                   <option className="level-0" defaultValue="40">Others</option>
                                                 </select>
 
                                              </form>
@@ -109,6 +117,7 @@ const HomeTwoHeroSection = () => {
                                                    <option className="level-0">  Specialist Behaviour</option>
                                                    <option className="level-0">  Exercise Physiology</option>
                                                    <option className="level-0">  CALD Community</option>
+                                                   <option className="level-0">  Others</option>
                                                 </select>
                                              </form>
                                           </div>

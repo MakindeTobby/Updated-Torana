@@ -19,7 +19,7 @@ const AboutUs = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>About us - Torana Care Australia</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/about" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/about" />
             <meta name="description" content="All you need to know about Torana" />
          </Helmet>
          <HomeHeader />

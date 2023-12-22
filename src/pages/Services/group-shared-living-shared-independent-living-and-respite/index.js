@@ -17,7 +17,7 @@ const GroupShared = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Group/Shared Supported Living, Supported Independent Living/Respite- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/group-shared-living-shared-independent-living-and-respite" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/group-shared-living-shared-independent-living-and-respite" />
          </Helmet>
          <HomeHeader />
          <HomeHeader />

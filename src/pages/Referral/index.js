@@ -8,7 +8,7 @@ const Referral = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Refer a Client - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/referral-page" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/referral-page" />
             </Helmet>
             <HomeHeader />
 

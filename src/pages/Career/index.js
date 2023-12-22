@@ -11,7 +11,7 @@ const Career = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Career - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/career" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/career" />
             </Helmet>
             <HomeHeader />
             <CommonPageHeader title="Career" subtitle="career" />

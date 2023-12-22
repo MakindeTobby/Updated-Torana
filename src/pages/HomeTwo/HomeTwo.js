@@ -17,7 +17,7 @@ const HomeTwo = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Home - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au" />
                 <meta name="description" content="Welcome" />
             </Helmet>
             <HomeTwoNavBar />

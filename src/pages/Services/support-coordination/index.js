@@ -17,7 +17,7 @@ const SuppoertCo = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Support Coordination- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/support-coordination" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/support-coordination" />
          </Helmet>
          <HomeHeader />
 

@@ -17,7 +17,7 @@ const CommunityNursing = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Community Nursing- NDIS Services</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/community-nursing" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/community-nursing" />
             </Helmet>
             <HomeHeader />
 

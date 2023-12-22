@@ -166,7 +166,7 @@ const TermsContent = () => {
                                 </b>
                             </p>
                             <p>
-                                The administration contact for the Torana Care Australia site is: info@toranacareaustralia.org.au
+                                The administration contact for the Torana Care Australia site is: info@toranacareaustralia.com.au
                             </p>
                             <p>
                                 <b>

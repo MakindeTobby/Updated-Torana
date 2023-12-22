@@ -14,7 +14,7 @@ const HomeTwoAppoinmentArea = () => {
          setLoading(true)
          const { data } = await axios({
             method: 'post',
-            url: 'http://profitmax-001-site8.ctempurl.com/api/Account/send_email',
+            url: 'https://profitmax-001-site10.ctempurl.com/api/Account/send_email',
             data: {
                name: name.current.value,
                email: email.current.value,
@@ -23,7 +23,7 @@ const HomeTwoAppoinmentArea = () => {
                message: message.current.value,
                mailFrom: email.current.value,
 
-               recipient: "info@toranacareaustralia.org.au"
+               recipient: "info@toranacareaustralia.com.au"
             }
 
          });

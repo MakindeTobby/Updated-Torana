@@ -17,7 +17,7 @@ const AssistiveSuppoert = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Assistive Support And Services- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/assistive-support-and-services" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/assistive-support-and-services" />
          </Helmet>
          <HomeHeader />
 

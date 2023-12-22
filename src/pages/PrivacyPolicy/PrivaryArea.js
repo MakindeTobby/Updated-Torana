@@ -110,7 +110,7 @@ const PrivacyArea = () => {
                                 ACT,2914
                             </p>
                             <p>
-                                <b>Email:</b> info@toranacareaustralia.org.au
+                                <b>Email:</b> info@toranacareaustralia.com.au
                             </p>
                             <p>
                                 <b>Telephone:</b> (02) 6193 7916

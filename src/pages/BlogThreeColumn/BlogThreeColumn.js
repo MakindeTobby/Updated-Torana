@@ -12,7 +12,7 @@ const BlogThreeColumn = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Blog - Torana Care Australia</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/blog" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/blog" />
             <meta name="description" content="Blog" />
          </Helmet>
          <HomeHeader />

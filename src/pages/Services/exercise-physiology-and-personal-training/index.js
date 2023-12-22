@@ -17,7 +17,7 @@ const ExercisePhy = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Exercise Physiology And Personal Training- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/exercise-phy" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/exercise-phy" />
          </Helmet>
          <HomeHeader />
 

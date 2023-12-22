@@ -17,7 +17,7 @@ const CapacityBuilding = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Capacity Building Support And Services- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/capacity-building-support-and-services" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/capacity-building-support-and-services" />
          </Helmet>
          <HomeHeader />
 

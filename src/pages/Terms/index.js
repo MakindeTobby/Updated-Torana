@@ -10,7 +10,7 @@ const Terms = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Terms and Conditions - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/terms-and-conditions" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/terms-and-conditions" />
                 <meta name="description" content="Terms and Condition" />
             </Helmet>
             <HomeHeader />

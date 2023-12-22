@@ -23,7 +23,7 @@ const ThankYou = () => {
             setLoading(true)
             const { data } = await axios({
                 method: 'post',
-                url: 'http://profitmax-001-site8.ctempurl.com/api/Account/send_email',
+                url: 'https://profitmax-001-site10.ctempurl.com/api/Account/send_email',
                 data: {
                     name: name.current.value,
                     email: email.current.value,
@@ -31,7 +31,7 @@ const ThankYou = () => {
                     subject: "Appointment",
                     message: "I'm requesting for " + service + " and I will like to be contacted at " + time.current.value + " my location is " + location,
                     mailFrom: email.current.value,
-                    recipient: "info@toranacareaustralia.org.au"
+                    recipient: "info@toranacareaustralia.com.au"
 
                 }
             });
@@ -63,7 +63,7 @@ const ThankYou = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Appointment - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/thank-you" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/thank-you" />
                 <meta name="description" content="Request for Appointment" />
             </Helmet>
             {/* <HomeHeader /> */}

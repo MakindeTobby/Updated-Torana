@@ -10,7 +10,7 @@ const PositiveThinking = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Positve Thinking a powerful act - Torana Care Australia</title>
-                <link rel="canonical" href="https://toranacareaustralia.org.au/positive-thinking" />
+                <link rel="canonical" href="https://toranacareaustralia.com.au/positive-thinking" />
             </Helmet>
             <HomeHeader />
             {/* <CommonPageHeader title="Blog Details" subtitle="Details" /> */}

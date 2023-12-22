@@ -17,7 +17,7 @@ const Accomodation = () => {
          <Helmet>
             <meta charSet="utf-8" />
             <title>Accommodation / Tenancy Assistance- NDIS Services</title>
-            <link rel="canonical" href="https://toranacareaustralia.org.au/accommodation-tenancy-assistance" />
+            <link rel="canonical" href="https://toranacareaustralia.com.au/accommodation-tenancy-assistance" />
          </Helmet>
          <HomeHeader />
 
