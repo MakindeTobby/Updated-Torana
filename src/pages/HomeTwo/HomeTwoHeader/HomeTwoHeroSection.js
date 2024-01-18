@@ -53,11 +53,15 @@ const HomeTwoHeroSection = () => {
                                     <Link to="/about" className="primary_btn btn-icon btn-icon-blue ml-0"><span>+</span>about us</Link>
                                     <button onClick={() => setIsOpen(true)} className="play-btn popup-video" title='play short video'>
 
-                                       <FaPlay className='fs-5 play-icon'
+                                       <FaPlay className='fs-5 text-white play-icon'
 
                                        />
 
                                     </button>
+
+                                    {/* <button className="animated-btn text-white btn popup-video" href="#"><i className="fa fa-play" /></button> */}
+
+
                                  </div>
                               </div>
                            </div>

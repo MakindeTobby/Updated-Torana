@@ -362,26 +362,58 @@ label {
     color: #E12454;
     padding-left: 3px;
     margin-left: 27px;
-    animation: ripple 2000ms infinite;
+    position: relative;
 
 }
 
 
-@keyframes ripple {
-    0% {
-        box-shadow: 0 0 0 6px #e1245324, 0 0 0 8px rgba(255, 255, 255, 0), 0 0 0 10px
-    }
 
-    50% {
-        box-shadow: 0 0 0 0px, 000 0px, 0 0 0 8px 0 0 0 0px, 0 0 0 0px
+
+.play-btn::before,
+.play-btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #e12453d8;
+    animation: ripple-1 2s infinite ease-in-out;
+    z-index: -1;
+}
+
+.play-btn::after {
+    background: #e12453e4;
+    animation: ripple-2 2s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+
+@keyframes ripple-1 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
     }
 
     100% {
-        box-shadow: 0 0 0 0px #e1245324, 0 0 0 0px rgba(255, 255, 255, 0), 0 0 0 0px #e1245324, 0 0 0 0px rgba(255, 255, 255, 0), 0 0 0 0px #e1245324, 0 0 0 0px rgba(255, 255, 255, 0), 0 0 0 0px #e1245324, 0 0 0 0px rgba(255, 255, 255, 0);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes ripple-2 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
     }
 
-
+    100% {
+        transform: scale(1.7);
+        opacity: 0;
+    }
 }
+
 
 .play-icon {
     color: #E12454;

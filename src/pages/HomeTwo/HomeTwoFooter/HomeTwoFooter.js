@@ -39,7 +39,7 @@ const HomeTwoFooter = () => {
                                     </div>
                                     <div className="footer-co-content">
                                        <span>Mon to Fri : 08h30 - 18h00</span>
-                                       <a href='tel:+61499322078'><h4>+61 499 322 078</h4></a>
+                                       <a href='tel:+610261098099'><h4>+61 026 109 8099</h4></a>
                                     </div>
                                  </div>
                                  <div className="f-contact-info-box fix mb-30">

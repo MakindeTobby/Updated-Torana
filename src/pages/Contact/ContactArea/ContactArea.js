@@ -23,9 +23,9 @@ const ContactArea = () => {
                         </div>
                         <div className="col-xl-4  col-lg-4 col-md-4 ">
                             <div className="contact text-center mb-30" style={{ height: "22rem" }}>
-                                <a href='tel:+61499322078'> <i className="fas fa-phone"></i></a>
+                                <a href='tel:+610261098099'> <i className="fas fa-phone"></i></a>
                                 <h3>Call Here</h3>
-                                <a href='tel:+61499322078'>+61 499 322 078</a>
+                                <a href='tel:+610261098099'>+61 026 109 8099</a>
                             </div>
                         </div>
                     </div>
