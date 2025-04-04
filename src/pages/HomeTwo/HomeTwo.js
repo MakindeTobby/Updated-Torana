@@ -16,10 +16,8 @@ const HomeTwo = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        {/* <title>Home - Torana Care Australia</title> */}
 
         <title>
-          {" "}
           NDIS Care Home Provider, Respite support NDIS - Torana Care Australia{" "}
         </title>
         <link rel="canonical" href="https://toranacareaustralia.com.au" />
